@@ -1,0 +1,760 @@
+  
+
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	
+<!-- Mirrored from teach.webstandards.org/curriculum/front-end-development/dom-scripting-1?assign by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 19:05:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en" />
+		
+		<title>DOM Scripting 1 | WaSP InterAct Curriculum</title>
+		
+		<meta name="DC.creator" content="Web Standards Project" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+		<meta name="ROBOTS" content="ALL" />
+		<meta name="Copyright" content="(cc) 2008-2009 Web Standards Project." />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="Rating" content="General" />
+		
+		<meta name="description" content="WaSP InterAct is a living, open curriculum based upon web standards and best practices, designed to teach students the skills of the web professional. Adapt and reuse our resources. Contribute your own content and ideas." />
+		<meta name="keywords" content="web standards, interact, web standards project, wasp, curriculum, teach, web, XHTML, HTML, CSS, JavaScript, cascading style sheets, information architecture" />
+
+
+  		<link rel="stylesheet" href="../../style/master.css" type="text/css" media="screen" charset="utf-8" />
+  		<!--[if lte IE 6]><link rel="stylesheet" href="/style/ie6.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+  		<!--[if IE 7]><link rel="stylesheet" href="/style/ie7.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+
+  		<script type="text/javascript" charset="utf-8" src="http://www.google.com/jsapi"></script>
+  		<script type="text/javascript" charset="utf-8">
+  			// Load jQuery
+  			google.load("jquery", "1.3.2");
+  		</script>
+  		<script type="text/javascript" charset="utf-8" src="../../javascript/general.js"></script>
+  	</head>
+
+  <body id="course">
+	<div id="utility-nav-group">
+	 <a href="#title-group" id="jump-content">jump to content</a>
+
+	 <ul id="utility-nav">
+		<li><a href="../../contact/index.html">contact</a></li>
+		<li><a href="../../terms/index.html">terms of use</a></li>
+		<li id="wasp"><a href="../../../www.webstandards.org/index.html">webstandards.org</a></li>
+	 </ul>
+</div>
+
+
+	<div id="container">
+		<div id="header">
+			<h1><a href="../../index.html" title="back to home page">WaSP InterACT </a></h1>
+
+			<form id="searchform" action="http://teach.webstandards.org/search">
+  <fieldset>
+		<label for="query">search</label>
+		<input name="q" id="query" type="text" />
+	</fieldset>          
+	<div id="search-button-container"><input type="image" src="http://teach.webstandards.org/img/search-button.png" id="search-button" value="Go" alt="Go" /></div>
+</form>
+
+
+			<ul id="main-menu">
+	<li><a href="../index.html" class="active">Curriculum</a></li>
+	<li><a href="../../integration_guide/index.html">Integration Guide</a></li>
+	<li><a href="../../testimonials/index.html">Testimonials</a></li>
+    <li><a href="../../where/index.html">Where</a></li> 
+<!--	<li><a href="/forums/">Discuss</a></li> -->
+	<li><a href="../../inspiration/index.html">Inspiration</a></li>
+	<li><a href="../../about/index.html">About</a></li>
+</ul>
+
+    
+	        <div id="title-group">
+				
+                               <ol id="breadcrumbs">
+                                      <li>&nbsp;/ DOM Scripting 1</li>
+                               </ol>
+				
+ 
+                                
+				
+				<div class="media-group">
+				                <img src="http://teach.webstandards.org/images/uploads/general/track-FED.png" alt="" />				                                <h2>DOM Scripting 1</h2>                                
+                                <p id="course-number">FED-200 | Web Standards Project</p> 				                				
+                                                               
+                </div> <!-- /media-group -->	        
+            </div> <!-- /title-group -->		
+        </div> <!-- /header -->
+
+		<div id="main">
+
+
+  <div id="sidebar">
+  <a id="back-to-courses" href="index.html">Back to courses</a>
+
+
+
+<ul id="local-nav">
+	<li><a href="dom-scripting-1bce0.html?overview" >Overview</a></li>
+	<li><a href="dom-scripting-10054.html?comp">Competencies</a></li>
+	<li><a href="dom-scripting-14de8.html?assign" class="active">Assignments</a></li>
+	<li><a href="dom-scripting-16548.html?exam">Exam Questions</a></li>
+	<li><a href="dom-scripting-155b5.html?resources">Resources</a></li>
+       	<li><a href="dom-scripting-10eb9.html?modules">Learning Modules</a></li>
+        <li><a href="dom-scripting-1a8b2.html?contributors">Contributors</a></li>
+	<li><a href="dom-scripting-1.html" title="view all content for this course">View All</a></li>
+</ul>
+
+<ul id="tertiary-nav">
+      <li><a href="../../contribute/index.html">Contribute</a></li>
+     <li><a href="../../forums/index.html">Discuss</a></li>
+     <li><a href="../../course-download/front-end-development/dom-scripting-1.tar.gz%3b">Download</a></li>
+</ul>
+
+		<ul id="social-list">
+			<li><a href="../../../twitthis.com/twitef6c?url=http://teach.webstandards.org/curriculum/front-end-development/dom-scripting-1/" class="twitter">TwitThis</a></li>
+			<li><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Ffront-end-development%2Fdom-scripting-1%2F&amp;t=DOM+Scripting+1" class="facebook">Facebook</a></li>
+			<li><a href="http://digg.com/submit?phase=2&amp;url=http://teach.webstandards.org/curriculum/front-end-development/dom-scripting-1/&amp;topic=Industry%20News&amp;title=DOM+Scripting+1&amp;bodytext=WaSP+InterAct+is+modular+curriculum+framework+that+helps+educators+teach+budding+web+professionals+best+practices%2C+web+standards%2C+and+accessibility." class="digg">Digg</a></li>
+			<li><a href="https://del.icio.us/login?log=out&amp;url=http%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Ffront-end-development%2Fdom-scripting-1%2F&amp;title=DOM+Scripting+1&amp;notes=WaSP+InterAct+is+modular+curriculum+framework+that+helps+educators+teach+budding+web+professionals+best+practices%2C+web+standards%2C+and+accessibility." class="delicious">Delicious</a></li>
+			<li><a href="../../../technorati.com/faves37ee.html?add=http://teach.webstandards.org/curriculum/front-end-development/dom-scripting-1/" class="technorati">Technorati</a></li>
+			<li><a href="https://www.linkedin.com/start/join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fsharing%2Fshare-offsite%3Fmini%3Dtrue%26url%3Dhttp%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Ffront-end-development%2Fdom-scripting-1%2F%26title%3DDOM%2BScripting%2B1" class="linkedin">Linkedin</a></li>
+		</ul>
+
+
+</div>
+
+<div id="content" class="last">
+
+	<div id="course-assignments">
+        <h2>Assignments</h2>
+        <p><a href="http://teach.webstandards.org/images/uploads/documents/DOM_Scripting_1_Rubric_Spreadsheet.xls" class="excel">DOM Scripting 1 Assignment Rubrics</a></p>
+
+<p>
+  There are 8 assignments plus a final assignment. Assignment 1 is a general assignment writing a 
+  course blog to track ones learning. Assignments 2-5 are preliminary in nature and intended to be 
+  run within a console, e.g. in Firebug or the JavaScript shell. If run in a browser window, it is 
+  allowed to use the 
+  <a href="http://developer.mozilla.org/En/DOM:window.prompt">window.prompt</a> and 
+  <a href="http://developer.mozilla.org/en/DOM/window.alert">window.alert</a> methods for input and output.
+</p>
+<h3>Assignment 1: Course Blog</h3>
+<p>
+  Setup a blog using <a href="http://wordpress.org/">WordPress</a>, <a href="http://www.blogger.com/">Blogger</a>, or another comparable system. 
+  Each week of the course, write one blog post that expands upon the topics discussed in class or readings. Each post 
+  should be at least 200 words in length, and should contain images and links where appropriate.
+</p>
+<p>
+  <strong>Recommended:</strong> Subscribe to your classmates' blog <acronym>RSS</acronym> 
+  feeds using <a href="http://www.google.com/reader/">Google Reader</a>, <a href="http://www.netvibes.com/">Netvibes</a>, <a href="http://www.bloglines.com/">Bloglines</a>, 
+  or another <acronym>RSS</acronym> reader of your choice so you can learn from your peers.
+</p>
+
+<table class="rubric-table zebra-stripe">
+<caption>Course Blog Grading Rubric</caption>
+<thead>
+ <tr>
+  <th rowspan="2" scope="col">Criteria</th>
+  <th colspan="4" scope="col">Performance Quality</th>
+  <th rowspan="2" scope="col">Score</th>
+ </tr>
+ <tr>
+  <th scope="col">0 points</th>
+  <th scope="col">1 point</th>
+  <th scope="col">2 points</th>
+  <th scope="col">3 points</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+  <th scope="row">Blog Posts (evaluated weekly)</th>
+  <td>Blog post was not published on time, is poorly written, does not contain content 
+    relevant to the course, or does not meet the post length requirement.</td>
+  <td>Blog post was published on time, contains some spelling and/or grammatical errors, 
+    meets the post length requirement, but content is not very relevant to the course, or 
+    does not expand upon course topics.</td>
+  <td>Blog post was published on time, contains no spelling and/or grammatical errors,
+    meets the post length requirement, and the content expands upon course topics.</td>
+  <td>Blog post is published on time, is very well written with no typos, grammar, or
+    spelling errors, expands upon course topics, and exceeds the minimum post length.
+    Post contains images where relevant to the content, and links to plenty of sources and resources.</td>
+  <td> </td>
+</tr>
+</tbody>
+</table>
+
+<h3>Assignment 2: Control structures, data types, strings and arrays</h3>
+<p>
+A. Read a number from the user, check that it is an integer and calculate its factorial. Output the result.
+</p>
+
+<table class="zebra-stripe">
+<caption>Control structures, types, numbers, strings and arrays, assignment A grading rubric</caption>
+<thead>
+<tr>
+  <th rowspan="2" scope="col">Criteria</th>
+  <th colspan="4" scope="col">Performance Quality</th>
+  <th rowspan="2" scope="col">Score</th>
+ </tr>
+ <tr>
+  <th scope="col">0 points</th>
+  <th scope="col">1 point</th>
+  <th scope="col">2 points</th>
+  <th scope="col">3 points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <th scope="row">Functionality</th>
+  <td>Dysfunctional code that does not do even a part of the task at hand.</td>
+  <td>Number is read and factorial is calculated, the result is given.</td>
+  <td>Number is read and factorial is calculated, the result is given. A check for integer
+    values is added, calculation is dependent upon the check.</td>
+  <td>Number is read and factorial is calculated, the result is given. A check for integer
+    values is added, calculation is dependent upon the check. Informative text about
+    any errors or the result is given.</td>
+  <td>N/A (3 points are maximum)</td>
+</tr>
+</tbody>
+</table>
+
+<p>B. Construct a loop that will read data from the user and then evaluates the data and alert
+the user about its type, etc. Numbers should be checked if they are within an acceptable range.
+Strings should be checked if they are of an appropriate length. User data that contains a
+vertical bar should be <a href="http://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Objects/String/split">split</a>
+into arrays. These in turn should be checked and must not contain fewer than 3 or more than 5 parts.
+</p>
+
+<table class="zebra-stripe">
+<caption>Control structures, types, numbers, strings and arrays, assignment B Grading Rubric</caption>
+<thead>
+<tr>
+  <th rowspan="2" scope="col">Criteria</th>
+  <th colspan="4" scope="col">Performance Quality</th>
+  <th rowspan="2" scope="col">Score</th>
+ </tr>
+ <tr>
+  <th scope="col">0 points</th>
+  <th scope="col">1 point</th>
+  <th scope="col">2 points</th>
+  <th scope="col">3 points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <th scope="row">Functionality</th>
+  <td>Dysfunctional code that does not do even a part of the task at hand.</td>
+  <td>A loop is constructed, user data is read and basic checks are in place to see
+    if the data is of correct format, results are being output.</td>
+  <td>A loop is constructed, user data is read and all necessary checks are in place
+    to see if the data is of correct format and within acceptable limits.
+    An array is constructed if necessary. The results are being output.</td>
+  <td>All 2 point criteria are met plus: A a sub-iteration or recursion for the array
+    is executed and errors are turned into informative messages.</td>
+  <td> </td>
+</tr>
+</tbody>
+</table>
+
+<p>
+C. Construct an object with at least 5 properties and enumerate them, alert the user
+about each property key, type and value.</p>
+
+<table class="zebra-stripe">
+  <caption>Control structures, types, numbers, strings and arrays, assignment C Grading Rubric</caption>
+<thead>
+  <tr>
+    <th rowspan="2" scope="col">Criteria</th>
+    <th colspan="4" scope="col">Performance Quality</th>
+    <th rowspan="2" scope="col">Score</th>
+   </tr>
+   <tr>
+    <th scope="col">0 points</th>
+    <th scope="col">1 point</th>
+    <th scope="col">2 points</th>
+    <th scope="col">3 points</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Functionality</th>
+    <td>Dysfunctional code that does not do even a part of the task at hand</td>
+    <td>An object is constructed; enumeration works, e.g. a for ... in loop runs correctly.</td>
+    <td>An object is constructed; enumeration works. Information about each key/value pair are given.</td>
+    <td>An object is constructed; enumeration works. Information about each key/value pair are given.
+      An additional check for hasOwnProperty is done.</td>
+    <td> </td>
+  </tr>
+</tbody>
+</table>
+
+<h3>Assignment 3: Functions</h3>
+<p>
+A. Write a named function that expects a name from the user and returns &#8220;Hi, <i>user name</i>,
+this is my return value&#8221;. Provide arguments to the function using the self-executing pattern.
+</p>
+
+<table class="zebra-stripe">
+  <caption>Functions, assignment A Grading Rubric</caption>
+<thead>
+  <tr>
+    <th rowspan="2" scope="col">Criteria</th>
+    <th colspan="4" scope="col">Performance Quality</th>
+    <th rowspan="2" scope="col">Score</th>
+   </tr>
+   <tr>
+    <th scope="col">0 points</th>
+    <th scope="col">1 point</th>
+    <th scope="col">2 points</th>
+    <th scope="col">3 points</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Functionality</th>
+    <td>Dysfunctional code that does not do even a part of the task at hand</td>
+    <td>An appropriately named function is constructed, with 1 parameter, brackets,
+      proper indentation and a return statement.</td>
+    <td>An appropriately named function is constructed, with 1 parameter, brackets,
+      proper indentation and a correct return value. The argument is checked for appropriate values.
+      Running the function using the self-executing pattern is demonstrated.</td>
+    <td>An appropriately named function is constructed, with 1 parameter, brackets,
+      proper indentation and a correct return value. The argument is checked for appropriate values
+      and errors are handled. Running the function with both appropriate 
+      and inappropriate argument values is demonstrated.</td>
+    <td> </td>
+  </tr>
+</tbody>
+</table>
+<p>B. Write a function that takes an arbitrary number of arguments and returns 
+the string <samp>You provided <var>n</var> arguments, namely <var>arg1</var>, <var>arg2</var>, etc.</samp></p>
+
+<table class="zebra-stripe">
+  <caption>Functions, assignment B Grading Rubric</caption>
+<thead>
+  <tr>
+    <th rowspan="2" scope="col">Criteria</th>
+    <th colspan="4" scope="col">Performance Quality</th>
+    <th rowspan="2" scope="col">Score</th>
+  </tr>
+  <tr>
+    <th scope="col">0 points</th>
+    <th scope="col">1 point</th>
+    <th scope="col">2 points</th>
+    <th scope="col">3 points</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Functionality</th>
+    <td>Dysfunctional code that does not do even a part of the task at hand</td>
+    <td>An appropriately named function is constructed with brackets, proper indentation 
+      and a return statement providing at least a partial answer.</td>
+    <td>An appropriately named function is constructed with brackets, proper indentation, 
+      the number of arguments are deduced and the return value is put together according 
+      to the instructions. Running the function using several different parameter 
+      combinations is demonstrated.</td>
+    <td>All point 2 criteria are met plus: The special case of no arguments is handled.
+      Arguments that are of non-acceptable types, e.g. objects or arrays, are handled 
+      appropriately, e.g. by throwing an exception.</td>
+    <td> </td>
+  </tr>
+</tbody>
+</table>
+
+<h3>Assignment 4: Regular expressions</h3>
+<p>
+Use RegexpBuddy or a similar tool (Regextester, Regexp Coach, etc) and construct 
+regular expressions that matches:
+</p>
+<ul>
+  <li>A zip-code</li>
+  <li>An e-mail address (basic testing is OK, since the formal rules are really hard to put into regular expressions)</li>
+  <li>An <acronym>URI</acronym> where the protocol is http</li>
+</ul>
+<p>
+  Then read data from the user at least ten times and test which of the above (if any) it matches. Output the results.
+  (The teacher should use test strings that should either match or fail to match the expressions, when
+  evaluating the students work. A test harness can be used. The teacher may also suggest other things that
+  the regular expressions should match.)
+</p>
+
+<table class="zebra-stripe">
+  <caption>Regular expressions Grading Rubric</caption>
+<thead>
+  <tr>
+    <th rowspan="2" scope="col">Criteria</th>
+    <th colspan="4" scope="col">Performance Quality</th>
+    <th rowspan="2" scope="col">Score</th>
+  </tr>
+  <tr>
+    <th scope="col">0 points</th>
+    <th scope="col">1 point</th>
+    <th scope="col">2 points</th>
+    <th scope="col">3 points</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Functionality</th>
+    <td>Dysfunctional code that does not do even a part of the task at hand</td>
+    <td>Functional regular expressions are provided for all test cases. The solution shows awareness
+      of how to perform pattern matching.</td>
+    <td>Functional regular expressions are provided for all test cases. Matching is done for a single
+      piece of user submitted data against patterns (the first one that matches may skip further
+      tests for that piece of data).</td>
+    <td>Fully functional regular expressions have been constructed and tested to match with precision.
+      User data is read and appropriately matched against all patterns (the first one that 
+      matches may skip further tests for that piece of data). Output is informative. 
+    </td>
+    <td> </td>
+  </tr>
+</tbody>
+</table>
+
+<h3>Assignment 5: Time and Math</h3>
+<p>
+  A. Implement functions to handle at least two of the following mathematical tasks:
+</p>
+<ul>
+  <li>Read a number from the user and convert it from Fahrenheit to Centigrade.</li>
+  <li>
+    Generate at least five random numbers, perform a calculus or trigonometric function on each.
+    Output the result like this: &#8220;The square of <em>n</em> is <em>result</em>. Use appropriate rounding.
+  </li>
+  <li>
+    Calculate the sum of at least five well known mathematical or physical numbers/constants.
+    Use appropriate rounding.
+  </li>
+  <li>Calculate the square sum of at least ten arbitrary numbers.</li>
+</ul>
+<p>To achieve variety among students, teachers may suggest additional tasks.</p>
+
+<table class="zebra-stripe">
+  <caption>Math Grading Rubric</caption>
+<thead>
+  <tr>
+    <th rowspan="2" scope="col">Criteria</th>
+    <th colspan="4" scope="col">Performance Quality</th>
+    <th rowspan="2" scope="col">Score</th>
+  </tr>
+  <tr>
+    <th scope="col">0 points</th>
+    <th scope="col">1 point</th>
+    <th scope="col">2 points</th>
+    <th scope="col">3 points</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Functionality</th>
+    <td>Dysfunctional code that does not do even a part of the task at hand</td>
+    <td>One task is implemented and all calculations work as intended.</td>
+    <td>At least two tasks are implemented and demonstrated to work.</td>
+    <td>At least two tasks are implemented and demonstrated to work. Output is informative
+      and erronous indata is handled sensibly.</td>
+    <td> </td>
+  </tr>
+</tbody>
+</table>
+
+<p>
+  B. Make a timer that checks how long time it takes to complete a couple of large loops
+  or other heavy task. Output the result in milliseconds. Compare the results in a few
+  different environments or browsers.
+</p>
+
+<table class="zebra-stripe">
+  <caption>Time Grading Rubric</caption>
+<thead>
+  <tr>
+    <th rowspan="2" scope="col">Criteria</th>
+    <th colspan="4" scope="col">Performance Quality</th>
+    <th rowspan="2" scope="col">Score</th>
+  </tr>
+  <tr>
+    <th scope="col">0 points</th>
+    <th scope="col">1 point</th>
+    <th scope="col">2 points</th>
+    <th scope="col">3 points</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Functionality</th>
+    <td>Dysfunctional code that does not do even a part of the task at hand</td>
+    <td>A Date object is constructed and milliseconds are read.</td>
+    <td>Two Date objects are constructed, a task is run in between and the time difference
+      is calculated and displayed to the user.</td>
+    <td>Two Date objects are constructed, a task is run in between and the time difference is calculated.
+      Different scenarios and environments are tried. Results are presented in a usable fashion.
+    </td>
+    <td> </td>
+  </tr>
+</tbody>
+</table>
+
+<p>
+  D. Make a simple real time clock. Combine this assignment with assignment 7: Styling, 
+  <acronym>DOM</acronym> manipulation and animation.
+</p>
+
+<h3>Assignment 6: Algorithms</h3>
+<p>Implement a pair of <a href="http://en.wikipedia.org/wiki/List_of_algorithms">common algorithms</a>
+  or solve a common puzzle using ECMAScript (e.g. the Tower of Hanoi, bubble sort, Fibonacci numbers).</p>
+
+<p><a href="http://projecteuler.net/">Project Euler</a> can be used as inspiration.</p>
+
+<p>Easier algorithms might be:</p>
+<ul>
+  <li>Finding the nth Fibonacci number.</li>
+  <li>Finding the largest prime number of a composite number.</li>
+  <li>A simple shifted cryptographic algoritm, e.g. A = C, B = D, C = E, etc.</li>
+  <li>Pythagoras theorem: Finding the length of the third side.</li>
+</ul>
+<p>
+  Harder algorithms might be:
+</p>
+<ul>
+  <li>Bubble sort</li>
+  <li>The Tower of Hanoi</li>
+  <li>Splitting a composite number into primes.</li>
+  <li>Eulers algorithm</li>
+  <li>Calculating a trigonometric value (sin, cos, tan) without the use of the Math object.</li>
+</ul>
+
+<table class="zebra-stripe">
+  <caption>Algorithms Grading Rubric</caption>
+<thead>
+  <tr>
+    <th rowspan="2" scope="col">Criteria</th>
+    <th colspan="5" scope="col">Performance Quality</th>
+    <th rowspan="2" scope="col">Score</th>
+  </tr>
+  <tr>
+    <th scope="col">0 points</th>
+    <th scope="col">1 point</th>
+    <th scope="col">2 points</th>
+    <th scope="col">3 points</th>
+    <th scope="col">4 points</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Functionality</th>
+    <td>Dysfunctional code that does not do even a part of the task at hand</td>
+    <td>One functional relatively easy algorithm is implemented.</td>
+    <td>Two fully functional are constructed and demonstrated to work.</td>
+    <td>Two fully functional algorithms are constructed and demonstrated to work,
+      one of which is relatively hard.</td>
+    <td>Two fully functional harder algorithms are constructed and demonstrated to work.</td>
+    <td> </td>
+</tr>
+  <tr>
+    <th scope="row">JavaScript best practices</th>
+    <td>Messy code, hard to read, easily broken, using proprietary language features</td>
+    <td>ECMAScript and W3C standards are followed. The code has enough comments to show that
+      the student knows how the algorithm works. Proper indentation and good naming conventions are used.</td>
+    <td>All 1 point criteria are met plus: Global variables are avoided. The code is reusable
+      and well commented</td>
+    <td>All 2 point criteria are met plus: The code uses object detection and has all necessary
+      checks for the existence of a particular feature or DOM object before they are being used.</td>
+    <td>All 3 point criteria are met plus: All code is contained in a single emulated namespace or
+      self-executing anonymous function. Proper error handling. The code passes fault free through JSLint.</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th scope="row">Effeciency</th>
+    <td>The code does not run, but will throw an uncaught error, cause a hang or fail
+      to execute anything of real value.</td>
+    <td>The code runs and does not cause any hangs</td>
+    <td>All 1 point criteria are met plus: Unnecessary duplication is avoided, e.g. 
+      redundant lookups or loops are avoided, code that is not necessary for a task is skipped</td>
+    <td>All 2 point criteria are met plus: Effective patterns are being used, e.g. caching,
+      memoization, etc.</td>
+    <td>All 3 point criteria are met plus: Code efficiency has been measured, and different
+      alternatives have been discussed</td>
+    <td> </td>
+  </tr>
+</tbody>
+</table>
+
+<h3>Assignment 7: Styling, DOM manipulation and animation</h3>
+<p>Implement all of the following:</p>
+<ol>
+  <li>Make an element on a web page that changes background according to a user switch, changing the style value.</li>
+  <li>Make an identical page, but this time toggle the background through changing class-names.</li>
+  <li>(Combined with assignment 5C): Make a real time clock that updates every second.</li>
+  <li>Use timed events to make some animated effects, e.g. fade in and out, expansion/contraction, sliding in/out.</li>
+  <li>Use a library of choice and implement an accordion widget.</li>
+</ol>
+<p>The teacher may add alternative tasks.</p>
+<h3>Assignment 8: Forms</h3>
+<p>
+  Construct a page containing a form containing radio buttons, check boxes and at least 
+  one text input element, option element and submit button.
+  Implement the following:
+</p>
+<ol>
+  <li>
+    At least 2 additional widgets, besides those available in <acronym>HTML</acronym> 4. E.g. a slider or a date picker.
+    The use of a library is allowed.
+  </li>
+  <li>
+    Widgets that are hidden until needed, i.e. when the presence of a widget is logically 
+    dependent upon the the value in another field it should reflect that logic.
+  </li>
+  <li>Adding fields using an &#8220;add row&#8221; button.</li>
+  <li>On submit validation and usable feedback.</li>
+</ol>
+
+<h3>Final assignment</h3>
+<p>
+  Build a web page that is using <acronym>DOM</acronym> Scripting to achieve several effects.
+</p>
+<p>
+  Example page/effects:
+</p>
+<ul>
+  <li>A simple game or quiz</li>
+  <li>A slide show (self built)</li>
+  <li>A calculator</li>
+  <li>A status or game score ticker (using Ajax)</li>
+  <li>A calendar</li>
+  <li>A sortable or filterable table with hide and show functionality of individual columns or rows and automatic recalculation</li>
+  <li>A <acronym>DHTML</acronym> menu</li>
+  <li>An analog clock, using <acronym>SVG</acronym></li>
+  <li>A text area in <acronym>HTML</acronym> and a live preview area next to it, that will update in real time as the user types into the text area.</li>
+  <li>Etc.</li>
+</ul>
+<p>
+  Present your result both in an easily readable format and in a minified version.
+</p>
+
+<table class="zebra-stripe">
+  <caption>Rubric for assignments 7, 8 and the final assignment</caption>
+<thead>
+  <tr>
+    <th rowspan="2" scope="col">Criteria</th>
+    <th colspan="5" scope="col">Performance Quality</th>
+    <th rowspan="2" scope="col">Score</th>
+  </tr>
+  <tr>
+    <th scope="col">0 points</th>
+    <th scope="col">1 point</th>
+    <th scope="col">2 points</th>
+    <th scope="col">3 points</th>
+    <th scope="col">4 points</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Separation of concerns, unobtrusiveness</th>
+    <td>DHTML-era like scripts: document.write, inline events, design is set and 
+      manipulated with HTML-attributes, etc</td>
+    <td>No inline event handlers, no usage of the JavaScript pseudo-protocol, all 
+      scripts are kept in one script-block</td>
+    <td>All JavaScript code, including event handlers, are kept in separate files</td>
+    <td>All 2 point criteria are met plus: All functionality is available on the page even 
+      if scripting is turned off</td>
+    <td>All 3 point criteria are met plus: Visual appearance, even for scripted widgets,
+     are set in the CSS</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th scope="row">JavaScript best practices</th>
+    <td>Messy code, hard to read, easily broken, using proprietary language features</td>
+    <td>ECMAScript and W3C standards are followed (including HTML 5 additions like innerHTML).
+      Proper indentation and good naming conventions are used.</td>
+    <td>All 1 point criteria are met plus: Global variables are avoided. The code is reusable
+      and well commented</td>
+    <td>All 2 point criteria are met plus: The code uses object detection and has all necessary
+      checks for the existence of a particular feature or DOM object before they are being used</td>
+    <td>All 3 point criteria are met plus: All code is contained in a single emulated namespace or
+      self-executing anonymous function. Proper error handling. The code passes fault free through JSLint.</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th scope="row">Accessibility</th>
+    <td>The UI is not  perceivable, operable, understandable or robust if used by anyone
+      but a fully able user on a PC platform.</td>
+    <td>The UI is operable both with mouse and keyboard, clickable controls are easy to see and use</td>
+    <td>All 1 point criteria are met plus: The contents are perceivable also for the visually
+      impaired and color blind</td>
+    <td>All 2 point criteria are met plus: Proper notifications and visual clues are used
+      to alert the user about updates on the page</td>
+    <td>All 3 point criteria are met plus: The UI works well with a screen reader.
+      The UI incorporates ARIA.</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th scope="row">Effeciency</th>
+    <td>The code does not run, but will throw an uncaught error, cause a hang or fail
+      to execute anything of real value.</td>
+    <td>The code runs, performs as intended and does not cause any hangs</td>
+    <td>All 1 point criteria are met plus: Unnecessary duplication is avoided, e.g. DOM
+      lookups are saved, redundant lookups or loops are avoided, code that is not
+      necessary for a task is skipped</td>
+    <td>All 2 point criteria are met plus: Effective patterns are being used, e.g. caching,
+      memoization, etc; effecient DOM manipulation, e.g. the DOM is modified while detached from view</td>
+    <td>All 3 point criteria are met plus: Code efficiency has been measured, and different
+      alternatives have been discussed</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th scope="row">Design</th>
+    <td>Scripted effects are run in a way that feels clunky or unpleasing</td>
+    <td>Effects are well integrated into the UI; they clearly serve a purpose</td>
+    <td>Effects are smooth and appealing; reinforcing good design</td>
+    <td>N/A (2 points are the maximum, since this is not a design course)</td>
+    <td>N/A (2 points are the maximum, since this is not a design course)</td>
+    <td> </td>
+  </tr>
+</tbody>
+</table>
+
+	</div>
+
+	
+</div>
+
+		</div> <!-- /main -->
+	</div>
+		
+	<div id="footer">
+		  <a href="#" id="back-to-top">Back to top</a>
+	  
+		  <div id="social-space">
+		    <a href="http://www.facebook.com/group.php?gid=18117748777" id="facebook">Join our facebook group</a>
+		    <a href="http://twitter.com/waspinteract" id="twitter">Follow us on Twitter</a>
+		 </div><!-- /social-space -->
+	 
+                  <p>
+			   This site uses valid XHTML 1.0 Strict &amp; CSS. | 
+			   <a href="http://creativecommons.org/licenses/by/3.0/us/" rel="license">Creative Commons License</a> | <a href="../../plugins/index.html">Plug-ins</a>
+		  </p>
+
+		  <ul id="design-credits" class="linear-list">
+		  	<li><a href="../../../interact.webstandards.org/about/index.html#edutf-members">The Curriculum Development Team</a></li>
+		  	<li class="last"><a href="../../../interact.webstandards.org/about/index.html#interact-contributors" class="last">Site Credits</a></li>
+		  </ul>
+		</div> <!-- /footer -->
+
+<script type="text/javascript">
+  // <![CDATA[
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  // ]]>
+</script>
+<script type="text/javascript">
+  // <![CDATA[
+  try {
+    var pageTracker = _gat._getTracker("UA-7854903-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
+  // ]]>
+</script>
+	</body>
+
+<!-- Mirrored from teach.webstandards.org/curriculum/front-end-development/dom-scripting-1?assign by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 19:05:28 GMT -->
+</html>

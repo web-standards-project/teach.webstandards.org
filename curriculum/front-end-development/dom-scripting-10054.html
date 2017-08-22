@@ -1,0 +1,820 @@
+  
+
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	
+<!-- Mirrored from teach.webstandards.org/curriculum/front-end-development/dom-scripting-1?comp by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 19:05:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en" />
+		
+		<title>DOM Scripting 1 | WaSP InterAct Curriculum</title>
+		
+		<meta name="DC.creator" content="Web Standards Project" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+		<meta name="ROBOTS" content="ALL" />
+		<meta name="Copyright" content="(cc) 2008-2009 Web Standards Project." />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="Rating" content="General" />
+		
+		<meta name="description" content="WaSP InterAct is a living, open curriculum based upon web standards and best practices, designed to teach students the skills of the web professional. Adapt and reuse our resources. Contribute your own content and ideas." />
+		<meta name="keywords" content="web standards, interact, web standards project, wasp, curriculum, teach, web, XHTML, HTML, CSS, JavaScript, cascading style sheets, information architecture" />
+
+
+  		<link rel="stylesheet" href="../../style/master.css" type="text/css" media="screen" charset="utf-8" />
+  		<!--[if lte IE 6]><link rel="stylesheet" href="/style/ie6.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+  		<!--[if IE 7]><link rel="stylesheet" href="/style/ie7.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+
+  		<script type="text/javascript" charset="utf-8" src="http://www.google.com/jsapi"></script>
+  		<script type="text/javascript" charset="utf-8">
+  			// Load jQuery
+  			google.load("jquery", "1.3.2");
+  		</script>
+  		<script type="text/javascript" charset="utf-8" src="../../javascript/general.js"></script>
+  	</head>
+
+  <body id="course">
+	<div id="utility-nav-group">
+	 <a href="#title-group" id="jump-content">jump to content</a>
+
+	 <ul id="utility-nav">
+		<li><a href="../../contact/index.html">contact</a></li>
+		<li><a href="../../terms/index.html">terms of use</a></li>
+		<li id="wasp"><a href="../../../www.webstandards.org/index.html">webstandards.org</a></li>
+	 </ul>
+</div>
+
+
+	<div id="container">
+		<div id="header">
+			<h1><a href="../../index.html" title="back to home page">WaSP InterACT </a></h1>
+
+			<form id="searchform" action="http://teach.webstandards.org/search">
+  <fieldset>
+		<label for="query">search</label>
+		<input name="q" id="query" type="text" />
+	</fieldset>          
+	<div id="search-button-container"><input type="image" src="http://teach.webstandards.org/img/search-button.png" id="search-button" value="Go" alt="Go" /></div>
+</form>
+
+
+			<ul id="main-menu">
+	<li><a href="../index.html" class="active">Curriculum</a></li>
+	<li><a href="../../integration_guide/index.html">Integration Guide</a></li>
+	<li><a href="../../testimonials/index.html">Testimonials</a></li>
+    <li><a href="../../where/index.html">Where</a></li> 
+<!--	<li><a href="/forums/">Discuss</a></li> -->
+	<li><a href="../../inspiration/index.html">Inspiration</a></li>
+	<li><a href="../../about/index.html">About</a></li>
+</ul>
+
+    
+	        <div id="title-group">
+				
+                               <ol id="breadcrumbs">
+                                      <li>&nbsp;/ DOM Scripting 1</li>
+                               </ol>
+				
+ 
+                                
+				
+				<div class="media-group">
+				                <img src="http://teach.webstandards.org/images/uploads/general/track-FED.png" alt="" />				                                <h2>DOM Scripting 1</h2>                                
+                                <p id="course-number">FED-200 | Web Standards Project</p> 				                				
+                                                               
+                </div> <!-- /media-group -->	        
+            </div> <!-- /title-group -->		
+        </div> <!-- /header -->
+
+		<div id="main">
+
+
+  <div id="sidebar">
+  <a id="back-to-courses" href="index.html">Back to courses</a>
+
+
+
+<ul id="local-nav">
+	<li><a href="dom-scripting-1bce0.html?overview" >Overview</a></li>
+	<li><a href="dom-scripting-10054.html?comp" class="active">Competencies</a></li>
+	<li><a href="dom-scripting-14de8.html?assign">Assignments</a></li>
+	<li><a href="dom-scripting-16548.html?exam">Exam Questions</a></li>
+	<li><a href="dom-scripting-155b5.html?resources">Resources</a></li>
+       	<li><a href="dom-scripting-10eb9.html?modules">Learning Modules</a></li>
+        <li><a href="dom-scripting-1a8b2.html?contributors">Contributors</a></li>
+	<li><a href="dom-scripting-1.html" title="view all content for this course">View All</a></li>
+</ul>
+
+<ul id="tertiary-nav">
+      <li><a href="../../contribute/index.html">Contribute</a></li>
+     <li><a href="../../forums/index.html">Discuss</a></li>
+     <li><a href="../../course-download/front-end-development/dom-scripting-1.tar.gz%3b">Download</a></li>
+</ul>
+
+		<ul id="social-list">
+			<li><a href="../../../twitthis.com/twitef6c?url=http://teach.webstandards.org/curriculum/front-end-development/dom-scripting-1/" class="twitter">TwitThis</a></li>
+			<li><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Ffront-end-development%2Fdom-scripting-1%2F&amp;t=DOM+Scripting+1" class="facebook">Facebook</a></li>
+			<li><a href="http://digg.com/submit?phase=2&amp;url=http://teach.webstandards.org/curriculum/front-end-development/dom-scripting-1/&amp;topic=Industry%20News&amp;title=DOM+Scripting+1&amp;bodytext=WaSP+InterAct+is+modular+curriculum+framework+that+helps+educators+teach+budding+web+professionals+best+practices%2C+web+standards%2C+and+accessibility." class="digg">Digg</a></li>
+			<li><a href="https://del.icio.us/login?log=out&amp;url=http%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Ffront-end-development%2Fdom-scripting-1%2F&amp;title=DOM+Scripting+1&amp;notes=WaSP+InterAct+is+modular+curriculum+framework+that+helps+educators+teach+budding+web+professionals+best+practices%2C+web+standards%2C+and+accessibility." class="delicious">Delicious</a></li>
+			<li><a href="../../../technorati.com/faves37ee.html?add=http://teach.webstandards.org/curriculum/front-end-development/dom-scripting-1/" class="technorati">Technorati</a></li>
+			<li><a href="https://www.linkedin.com/start/join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fsharing%2Fshare-offsite%3Fmini%3Dtrue%26url%3Dhttp%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Ffront-end-development%2Fdom-scripting-1%2F%26title%3DDOM%2BScripting%2B1" class="linkedin">Linkedin</a></li>
+		</ul>
+
+
+</div>
+
+<div id="content" class="last">
+
+	<div id="course-competencies">
+        <h2>Competencies</h2>
+        <table class="zebra-stripe">
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Competency</th>
+      <th>Evaluation Methods</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="ds_history" scope="row"><a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript history</a></th>
+      <td>
+        <ul>
+          <li>Identify common uses for <a href="http://en.wikipedia.org/wiki/DOM_scripting">DOM Scripting</a></li>
+          <li>Summarize the origin and development of JavaScript, the Browser Object Model (BOM) and the Document Object Model (DOM) </li>
+          <li>Explain how the terms Livescript, JavaScript, JScript, ECMAScript and ActionScript relate to each other</li>
+          <li>Summarize what the major versions of JavaScript are and in what browser they were introduced</li>
+          <li>Explain the abbreviation <a href="http://en.wikipedia.org/wiki/Dhtml">DHTML</a> and why it is often associated with bad practices</li>
+          <li>Explain the term "DOM scripting" and why it is meant to be associated with good practices</li>
+          <li>Explain the buzzword <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">"Ajax"</a> and how it actually
+            applies to only a small part of JavaScript development</li>
+          <li>Summarize what the major standards are that apply to client side scripting</li>
+        </ul>
+      </td>
+      <td>Final exam</td>
+    </tr>
+    <tr>
+      <th id="ds_characteristics" scope="row"><a href="http://en.wikipedia.org/wiki/ECMAScript">ECMAScript characteristics</a></th>
+      <td>
+        <ul>
+          <li>Explain the basic features of ECMAScript</li>
+          <li>Summarize how ECMAScript relates to C, Java, Lisp and Scheme</li>
+          <li>Summarize what parts of client side coding is ECMAScript and what parts are the DOM and the BOM</li>
+        </ul>
+      </td>
+      <td>Final exam</td>
+    </tr>
+    <tr>
+      <th id="ds_best_practice" scope="row">DOM Scripting best practices (overview)</th>
+      <td>
+        <ul>
+          <li>Explain the concept of DOM Scripting as an added <a href="http://www.digital-web.com/articles/the_behavior_layer/">"usability
+            layer"</a> and <a href="http://www.sitepoint.com/article/simply-javascript">separation of concerns</a></li>
+          <li>Summarize the concepts of "graceful degradation" and "progressive enhancement"</li>
+          <li>Explain the concept of "unobtrusive DOM Scripting" and demonstrate how to make such scripts</li>
+          <li>List common usability mistakes in DHTML</li>
+          <li>List common accessibility mistakes in DHTML</li>
+          <li>List common security mistakes in the use of client side scripting</li>
+          <li>Compare browser detection to capability testing and show why the former should be avoided</li>
+          <li>Summarize common speed and load bottlenecks</li>
+          <li>List the most noteworthy incompabilities between how the major browsers implement ECMAScript and the DOM and the standards</li>
+          <li>Explain the problems that might occur when one is changing built in objects</li>
+          <li>Explain the problems that might occur when one is using global variables and show how such variables can be avoided</li>
+          <li>Explain the use of method &amp; object detection to avoid throwing or causing errors</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Final assignment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_test_environments" scope="row">JavaScript test environments</th>
+      <td>
+        <ul>
+          <li>Demonstrate how JavaScript statements can be run from the location bar with the javascript pseudo-protocol</li>
+          <li>Demonstrate how JavaScript can be run from the console in a debugger, e.g. <a href="http://getfirebug.com/">Firebug</a></li>
+          <li>Demonstrate how JavaScript can be run from the 
+            <a href="http://developer.mozilla.org/en/docs/Introduction_to_the_JavaScript_shell">JavaScript shell</a></li>
+          <li>Demonstrate how to access error messages (e.g. in the error console or in a debug tool)</li> 
+        </ul>
+      </td>
+      <td>
+        This part is intended to help the student follow the teaching. A simple demonstration where the teacher is looking over the students 
+        shoulder is enough.
+      </td>
+   </tr>
+    <tr>
+      <th id="ds_lexical_structure" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Statements">ECMAScript 
+        lexical structure</a></th>
+      <td>
+        <ul>
+          <li>Summarize and give examples of statements in ECMAScript</li>
+          <li>Demonstrate how line termination works and explain why always using the semi-colon is best practice</li>
+          <li>Demonstrate how comments work in ECMAScript code</li>
+          <li>Demonstrate how script blocks (compound statements) are constructed with the bracket syntax and show why this is important (e.g. minification can break non-bracketed scripts)</li>
+          <li>Summarize how ECMAScript is case sensitive and some common errors that might produce</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>All assignments</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_data_types" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Values">ECMAScript 
+        data types</a>
+      </th>
+      <td>
+        <ul>
+          <li>Explain the difference beteween strong and weak typing</li>
+          <li>Summarize the data types in ECMAScript 3.0</li>
+          <li>Interpret how type conversion works in comparisons, concatenation and Object.toString()</li>
+          <li>List what values that are considered "truthy" and "falsy" in boolean evaluation</li>
+          <li>Summarize the concept of wrapper objects</li>
+          <li>List the most common functions and methods for type conversion</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 2: Control structures, data types, strings and arrays</li>
+         </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_variables" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Variables">ECMAScript 
+        variables</a></th>
+      <td>
+        <ul>
+          <li>Explain the rules for variable naming in ECMAScript</li>
+          <li>Compare variables to constants and recognize how constants can be used in ECMAScript "Harmony"</li>
+          <li>Summarize how scope works in ECMAScript 3.0</li>
+          <li>Recognize how <a href="http://developer.mozilla.org/en/docs/New_in_JavaScript_1.7#Block_scope_with_let">block scope</a>
+            works in JavaScript 1.7 and ECMAScript "Harmony" (using "let")</li>
+          <li>Compare the difference between undefined and unassigned variables</li>
+          <li>Summarize the concept of garbage collection</li> 
+          <li>Compare assignment by value to assignment by reference and explain when either will occur in ECMAScript</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 2: Control structures, data types, strings and arrays</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_expressions_operators" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Expressions_and_Operators">Expressions 
+        and operators</a></th>
+      <td>
+        <ul>
+          <li>Briefly explain what expressions and operators are in imperative programming</li>
+          <li>Briefly explain the concepts of precedence and associativity</li>
+          <li>Identify <a href="http://en.wikipedia.org/wiki/Arity">unary, binary and ternary operators</a></li>
+          <li>Recognize the ternary operator</li>
+          <li>Recognize all and use most common assignment, arithmetic, logical and comparison operators</li>
+          <li>Use the operators "in", "instanceof", "typeof", "new" and "delete"</li>
+          <li>Use shorthand assignments (+=), pre and post increment (++i, i++) and the "ifsetor" assignement (foo = foo || default)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 2: Control structures, data types, strings and arrays</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_control_structures" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Statements">Control 
+        structures</a>
+      </th>
+      <td>
+        <ul>
+          <li>Explain the "var" keyword and why it is bad practice not to use it</li>
+          <li>Use "if" and "else" to control the flow of program execution</li>
+          <li>Use "switch/case" to control the flow of program execution</li>
+          <li>Use "while" to control the flow of program execution</li>
+          <li>Recognize "do/while" and how it controls the program execution</li>
+          <li>Use "for" to repeat code blocks and iterate over arrays. Recognize speed issues in 
+            different ways of doing array enumeration.</li>
+          <li>Enumerate object properties with "for/in". Note some common problems with inherited properties
+            and show awareness of cross-browser convenience methods for enumeration in common libraries.</li>
+          <li>Recognize how "break" and "continue" can be used in loops and in conjunction with named loop structures</li>
+          <li>Explain how the return statement works</li>
+          <li>Explain the concept of exceptions and demonstrate code that throws exceptions, and code that handles them using 
+            the "try/catch/finally" control structures</li>
+          <li>Recognize the intended use of the "with" statement and explain briefly why it is troublesome</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 2: Control structures, data types, strings and arrays</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_strings" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:String">Strings</a> 
+        and <a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Predefined_Core_Objects:String_Object">string functions</a></th>
+      <td>
+        <ul>
+          <li>Explain the concept of a string and how ECMAScript handles encoding issues</li>
+          <li>Exemplify when there might be a need for character encoding conversions when data is submitted 
+            to or retrieved from a server using client side scripts</li>
+          <li>Use the most common string functions (length, charAt, indexOf, toUpperCase, toLowerCase, substring)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 2: Control structures, data types, strings and arrays</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_objects_arrays" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Working_with_Objects">Objects</a> 
+        and <a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Working_with_Arrays">Arrays</a></th>
+      <td>
+        <ul>
+          <li>Compare arrays to objects in ECMAScript</li>
+          <li>Demonstrate different ways of creating an object ("new", function returns and object literals)</li>
+          <li>Demonstrate different ways of creating an array ("new", function returns and array literals)</li>
+          <li>Explain the concept of object properties</li>
+          <li>Explain the concept of "property accessors" (member operators) and compare the normal uses for and limitations of
+            the dot notation and the bracket notation</li>
+          <li>Demonstrate dereferencing of array or object like function returns</li> 
+          <li>Compare the basic differences between prototypal inheritance and class-based inheritance</li>
+          <li>Use objects as if they were associative arrays and compare how arrays, objects and hash-tables are used
+            in a few major scripting languages</li>
+          <li>Recognize the two most used array-like objects (the arguments property of a function and DOM collections)</li>
+          <li>Use the most common mutator array-methods (pop, push, reverse, sort, shift, unshift, splice)</li>
+          <li>Use directly or indirectly the most common accessor array methods (concat, join, slice, toSource, toString)</li>
+          <li>Use directly or indirectly the most common Object methods (toSource, toString, toLocaleString, valueOf)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 2: Control structures, data types, strings and arrays</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_functions" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Functions">Functions</a></th>
+      <td>
+        <ul>
+          <li>Define and invoke functions</li>
+          <li>Explain the concept of first class objects and demonstrate the use of ECMAScript functions as such objects, i.e. use functions as 
+            callbacks</li>
+          <li>Briefly explain the concept of lambda and anonymous functions and demonstrate their use as callbacks</li>
+          <li>Briefly explain the concept of closures and recognize closures in action</li>
+          <li>Explain the operator "this" and recognize to what object it is bound in simple use cases</li>
+          <li>Explain and demonstrate self-executing functions</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 3: Functions</li>
+          <li>(Also clearly tested in assignments 7, 8 and the final assignment)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_regexp" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Regular_Expressions">Regular
+        expressions</a></th>
+      <td>
+        <ul>
+          <li>Briefly explain the concept and origin of regular expressions in programming</li>
+          <li>List some common uses for regular expressions in DOM scripting</li>
+          <li>Recognize the regular expression object and the regexp literal</li>
+          <li>Briefly explain the regular expression pattern and interpret a few simple patterns</li> 
+          <li>Recognize the regular expression methods (RegExp.test, RegExp.exec, String.match, String.replace, String.search)</li>
+          <li>Demonstrate tools <em>like</em> <a href="http://www.regexbuddy.com/">RegEx Buddy</a> and RegExplain</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 4: Regular Expressions</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_date_object" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Predefined_Core_Objects:Date_Object">The
+        Date Object</a></th>
+      <td>
+        <ul>
+          <li>Briefly explain the usage of the Date object</li>
+          <li>Demonstrate usage of the Date object</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 5: Time and Math</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_math_object" scope="row"><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Predefined_Core_Objects:Math_Object">The 
+        Math Object</a> and 
+        <a href="http://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Global_Objects/Number">numbers</a></th>
+      <td>
+        <ul>
+          <li>Demonstrate how to use <a href="http://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Functions/parseInt">parseInt</a>,
+            <a href="http://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Functions/parseFloat">parseFloat</a></li>
+          <li>Briefly explain the usage of the Math object</li>
+          <li>Demonstrate usage of the Math object</li>
+          <li>Use the Math object or 
+          <a href="http://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Objects/Number/toPrecision">number.toPrecision</a>
+          to fix rounding errors in ECMAScript 3.0</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 5: Time and Math</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_programming_concepts" scope="row"><a href="http://en.wikipedia.org/wiki/Programming_paradigm">Programming concepts</a></th>
+      <td>
+        <ul>
+          <li>Briefly explain and compare imperative programming (define algorithms - "do it like this"), declarative programming ("what this is")
+            and functional programming ("produce this") (See note "programming types")</li>
+          <li>Briefly explain and compare procedural and object orientated programming</li>
+          <li>Briefly explain the concept of event driven programming</li>
+          <li>Explain the global object and compare using a global objects to using 
+            <a href="http://en.wikipedia.org/wiki/Standard_streams">standard streams</a></li>
+          <li>Explain the difference between interpreted languages and compiled languages; source code, byte code and machine code
+            and summarize the current state of efforts to bring compiling and/or bytecode to JavaScript</li>
+          <li>Explain the concept of APIs and show how the concept applies to internal bindings i ECMAScript (BOM and DOM)
+            as well as to web services and JavaScript libraries; demonstrate programming to an APIs</li>
+          <li>Explain the concept of Run Time Environment and compare how it applies to client-side web programming, server-side
+            web programming, desktop application programming, operating kernel programming and firmware programming (see note "RTE")</li>
+          <li>Explain and use iteration, enumeration and recursion</li>
+          <li>Explain the concept of namespaces and demonstrate some ways of working around the lack of namespaces in ECMAScript 3 and 5th edition</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 6: Algorithms</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">After subtest 6 core ECMAScript and most computer science has been covered. Now the focus shifts to actual DOM
+        scripting. i.e. client side scripting with the BOM (Window object) and the DOM</td>
+    </tr>
+     <tr>
+       <th id="ds_client_side" scope="row">Client side DOM Scripting</th>
+       <td>
+         <ul>
+           <li>Explain how scripts can be added to a web page; what (X)HTML tags and attributes should be used, etc.</li>
+           <li>List all commonly used properties and methods of <a href="http://developer.mozilla.org/en/docs/DOM:window">the window object</a>
+             (document, location, navigator; alert, addEventListener, back, set/clearInterval, set/clearTimeout, getComputedStyle; onload) 
+             and briefly explain each one (some will be addressed in detail later on)</li>
+           <li>Explain how <a href="http://developer.mozilla.org/en/docs/The_DOM_and_JavaScript">the DOM relates core ECMAScript</a> (repetition)</li>
+           <li>List all major standards that apply to the DOM and the BOM (DOM 1-3 core and HTML, CSSOM, Window, Selectors API, XmlHttpRequest)
+             and briefly state what is covered by each standard</li>
+           <li>Explain the term DOM level 0 a.k.a. the "Netscape 3 de facto standard" and exemplify what it contains that are not part of DOM 1-3</li>
+         </ul>
+       </td>
+      <td>Final exam</td>
+     </tr>
+     <tr>
+       <th id="ds_dom_concept_and_terminology"><a href="http://developer.mozilla.org/en/docs/Gecko_DOM_Reference:Introduction">The 
+         Document Object Model</a></th>
+       <td>
+         <ul>
+           <li>Explain the concept of the document as "hierarchy of node objects"</li>
+           <li>Explain the DOM as "an application programming interface" (repetition)</li>
+           <li>Briefly explain the following <a href="http://www.w3.org/TR/DOM-Level-2-Core/glossary.html">DOM terminology</a>:
+             <ul>
+               <li>Document; element, processing instruction, comment, document type</li>
+               <li>Element; element, text, comment</li>
+               <li>Attr</li>
+               <li>CDATA and PCDATA</li>
+               <li>The <i>family tree</i>: Ancestor, descendant; parent, child, sibling; interface, method, property; nodes, root node, leaf nodes</li>
+             </ul>
+           </li>
+         </ul>
+       </td>
+      <td>Final exam</td>
+     </tr>
+     <tr>
+       <th id="ds_dom_support"><a href="http://developer.mozilla.org/en/docs/DOM_Client_Object_Cross-Reference">DOM support</a></th>
+       <td>
+         <ul>
+           <li>Summarize how support for the DOM has evolved over time in the major browsers</li>
+           <li>Demonstrate how to <a href="http://www.quirksmode.org/js/support.html">capability test</a> for usable DOM support</li>
+           <li>Demonstrate the usage of a <a href="http://ajaxpatterns.org/DOM_Inspection">DOM inspection tool</a></li>
+         </ul>
+       </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Final Assignment</li>
+        </ul>
+      </td>
+     </tr>
+     <tr>
+       <th id="ds_accessing_the_dom">Accessing <a href="http://developer.mozilla.org/en/docs/DOM:element">DOM Elements</a></th>
+       <td>
+         <ul>
+           <li>Demonstrate how to access DOM nodes by means of <a href="http://developer.mozilla.org/en/docs/DOM:document.getElementById">the id</a>
+             and <a href="http://developer.mozilla.org/en/docs/DOM:element.getElementsByTagName">the tag name</a></li>
+           <li>Understand the fundamental difference between "name" and "id" attributes (and how some browsers don't make a distinction in getElementById)</li>
+           <li>Recognize how to access DOM nodes <a href="http://developer.mozilla.org/en/docs/DOM:document.getElementsByClassName">by class names</a>
+             (HTML 5) and CSS selectors (using <a href="http://dev.w3.org/2006/webapi/selectors-api/">W3C CSS Query Selectors</a> and libraries)</li>
+           <li>Demonstrate how to access text content and attributes using DOM core and DOM HTML properties</li>
+           <li>Demonstrate how to access parent, child and sibling nodes</li>
+           <li>Demonstrate how to iterate over DOM node collections and Nodelists</li>
+           <li>Demonstrate how to access individual items in DOM collections and Nodelists</li>
+           <li>Recognize common HTML element collections (anchors, forms, images, links)</li>
+         </ul>
+       </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 8: Forms</li>
+          <li>Final Assignment</li>
+        </ul>
+      </td>
+     </tr>
+     <tr>
+      <th>DOM and <a href="http://developer.mozilla.org/en/docs/DOM:element.className">class</a> and
+        <a href="http://developer.mozilla.org/en/docs/DOM:element.style">style</a> manipulation</th>
+      <td>
+        <ul> 
+          <li>Explain how DOM HTML handles conflicts when HTML attributes have the same name as a keyword in ECMAScript</li>
+          <li>Demonstrate how inline styles can be accessed or set through the DOM</li>
+          <li>Explain how the DOM handles CSS properties that contain the minus sign (which is an operator in ECMAScript)</li>
+          <li>Explain why setting classnames with the DOM usually is preferable to setting inline styles</li>
+          <li>Recognize how one can access computed styles, i.e. styles set in a stylesheet</li>
+          <li>List some common shortcomings in current browsers regarding CSS and demonstrate how one can use DOM-scripting to overcome 
+            such problems (e.g. striped tables without CSS 3 selectors, columns without CSS 3 column support,
+            rounded corners without CSS 3 borders, etc)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 7: Styling, DOM manipulation and animation</li>
+          <li>Final assignment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_manipulating_dom">Manipulating the DOM</th>
+      <td>
+        <ul>
+          <li>Demonstrate how to create elements, attributes and textcontent using DOM core methods</li>
+          <li>Demonstrate how to create and change attributes using DOM HTML methods</li>
+          <li>Demonstrate how to insert, replace and remove nodes using DOM core methods</li>
+          <li>Demonstrate how to use the <a href="http://developer.mozilla.org/en/docs/DOM:element.innerHTML">innerHTML property</a>
+            and discuss its implementation history in major browsers, standardization efforts and compare how it works in HTML and XHTML</li>
+          <li>Compare the benefits of manipulating the DOM through DOM core methods vs. innerHTML</li>
+          <li>Recognize DOM HTML properties that are remnants of bad-practice DHTML, before browsers supported CSS in a reasonable way</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 7: Styling, DOM manipulation and animation</li>
+          <li>Final assignment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_libraries" scope="row">Libraries</th>
+      <td>
+        <ul>
+          <li>Explain the benefits and pitfalls of using libraries, and exemplify use cases where using a library
+            can be considered good practice and when it can be considered bad practice</li>
+          <li>Compare using a library to "cut-and-paste" coding</li>
+          <li>List the most commonly used libraries and briefly explain the philosophy behind each</li>
+          <li>Demonstrate a simple use of at least two different libraries</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 7: Styling, DOM manipulation and animation</li>
+          <li>Final assignment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_events_basics" scope="row"><a href="http://developer.mozilla.org/en/docs/DOM:event">Events</a></th>
+      <td>
+        <ul>
+          <li>Compare inline event handlers, DOM 0 handlers and DOM 2 event listeners using a best practice perspective</li>
+          <li>Briefly explain event terminology (target, listener, capturing, bubbling))</li>
+          <li>Recognize the properties of an DOM 2 event object</li>
+          <li>Demonstrate how to stop default event actions (DOM 0, DOM 2, MSIE, libraries)</li>
+          <li>Demonstrate how to cancel event propagation (DOM 0, DOM 2, MSIE, libraries)</li>
+          <li>Demonstrate how to fire events using scripting</li>
+          <li>Recognize the difference in how the "this" keyword is handled by DOM 0 event handlers, DOM 2 events and MSIE 
+            proprietary events and exemplify some ways to handle those differences</li>
+          <li>Demonstrate different ways of defering script execution until the DOM of a page has been fully loaded
+            (e.g. the defer attribute, window.onload, domContentAvailabe, library methods)</li>
+          <li>Demonstrate the use of common mouse events (click, mouseover, mouseout)</li>
+          <li>Recognize common keyboard events and ways of getting facts about which key(s) were used</li>
+        </ul> 
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 7: Styling, DOM manipulation and animation</li>
+          <li>Final assignment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_events" scope="row">Timed events</th>
+      <td>
+        <ul>
+          <li>Explain the functionality of <a href="http://developer.mozilla.org/en/docs/DOM:window.setTimeout">window.setTimeout</a></li>
+          <li>Explain the functionality of <a href="http://developer.mozilla.org/en/docs/DOM:window.setInterval">window.setIntervak</a></li>
+          <li>Recognize how to <a href="http://developer.mozilla.org/en/docs/DOM:window.clearTimeout">cancel timeouts</a> and 
+            <a href="http://developer.mozilla.org/en/docs/DOM:window.clearInterval">intervals</a></li>
+          <li>Recognize how timed events can be used to make animations and transitions</li>
+          <li>Recognize how timed events can be used to make the user interface more smooth (e.g. allowing the pointer to briefly
+            slip out of a widget without closing it)</li>
+          <li>Demonstrate the use of a transition or animation (e.g. some effect, a "DHTML" menu, etc) using a helper library</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 7: Styling, DOM manipulation and animation</li>
+          <li>Final assignment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_forms" scope="row"><a href="http://developer.mozilla.org/en/docs/DOM:form">Form handling</a></th>
+      <td>
+        <ul>
+          <li>Demonstrate the use of the submit event and recognize other common events used with forms (focus, blur)</li>
+          <li>Recognize form events introduced in (input, formchange, forminput, invalid) or altered (change) by HTML 5</li>
+          <li>Recognize the forms DOM collection</li>
+          <li>Demonstrate getting and setting values of form fields (<em>especially how it's different for each form control type</em>)</li>
+          <li>Demonstrate form validation with DOM scripting</li>
+          <li>Recognize new built in form validation functionality in web Forms 2.0</li>
+          <li>Demonstrate added usability of forms with DOM scripting (e.g. hiding unnecessary widgets, adding fields on demand, etc)</li>
+          <li>Demonstrate how to add custom widgets with DOM scripting</li>
+          <li>Recognize widgets added in Web Forms 2.0</li>
+          <li>Recognize form submission with XmlHttpRequest (see Ajax below)</li>
+        </ul> 
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignment 8: Forms</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_ajax" scope="row">(A brief look at) <a href="http://developer.mozilla.org/en/docs/AJAX">Ajax</a></th>
+      <td>
+        <ul>
+          <li>Briefly explain the concept of Ajax, what it is and what it is not</li>
+          <li>Recognize the <a href="http://developer.mozilla.org/en/docs/XMLHttpRequest">XMLHttpRequest object</a> and its basic usage</li>
+          <li>List common accessibility and usability pitfalls of using Ajax</li>
+        </ul>
+      </td>
+      <td>Final exam</td>
+    </tr>
+    <tr>
+      <th id="ds_window_object" scope="row"><a href="http://developer.mozilla.org/en/docs/DOM:window">Properties and methods 
+        of the Window Object</a></th>
+      <td>
+        <ul>
+          <li>Describe and exemplify the usage of window.location</li>
+          <li>Describe and exemplify the usage of window.history and window.back</li>
+          <li>Describe and exemplify the usage of window.alert</li>
+          <li>Describe and exemplify the usage of window.prompt and window.confirm</li>
+          <li>Briefly describe how to get viewport properties and show awareness of inconsistencies between browsers</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>(Assignment 2, "Control structures, data types, strings and arrays", will probably use window.prompt and window.alert)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_accessibility" scope="row">Accessibility and Mobile Devices</th>
+      <td>
+        This section is about the challenges of scripting for users who <a href="http://www.w3.org/TR/mwbp-wcag/Overview.html">through
+        a disability or lack of functionality in their UA</a> can not perceive scripted content or operate all controls.
+        <ul>
+          <li>Explain the four guiding principles of WCAG 2.0 (perceivable, operable, understandable, robust) and briefly
+            discuss their general implication for DOM scripting</li> 
+          <li>Compare and discuss <a href="http://www.w3.org/WAI/mobile/experiences">how users of mobile devices
+            in many ways are similar to disabled users</a></li>
+          <li>Recognize <a href="http://dev.opera.com/articles/view/introduction-to-wai-aria/">what ARIA is 
+            and what problems it solves</a></li>
+          <li>Demonstrate how to build scripted widgets that are operable both with a pointer and the keyboard</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignments 7 and 8 and the Final Assignment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_mistakes" scope="row">Common DHTML mistakes and basic security</th>
+      <td>
+        <ul>
+          <li>Recognize "document.write" and "document.writeln" and explain
+            why using the methods is bad practice</li>
+          <li>Recognize "window.open" and explain why using popups usually is bad practice</li>
+          <li>Recognize "window.status" and explain why altering the contents of the statusbar usually is bad practice</li>
+          <li>Recognize "window.navigator" and explain the concepts and perils of browser detection</li>
+          <li>Recognize "document.all" and explain why it is no longer necessary</li>
+          <li>Briefly explain why using eval is bad practice and insecure; note hidden uses of eval.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Final exam</li>
+          <li>Assignments 7 and 8 and the Final Assignment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th id="ds_missing_in_course" scope="row">Topics for further study</th>
+      <td>These are subjects that students should have a cursory knowledge of, but have to wait until DOM Scripting 2
+        in order to make this course reasonably manageable in size.
+        <ul>
+          <li>Security and DOM Scripting, the security model and common attack vectors (CSRF, session hijacking, XSS, cookie theft, etc)</li>
+          <li>Speed optimization</li>
+          <li>Coding styles and conventions, JSLint</li>
+          <li><a href="http://developer.mozilla.org/en/docs/Debugging_JavaScript">Debugging</a> and profiling</li>
+          <li>Documentation</li>
+        </ul>
+      </td>
+      <td>N/A</td>
+    </tr>
+  </tbody>
+</table>
+	</div>
+
+	
+</div>
+
+		</div> <!-- /main -->
+	</div>
+		
+	<div id="footer">
+		  <a href="#" id="back-to-top">Back to top</a>
+	  
+		  <div id="social-space">
+		    <a href="http://www.facebook.com/group.php?gid=18117748777" id="facebook">Join our facebook group</a>
+		    <a href="http://twitter.com/waspinteract" id="twitter">Follow us on Twitter</a>
+		 </div><!-- /social-space -->
+	 
+                  <p>
+			   This site uses valid XHTML 1.0 Strict &amp; CSS. | 
+			   <a href="http://creativecommons.org/licenses/by/3.0/us/" rel="license">Creative Commons License</a> | <a href="../../plugins/index.html">Plug-ins</a>
+		  </p>
+
+		  <ul id="design-credits" class="linear-list">
+		  	<li><a href="../../../interact.webstandards.org/about/index.html#edutf-members">The Curriculum Development Team</a></li>
+		  	<li class="last"><a href="../../../interact.webstandards.org/about/index.html#interact-contributors" class="last">Site Credits</a></li>
+		  </ul>
+		</div> <!-- /footer -->
+
+<script type="text/javascript">
+  // <![CDATA[
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  // ]]>
+</script>
+<script type="text/javascript">
+  // <![CDATA[
+  try {
+    var pageTracker = _gat._getTracker("UA-7854903-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
+  // ]]>
+</script>
+	</body>
+
+<!-- Mirrored from teach.webstandards.org/curriculum/front-end-development/dom-scripting-1?comp by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 19:05:28 GMT -->
+</html>

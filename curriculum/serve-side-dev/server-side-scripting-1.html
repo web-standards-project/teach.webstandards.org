@@ -1,0 +1,1407 @@
+  
+
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	
+<!-- Mirrored from teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 18:57:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en" />
+		
+		<title>Server-Side Scripting 1 | WaSP InterAct Curriculum</title>
+		
+		<meta name="DC.creator" content="Web Standards Project" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+		<meta name="ROBOTS" content="ALL" />
+		<meta name="Copyright" content="(cc) 2008-2009 Web Standards Project." />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="Rating" content="General" />
+		
+		<meta name="description" content="WaSP InterAct is a living, open curriculum based upon web standards and best practices, designed to teach students the skills of the web professional. Adapt and reuse our resources. Contribute your own content and ideas." />
+		<meta name="keywords" content="web standards, interact, web standards project, wasp, curriculum, teach, web, XHTML, HTML, CSS, JavaScript, cascading style sheets, information architecture" />
+
+
+  		<link rel="stylesheet" href="../../style/master.css" type="text/css" media="screen" charset="utf-8" />
+  		<!--[if lte IE 6]><link rel="stylesheet" href="/style/ie6.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+  		<!--[if IE 7]><link rel="stylesheet" href="/style/ie7.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+
+  		<script type="text/javascript" charset="utf-8" src="http://www.google.com/jsapi"></script>
+  		<script type="text/javascript" charset="utf-8">
+  			// Load jQuery
+  			google.load("jquery", "1.3.2");
+  		</script>
+  		<script type="text/javascript" charset="utf-8" src="../../javascript/general.js"></script>
+  	</head>
+
+  <body id="course">
+	<div id="utility-nav-group">
+	 <a href="#title-group" id="jump-content">jump to content</a>
+
+	 <ul id="utility-nav">
+		<li><a href="../../contact/index.html">contact</a></li>
+		<li><a href="../../terms/index.html">terms of use</a></li>
+		<li id="wasp"><a href="../../../www.webstandards.org/index.html">webstandards.org</a></li>
+	 </ul>
+</div>
+
+
+	<div id="container">
+		<div id="header">
+			<h1><a href="../../index.html" title="back to home page">WaSP InterACT </a></h1>
+
+			<form id="searchform" action="http://teach.webstandards.org/search">
+  <fieldset>
+		<label for="query">search</label>
+		<input name="q" id="query" type="text" />
+	</fieldset>          
+	<div id="search-button-container"><input type="image" src="http://teach.webstandards.org/img/search-button.png" id="search-button" value="Go" alt="Go" /></div>
+</form>
+
+
+			<ul id="main-menu">
+	<li><a href="../index.html" class="active">Curriculum</a></li>
+	<li><a href="../../integration_guide/index.html">Integration Guide</a></li>
+	<li><a href="../../testimonials/index.html">Testimonials</a></li>
+    <li><a href="../../where/index.html">Where</a></li> 
+<!--	<li><a href="/forums/">Discuss</a></li> -->
+	<li><a href="../../inspiration/index.html">Inspiration</a></li>
+	<li><a href="../../about/index.html">About</a></li>
+</ul>
+
+    
+	        <div id="title-group">
+				
+                               <ol id="breadcrumbs">
+                                      <li>&nbsp;/ Server-Side Scripting 1</li>
+                               </ol>
+				
+ 
+                                
+				
+				<div class="media-group">
+				                <img src="http://teach.webstandards.org/images/uploads/general/track-SSD.png" alt="" />				                                <h2>Server-Side Scripting 1</h2>                                
+                                <p id="course-number">SSD-100 | Web Standards Project</p> 				                				
+                                                               
+                </div> <!-- /media-group -->	        
+            </div> <!-- /title-group -->		
+        </div> <!-- /header -->
+
+		<div id="main">
+
+
+  <div id="sidebar">
+  <a id="back-to-courses" href="index.html">Back to courses</a>
+
+
+
+<ul id="local-nav">
+	<li><a href="server-side-scripting-1bce0.html?overview" >Overview</a></li>
+	<li><a href="server-side-scripting-10054.html?comp">Competencies</a></li>
+	<li><a href="server-side-scripting-14de8.html?assign">Assignments</a></li>
+	<li><a href="server-side-scripting-16548.html?exam">Exam Questions</a></li>
+	<li><a href="server-side-scripting-155b5.html?resources">Resources</a></li>
+       	<li><a href="server-side-scripting-10eb9.html?modules">Learning Modules</a></li>
+        <li><a href="server-side-scripting-1a8b2.html?contributors">Contributors</a></li>
+	<li><a href="server-side-scripting-1.html" class="active" title="view all content for this course">View All</a></li>
+</ul>
+
+<ul id="tertiary-nav">
+      <li><a href="../../contribute/index.html">Contribute</a></li>
+     <li><a href="../../forums/index.html">Discuss</a></li>
+     <li><a href="../../course-download/serve-side-dev/server-side-scripting-1.tar.gz%3b">Download</a></li>
+</ul>
+
+		<ul id="social-list">
+			<li><a href="../../../twitthis.com/twit688f?url=http://teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1/" class="twitter">TwitThis</a></li>
+			<li><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Fserve-side-dev%2Fserver-side-scripting-1%2F&amp;t=Server-Side+Scripting+1" class="facebook">Facebook</a></li>
+			<li><a href="../../../digg.com/submit9175.html?phase=2&amp;url=http://teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1/&amp;topic=Industry%20News&amp;title=Server-Side+Scripting+1&amp;bodytext=WaSP+InterAct+is+modular+curriculum+framework+that+helps+educators+teach+budding+web+professionals+best+practices%2C+web+standards%2C+and+accessibility." class="digg">Digg</a></li>
+			<li><a href="https://del.icio.us/login?log=out&amp;url=http%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Fserve-side-dev%2Fserver-side-scripting-1%2F&amp;title=Server-Side+Scripting+1&amp;notes=WaSP+InterAct+is+modular+curriculum+framework+that+helps+educators+teach+budding+web+professionals+best+practices%2C+web+standards%2C+and+accessibility." class="delicious">Delicious</a></li>
+			<li><a href="../../../technorati.com/faves2d6c.html?add=http://teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1/" class="technorati">Technorati</a></li>
+			<li><a href="https://www.linkedin.com/start/join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fsharing%2Fshare-offsite%3Fmini%3Dtrue%26url%3Dhttp%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Fserve-side-dev%2Fserver-side-scripting-1%2F%26title%3DServer-Side%2BScripting%2B1" class="linkedin">Linkedin</a></li>
+		</ul>
+
+
+</div>
+
+<div id="content" class="last">
+
+	<div id="course-desc">
+        <h2>Course Description</h2>
+        <p>This course will provide an overview of the PHP scripting language and SQL, and how to use these technologies to generate dynamic web sites. It will introduce secure and maintainable coding practices.
+</p>
+	</div>
+    
+	<div id="course-prerequisites">
+    	<h2>Prerequisites</h2>
+        Students should have taken Web Design 1 or have comparable knowledge. Students should also have or be in the process of acquiring some knowledge of forms in (X)HTML. It can be taken in parallel to Web design 2.
+
+
+               <ul>
+
+        
+
+            <li>
+                         <a href="../front-end-development/web-design-2/indexbce0.html?overview">
+                        FED-110 Web Design 2
+                         </a>
+                         </li>
+
+          
+         </ul>
+
+        	</div>
+
+	<div id="course-textbooks">
+          <h2>Recommended Textbook(s)</h2>
+                    Beginning PHP 5.3 is the main book. Essential PHP Security lacks a few modern tools, since it is from 2005, but explains attack vectors and the philosophy of security really well.
+                    
+            <ul>
+                   
+                       <li>Doyle, Matt.. <a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470413964.html">Beginning PHP 5.3</a>. Indianapolis, IN: Wiley Pub,    2009. <em></em></li>
+                    
+                       <li>Shiflett, Chris.. <a href="http://oreilly.com/catalog/9780596006563/">Essential PHP Security, A Guide to Building Secure Web Applications</a>. Sebastopol, CA: O'Reilly,    2005. <em></em></li>
+                    
+             </ul>
+              
+            	</div>	
+    
+	<div id="course-readings">
+      	  <h2>Recommended Reading</h2>
+          <p>Please note that a lot of links are provided in the competency table.</p>
+<ul>
+<li>Official php.net resources<ul>
+<li>&#8220;A simple tutorial.&#8221; The official PHP manual. 05-mar-2010. <a href="http://php.net/manual">php.net/manual</a>, Web. 6 Mar 2010. <a href="http://php.net/tut.php">&lt;http://php.net/tut.php&gt;</a>.</li>
+<li>&#8220;Getting Help. (Suggested FAQs, mailing lists, newsgroups, IRC channels, etc)&#8221; PHP Main Site. <a href="http://php.net/manual">php.net</a>, Web. 6 Mar 2010. <a href="http://php.net/support.php">&lt;http://php.net/support.php&gt;</a>.</li></ul></li>
+<li>Savage, Brendon. &#8220;To the New PHP Programmers.&#8221; <a href="http://www.brandonsavage.net/">BrandonSavage.net</a>. 09-oct-2009. Web. 6 Mar 2010. <a href="http://www.brandonsavage.net/to-the-new-php-programmers/">&lt;http://www.brandonsavage.net/to-the-new-php-programmers/&gt;</a>.</li>
+<li>Tabini, Marco. &#8220;Stop Telling People to Optimize, and Start Teaching Them to Program.&#8221; <a href="http://phparch.com/">php | architect</a>. 25 jun 2009. Web. 6 Mar 2010. <a href="http://phparch.com/main/news/view/24">&lt;Stop Telling People to Optimize, and Start Teaching Them to Program&gt;</a>.</li>
+</ul>
+	</div>
+	
+	<div id="course-technologies">	
+          <h2>Technologies Required</h2>
+          <p>Usually provided by the institution/teacher:</p>
+<ul>
+<li>A web server, with student access to a MySQL database, PhpMyAdmin, SSH- and encrypted FTP access. Short open tags should be disallowed and display errors should be on, with an error reporting level of E_ALL.</li>
+<li>Practice servers, to install an HTTP-server, PHP and MySQL on.</li>
+<li>To help students write clean and readable code from day one, the teacher may provide <a href="http://pear.php.net/package/PHP_CodeSniffer">PHP Code Sniffer</a>. Many Linux distributions provides it through the packaging system, e.g. on Fedora, you can just do <tt>yum install phpcs</tt>. A suggested sniff is provided in the resources section.</li>
+</ul>
+<p>Students are required to use:</p>
+<ul>
+<li>A full fledged editor or <abbr title="Integrated Development Environment">IDE</abbr>.</li>
+<li>An FTP client that supports SFT and/or FTPS. (Can be part of the IDE or a browser extension.)</li>
+<li>An SSH client.</li>
+</ul>
+	</div>
+	
+	<div id="course-competencies">
+        <h2>Competencies</h2>
+        <p>Please note that security is not a topic in this table to be handled separately. Security is <q>built in</q>, not <q>bolt on</q>. Security is also expected to be taught from day one, and not considered to be an <q>advanced</q> topic.</p>
+<table id="zebra-stripe">
+<thead>
+<tr>
+<th>Topic</th>
+<th>Competency</th>
+<th>Evaluation Methods</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="http://php.net/manual/en/history.php">PHP history</a> and <a href="http://www.php.net/manual/en/intro-whatcando.php">uses</a></th>
+<td>
+<ul>
+<li>Explain the difference between <a href="http://en.wikipedia.org/wiki/Server-side_scripting">server side</a> and client side scripts.</li>
+<li>Summarize the origin and development of PHP.</li>
+<li>List and briefly describe the most common alternatives to PHP.</li>
+<li>List some well known web sites and applications that has been built in PHP.</li>
+<li>Briefly explain the concept of <a href="http://en.wikipedia.org/wiki/Open_source">Open Source</a>.</li>
+<li>List some well-known public mailing lists, <abbr title="Internet Relay Chat">IRC</abbr> channels and discussion forums where you can find help with PHP.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://www.php.net/manual/en/install.php">Installation and basic configuration</a> of PHP and an IDE</th>
+<td>
+<ul>
+<li>Demonstrate installing an HTTP-server, PHP and MySQL on a computer.</li>
+<li>Demonstrate the usage of php.ini and .htaccess</li>
+<li>Explain why display_errors should be off on a production web server.</li>
+<li>List some commonly used PHP-modules and demonstrate how to activate them on a web server.</li>
+<li>Demonstrate how to get information about a PHP-installation using <code><a href="http://se2.php.net/manual/en/function.phpinfo.php">phpinfo()</a></code> and <tt>php -m</tt>.</li>
+<li>Demonstrate how to use PHP <abbr title="Command Line Interface">CLI</abbr>.</li>
+<li>Demonstrate how to install an IDE or editor for PHP development.</li>
+<li>Explain the purpose and usage of development and staging servers.</li>
+<li>Explain the purpose of a version control system.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Module 1: Installation</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://www.php.net/manual/en/language.basic-syntax.php">Basic PHP syntax</a></th>
+<td>
+<ul>
+<li>Demonstrate how to switch between HTML-mode and PHP mode.</li>
+<li>List what types of php tags that you can use, and explain the potential pitfalls of using short open tags. (Note to teachers: Turn open tags off on the server you provide.)</li>
+<li>Demonstrate how to use single line, multi line and PhpDoc-style comments.</li>
+<li>Demonstrate how to separate instructions.</li>
+<li>Demonstrate how to use the echo and print statements. Recognize the differences between the two.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Module 1: Installation</li>
+<li>Final exam</li>
+<li>Final assignment</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Using PHP as a simple template engine</th>
+<td>
+<ul>
+<li>Explain the concept of server side includes and why it is better than client side frames.</li>
+<li>Describe the differences between PHP&#8217;s <a href="http://se2.php.net/manual/en/function.include.php">include</a>, include_once, require and require_once commands.</li>
+<li>Explain performance benefits of using absolute paths when including files.</li>
+<li>Explain why included files should always reside outside of the server root directory.</li>
+<li>Demonstrate how PHP can make client side frames redundant.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Assignment 1: Use PHP as a Template System</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">PHP best practices overview</th>
+<td>
+<p>Note: This is meant as an overview. No in-depth knowledge yet.</p>
+<ul>
+<li>Briefly discuss key characteristics of a well written PHP_application.</li>
+<li>Demonstrate how to write readable and properly indented code.</li>
+<li>Demonstrate basic knowledge about <a href="http://en.wikipedia.org/wiki/Coding_conventions">coding conventions</a>, especially the <a href="http://pear.php.net/manual/en/standards.php">PEAR coding standard</a>.</li>
+<li>Explain what <a href="http://en.wikipedia.org/wiki/Revision_control">revision control</a> is.</li>
+<li>Show basic knowledge about <a href="http://www.phpdoc.org/">phpDocumentor</a>. Use the most basic tags in phpDocumentor and produce generated documentation for your code.</li>
+<li>Explain what <a href="http://en.wikipedia.org/wiki/Bug_tracking_system">bug tracking</a> is. List a few well known bug trackers.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>(Most assignments will touch upon these concepts in some way.)</li>
+<li>Final assignment.</li>
+<li>Final exam.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><a href="http://se2.php.net/manual/en/langref.php">Programming concepts</a></th>
+<td>
+<ul>
+<li>Explain the concept of identifiers and list some identifier names one is not allowed to use in PHP.</li>
+<li>Explain the concept of <a href="http://en.wikipedia.org/wiki/Sigil_(computer_programming)">sigils</a>.</li>
+<li>Explain the consept of data types and compare strong and weak typing. Demonstrate type checking and type juggling.</li>
+<li>Recognize that all user-submitted data, and all data-base results, are strings to PHP. Demonstrate how to check for numeric values in strings.</li>
+<li>Explain the null value, and describe the difference between variables that are null and variables that have not been set.</li>
+<li>Demonstrate how to use the <a href="http://se2.php.net/manual/en/function.isset.php">isset()</a> and <a href="http://se2.php.net/manual/en/function.empty.php">empty()</a> functions. Explain what values in PHP that convert to false, when used in a boolean check.</li>
+<li>Demonstrate usage of variables and constants, using best practice naming conventions.
+<ul>
+<li>Recognize the different kinds of constants in PHP (built in, magic, user defined; global, class).</li>
+<li>Demonstrate different syntaxes for setting constants (define and const - also for global constants since PHP 5.3)</li>
+</ul>
+</li>
+<li>Explain the concept of statements. Demonstrate correct usage of statements and block statements.</li>
+<li>Explain the concept of expressions. Demonstrate correct usage of expressions.</li>
+<li>Explain what operators are and demonstrate correct usage of all common operators.</li>
+<li>Explain the concept of functions and all associated terminology and demonstrate how to write and use functions.</li>
+<li>Explain and use assignment by value and assignment by reference.</li>
+<li>Explain what arrays are in PHP and contrast the implementation to a few other programming languages. Demonstrate how to create and manipulate arrays and how to access individual items in arrays.</li>
+<li>Recognize all error levels in PHP and explain the difference between an error and an exception. Demonstrate how to handle errors appropriately.</li>
+</ul>
+</td>
+<td>(Modules with exercises are appreciated.)<ul>
+<li>Final assignment.</li>
+<li>Final exam.</li>
+</ul></td>
+</tr>
+<tr>
+<th><a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a></th>
+<td>
+<ul>
+<li>Explain the most commonly used HTTP methods (get, post, head)</li>
+<li>Demonstrate how to fetch information from the client using $_SERVER.</li>
+<li>Explain MIME-types, and demonstrate how to set MIME-types using PHP&#8217;s header-function.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Module 2 (a): Emulate HTTP-connections with netcat or telnet</li>
+<li>Module 2 (b): Analyze HTTP-traffic using Firebug or a similar tool.</li>
+<li>Final assignment.</li>
+<li>Final exam.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><a href="http://en.wikipedia.org/wiki/Character_encoding">Character encoding</a></th>
+<td><p>Note: For any audience using non ascii-characters (almost everybody outside the USA and UK) this is essential!</p>
+<ul>
+<li>Describe the basics of character encodings and compare the terminology used by <a href="http://en.wikipedia.org/wiki/Unicode">Unicode</a> to the terminology used in HTTP-headers <q>encoding</q> vs. <q>charset</q>.</li>
+<li>Demonstrate how to specify the encoding used in a script (the setting on your editor or IDE).</li>
+<li>Explain the difference between multi-byte encodings and single-byte encodings.</li>
+<li>Demonstrate how to use <a href="http://se2.php.net/manual/en/book.mbstring.php">multi-byte string functions</a> in PHP 5.x.</li>
+<li>Recognize problems that might occur in PHP because of misinterpreted character encodings.</li>
+<li>Demonstrate how to set character encoding in HTTP-headers, using the http-server tools and PHP.</li>
+<li>List the characters that have a highest potential for abuse (e.g. &#8220;null&#8221; and &#8220;eof&#8221;) and demonstrate how to filter input to avoid them using <a href="http://se2.php.net/manual/en/book.ctype.php">ctype functions</a>.</li>
+<li>Demonstrate how to set the encoding (and collation) in a MySQL table or field, using PhpMyAdmin or a similar tool.</li>
+<li>Demonstrate how to convert text between different encodings.</li>
+</ul></td>
+<td>
+<ul>
+<li>Assignment 3.</li>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+<p>Extra questions for SS 2:</p>
+<ul>
+<li>Explain what a <abbr title="Byte Order Mark">BOM</abbr> is and how it can cause problems for PHP scripts.</li>
+<li>What is the difference between little endian and big endian UTF-16?</li>
+<li>What is Unicode normalization?</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><a href="http://se2.php.net/manual/en/function.setlocale.php">Locales</a>, <a href="http://se2.php.net/manual/en/refs.calendar.php">timezones and time functions</a>.</th>
+<td><ul>
+<li>Explain the concept of locales.</li>
+<li>Demonstrate how to set timezones for PHP scripts.</li>
+<li>Demonstrate how to set locale for PHP scripts.</li>
+<li>Explain the concept of collation and demonstrate how to use locale aware string and array comparison and sorting.</li>
+<li>Demonstrate how locale and timezone information affects date and time functionality in PHP. Use the basic date and time functions.</li>
+</ul>
+</td>
+<td><p>(Modules with exercises are appreciated.)
+</p><ul>
+<li>Final exam</li>
+<li>Final assignment</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://php.net/strings">Strings</a></th>
+<td>
+<ul>
+<li>Explain the concept of a string.</li>
+<li>Compare the two types of strings there is in PHP 6. Demonstrate how to set them and convert between them.</li>
+<li>Demonstrate how to get the length of a string and access its characters by index</li>
+<li>Demonstrate how to handle single and double quotes in strings with variables.</li>
+<li>Demonstrate how to concatenate strings.</li>
+<li>Demonstrate how to use heredoc and nowdoc. Recognize the two syntaxes that exist for heredoc as of PHP 5.3.</li>
+<li>Demonstrate how to escape characters in  strings.</li>
+<li>Demonstrate correct usage of basic string functions, e.g. strlen, substr, strstr, strpos, trim, strtolower, with variants.</li>
+<li>Demonstrate how to compare strings, using operators and comparison functions like strcmp or strcoll.</li>
+<li>Demonstrate how to check the integrity of string contents using <a href="php.net/ctype.html">the ctype-functions</a>.</li>
+<li>Explain the concept of regular expressions, exemplify when they can be used and demonstrate simple usage.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Assignment 3.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.array.php">Array usage and array functions</a></th>
+<td>
+<ul>
+<li>Demonstrate how to iterate over an array using the foreach function.</li>
+<li>Demonstrate how to sort arrays.</li>
+<li>Demonstrate how to perform a function call on each value in an array.<ul>
+<li>Specifically, demonstrate how to remove magic quotes from GPC-data.</li></ul></li>
+<li>Explain what the cursor is in an array and demonstrate how to walk through arrays.</li>
+<li>Demonstrate how to use assign multiple variables from array values using the list() language construct.</li>
+<li>Demonstrate how to check for the existence of specific keys or values within an array.</li>
+<li>Demonstrate how to attach and how to delete values at both the bottom and top of an array.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Assignment 3.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://php.net/manual/en/language.oop5.php">Objects and classes</a> (simple overview)</th>
+<td>
+<ul>
+<li>Explain some benefits of Object Oriented programming compared to procedural programming.</li>
+<li>Explain basic OO terminology.</li>
+<li>Demonstrate how to define and instantiate classes in PHP. Explain constructors and destructors, how to name constructors in PHP 4 and 5+ and how to use constructors.</li>
+<li>Demonstrate how to use the $this pseudovariable.</li>
+<li>Explain the concept of inheritance och demonstrate how to use the extends keyword.</li>
+<li>Explain the concept of polymorfism and demonstrate how to use interfaces and abstract classes in PHP.</li>
+<li>Briefly explain the differences in the object model between PHP 4 and PHP 5.</li>
+<li>Explain visibility of properties and methods.</li>
+<li>Explain class constants, static properties and methods and demonstrate how to use the scope resolution operator (<q>Paamayim Nekudotayim</q>).</li>
+</ul>
+</td>
+<td><p>(Modules with exercises are appreciated.)
+</p><ul>
+<li>Final exam</li>
+<li>Final assignment</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/ref.errorfunc.php">Error handling</a> and <a href="http://se2.php.net/manual/en/language.exceptions.php">exceptions</a></th>
+<td>
+<ul>
+<li>Recognize the types of errors in PHP.</li>
+<li>Handle interaction errors e.g. GET-data does not match DB-record might produce a 404.</li>
+<li>Use good error handling strategies. E.g:<ul>
+<li>Differentiate between development servers (show on page) vs. production servers (log errors).</li>
+<li>Make usable error pages and understandable error messages.</li>
+<li>Send the correct HTTP status code for error pages.</li></ul></li>
+<li>Recognize exceptions and handle them using try and catch.</li>
+</ul>
+</td>
+<td><p>(Modules with exercises are appreciated.)
+</p><ul>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Server side architecture</th>
+<td>
+<ul>
+<li>Recognize what <q>separation of concerns</q> mean for PHP development.</li>
+<li>Recognize the following concepts: Presentation logic and templates, business logic and data storage logic.</li>
+<li>Demonstrate a secure and logical directory structure for PHP applictions.</li>
+<li>Explain include paths. Demonstrate how to write an application that does not depend on being in a specific root directory.</li>
+<li>Demonstrate a good strategy for filtering all untrusted data.</li>
+<li>Demonstrate consistent and appropriate escaping of output data.</li>
+<li>Implement usable, SEO-friendly and hackable URL:s.</li>
+<li>Recognize rewrite rules.</li>
+<li>Recognize the abbreviation MVC and briefly explain the rationale behind it.</li>
+</ul>
+</td>
+<td><ul>
+<li>Exercise 4.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/language.variables.external.php">Handling posted data</a></th>
+<td>
+<ul>
+<li>Explain why client side checks only can be used to offload a server and provide better usability, never for security.</li>
+<li>Explain why <a href="http://se2.php.net/manual/en/security.magicquotes.php">GPC-data might be quoted</a> in PHP 4.x and 5.x. Explain what problems magic quotes were intended to solve, why they did not work properly and are being removed in PHP 6 and how they can be removed in a script.</li>
+<li>Explain how the superglobal array <a href="http://se2.php.net/manual/en/reserved.variables.post.php">$_POST</a> relates to name attributes in HTML forms. Demonstrate handling posted data.</li>
+<li>Recognize the usage of <a href="http://se2.php.net/manual/en/security.globals.php">register globals</a> and explain why it is a security hazard. Recognize the bad habit of manually making EGPCS-data into regular variables ($foo = $_POST[&#8216;foo&#8217;] or <a href="http://se2.php.net/manual/en/function.extract.php">extract($_POST)</a>).</li>
+<li>Recognize the usage of <a href="http://se2.php.net/manual/en/reserved.variables.request.php">$_REQUEST</a> and explain why it is considered bad practice to use it.</li>
+<li>Recognize how sensitive data can be transmitted securily, using encryption. Recognize the abbreviations <a href="http://en.wikipedia.org/wiki/Transport_Layer_Security">SSL and TLS</a>.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Exercise 5.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Sending email</th>
+<td>
+<ul>
+<li>Demonstrate simple usage of the <a href="http://se2.php.net/manual/en/book.mail.php">mail()</a> function in PHP.</li>
+<li>Recognize the concept SMTP injection and demonstrate how to avoid it.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Exercise 5.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.session.php">Sessions</a> and authentication</th>
+<td>
+<ul>
+<li>Recognize the sessionless nature of HTTP.</li>
+<li>Recognize session fixation and session hijacking. Use session_regenerate_id and set session ID using cookies only.</li>
+<li>Recognize <a href="http://se2.php.net/manual/en/features.http-auth.php">HTTP-authentication</a> in PHP.</li>
+<li>Preventing multiple submits of a form.</li>
+<li>Demonstrate how to prevent cross-posting using a session variable.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/reserved.variables.cookies.php">Cookies</a></th>
+<td>
+<ul>
+<li>Explain the concept of cookies and how they are passed to the server from the browser.</li>
+<li>Demonstrate how to set and read cookies.</li>
+<li>Explain the security benefits of server side only cookies, and demonstrate how to set them.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.filesystem.php">File handling and storing data in text files</a></th>
+<td>
+<ul>
+<li>Demonstrate how to read from and write to files.</li>
+<li>Recognize the different flags used to control the opening of file sockets.</li>
+<li>Recognize the most common security problems when usiing file functions.</li>
+<li>Demonstrate how to safely handle files uploaded by the user.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://en.wikipedia.org/wiki/Relational_database">Relational Database concepts</a> and <a href="http://dev.mysql.com/doc/index.html">MySQL fundamentals</a></th>
+<td>
+<ul>
+<li>List some common Database Management Systems (DBMS).</li>
+<li>List some common <a href="http://se2.php.net/manual/en/refs.database.vendors.php">alternatives</a> to storing data in a relational database and briefly explain the merits and disadvantages of each option.</li>
+<li>Explain how SQLite can be used from every modern PHP installation. (Note: SQLite is primarily included to provide a way to explain data access abstraction using PDO.)</li>
+<li>Give an overview of how a relational database works.</li>
+<li>Recognize the terminology used about databases (relation/table, tuple/row, attribute/field/column, default values, NULL, keys, etc).</li>
+<li>Briefly explain the concept of <a href="http://en.wikipedia.org/wiki/Database_normalization">normalization</a> and recognize the related glossary (keys, functional dependency)</li>
+<li>List the available data types in MySQL and demonstrate proper usage of the most common ones.</li>
+<li>Explain the concept of indexes. Demonstrate how to use indexes in MySQL.</li>
+<li>Recognize the concept of a <q>storage engines</q> in MySQL and briefly explain the main differences between MyISAM and InnoDB.</li>
+<li>Demonstrate how to use <a href="http://www.phpmyadmin.net/">PhpMyAdmin</a> or a graphical tool to set up a database. Make a user with privileges suitable for PHP scripts. Demonstrate how to run queries in the tool.</li>
+<li>Demonstrate how to backup/dump a MySQL database.</li>
+<li>Question to reviewers: Is it possible to wait with constraints and referential integrity (foreign keys) until Server Side Scripting 2?</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://en.wikipedia.org/wiki/SQL">SQL</a></th>
+<td>
+<ul>
+<li>Recognize the glossary of SQL (DDL, DML, CRUD)</li>
+<li>Demonstrate how to access a MySQL DBMS from a CLI tool.</li>
+<li>Demonstrate how to SELECT individual records and groups of records; SORT-ing and LIMIT-ing of the results.</li>
+<li>Demonstrate how to use JOIN.</li>
+<li>Demonstrate simple usage of SQL-functions (count!)</li>
+<li>Demonstrate how to INSERT data into a table.</li>
+<li>Demonstrate how to UPDATE a table and explain why one should always use the WHERE clause doing so.</li>
+<li>Demonstrate how to DELETE data and explain why one should always use the WHERE clause doing so.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.pdo.php">PDO</a></th>
+<td>
+<ul>
+<li>Recognize all 3 built in API&#8217;s to access a MySQL database from PHP (mysql, mysqli, PDO). Discuss their strengths and downsides.</li>
+<li>Demonstrate how to connect to a DBMS with PDO, prepare and execute statements, fetch single results and iterate over result sets.</li>
+<li>Recognize how to access reults from a prepared statement as normal arrays, associative arrays, objects and objects belonging to a specific class.</li>
+<li>Demonstrate safe usage of user submitted data in SQL.</li>
+<li>Recognize how to manually quote user submitted data.</li>
+<li>Discuss the benefits of prepared statements.</li>
+<li>Demonstrate how to handle errors and unexpected results using PDO.</li>
+<li>Demonstrate safe handling of database credentials.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.mysql.php">The mysql</a> and the <a href="http://se2.php.net/manual/en/book.mysqli.php">mysqli</a> functions</th>
+<td>
+<ul>
+<li>Recognize how to use the mysql and the mysqli functions.</li>
+<li>Discuss how to safely handle user submitted data using the mysql and the mysqli functions.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.spl.php">SPL</a>, <a href="http://pear.php.net/">PEAR</a> and Frameworks</th>
+<td>
+<ul>
+<li>Recognize PEAR, PECL, SPL and the most well known PHP Component libraries?</li>
+<li>Recognize the most common PHP Frameworks.</li>
+<li>Recognize the most common PHP applications/Content Managament Systems.</li>
+<li>Recognize the usage of PHP for extended functionality for some big websites (e.g. Facebook)</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Web Services, API&#8217;s, RSS, JSON and Ajax</th>
+<td>
+<ul>
+<li>Recognize the most common formats for data interchange.</li>
+<li>Summarize the Ajax pattern for updating a web page.</li>
+<li>Briefly describe the concepts of API&#8217;s and Web Services.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Shared hosting</th>
+<td>
+<ul>
+<li>Recognize the most important technical considerations one must know when chosing a web host.</li>
+<li>List the most important security considerations one must know about shared hosting.</li>
+<li>Demonstrate usage of a web host control panel.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+	</div>
+	<div id="course-assignments">
+        <h2>Assignments</h2>
+        <h3>Assignment 1: Using PHP as a Template System.</h3>
+<p>Make a simple web site with at least 3 <strong>types</strong> of pages and 2 <strong>instances</strong> of each type. All types shall share a common masthead, footer and navigation. Make a page controller for each page and set title, heading and other data in variables. Make a master template for every type of page, that in turn will include the smaller page parts. (All data can be considered safe for this exercise, making filtering and escaping unnecessary. But students must be told such practices are required further on&#8230;)</p>
+
+<table class="zebra-stripe">
+<caption>Assignment 1 Grading Rubric</caption>
+<thead>
+<tr class="odd">
+<th rowspan="2" scope="col">Criteria</th>
+<th colspan="3" scope="col">Performance Quality</th>
+<th rowspan="2" scope="col">Score</th>
+</tr>
+<tr class="even">
+<th scope="col">0 points</th>
+<th scope="col">1 point</th>
+<th scope="col">2 points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th scope="row">Functionality</th>
+<td>The template system does not work or is far from being complete.</td>
+<td>The template system has all basic functionality and is mostly complete.</td>
+<td>All required functionality is present and the solution is complete.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="even">
+<th scope="row">Code quality</th>
+<td>No indentation, no comments or only insignificant comments. Variable names do not tell their intended usage. Resulting markup does not validate and is not semantic. File names are undescriptive and do not follow any system.</td>
+<td>Code is mostly indented and have some usable comments. Most variable names are descriptive. There are only a few validation errors in the resulting HTML. The HTML has all basic semantics correct. File names are fairly descriptive.</td>
+<td>All code is properly indented and well commented. Variable names show their intended usage immediately. Resulting markup is valid and semantic. ALl files have been put in different directories according to their intended usage and all file names are descriptive.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table><p>
+<!-- /end/ Assignment 1 () ********************************************************************************** --></p>
+
+<h3>Assignment 2: Language constructs.</h3>
+<ol>
+<li>Use for-loops in PHP to generate a table containing a multiplication table. Alternate rows shall be colored using class names (for this exercise CSS 3 selectors are forbidden). Every cell containing the square of a number ( 1 x 1, 2 x 2, 3 x 3, etc) shall also have distinct backgrounds. The table shall be appropriately marked up with column and row headers and a caption. The page must be valid (X)HTML strict or valid (X)HTML5. Repeat the assignment using while-loops.</li>
+<li>Generate functions in PHP that will return parts of a page, e.g. the HTML head, a masthead, a sidebar or a page footer. At least some parameters shall have default values. Have a page accept a number, submitted through the get method. Using a whitelist testing approach and the switch language construct, set values on variables that gets passed to the functions and output the page. If the user omits the GET-variable or provides an unacceptable value an appropriate error message shall be delivered. Use a whitelist approach for indata filtering, using type and range checks.</li>
+</ol>
+<p>The code in both sub-assignments shall be properly commented and demonstrate different ways of making comments, including a leading PhpDoc-block. The coding style must be according to the PEAR convention, or a named convention of significant importance within the PHP community (with reasonable exceptions depending on this project&#8217;s small size).</p>
+
+<table class="zebra-stripe">
+<caption>Assignment 2 Grading Rubric</caption>
+<thead>
+<tr class="odd">
+<th rowspan="2" scope="col">Criteria</th>
+<th colspan="3" scope="col">Performance Quality</th>
+<th rowspan="2" scope="col">Score</th>
+</tr>
+<tr class="even">
+<th scope="col">0 points</th>
+<th scope="col">1 point</th>
+<th scope="col">2 points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th scope="row">Functionality</th>
+<td>No multiplication table is produced. Functions do not return usable results. GET-data is not tested at all.</td>
+<td>The work has all basic functionality and is mostly complete, but a few things are lacking, e.g. alternating row colors, caption or headers. The switch case construct does not allow for more than 3 alternatives. GET-data is tested for type but not range. No usable error message is displayed.</td>
+<td>All required functionality is present in both parts of the assignment and the solution is complete and at leastt 4 different values can be used for the switch-construct. GET-data is carefully filtered and bad data results in usable error messages.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="even">
+<th scope="row">Code quality</th>
+<td>No indentation, no inline comments or only insignificant comments. Variable names do not tell their intended usage. Resulting markup does not validate and is not semantic. File names are undescriptive and do not follow any system. No PhpDoc blocks at all.</td>
+<td>Code is mostly indented and have some usable comments. Most variable names are descriptive. There are only a few validation errors in the resulting HTML. The HTML has all basic semantics correct. File names are fairly descriptive. PhpDoc blocks are present on most files and on most functions, but do not include more than 2 types of tags. The code does not follow a named coding convention.</td>
+<td>All code is properly indented and well commented. Variable names show their intended usage immediately. Resulting markup is valid and semantic. All files have been put in different directories according to their intended usage and all file names are descriptive. PhpDoc comments are present on all files and all functions and include at least @author, @param and @return tags. A coding convention is followed within reasonable limits.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table><p>
+<!-- /end/ Assignment 2 () ********************************************************************************** --></p>
+
+<h3>Assignment 3: Characters, Strings and Arrays</h3>
+<p>Make an array, indexed with integers, containing at least 5 famous quotes, sayings or similar phrases. At least one phrase must contain characters not present in the English alphabet/US_ASCII. You must use UTF-8 for this assignment. Using a GET-variable chose one of these phrases and perform the following operations on it (always starting with the original string). Output the results in an understandable way.</p>
+<ul>
+<li>Convert all letters to upper case.</li>
+<li>Count the number of characters.</li>
+<li>Remove all vowels.</li>
+<li>Reverse the string.</li>
+<li>Find the first 5 and the last 5 characters.</li>
+<li>Convert the string to ISO-8859-1.</li>
+<li>Extra hard: Reverse the words in the string, but keep their order.</li>
+<li>Extra hard: Put emphasis (em) on every other word.</li>
+<li>Extra hard: Truncate the string to max 15 characters followed by &amp;hellip; Truncate on a word boundary, not inside a word.</li>
+</ul>
+<p>Loop through all phrases and output them as a list of links, with GET-parameters, to make the selection described above really easy. Use a whitelist approach for indata filtering, using type and range checks.</p>
+<p>Use PHP to sort the array. Use print_r() or var_dump() to display the result. (Note: This is intended to show basic awareness of these two functions for debugging purposes.)</p>
+
+<table class="zebra-stripe">
+<caption>Assignment 3 Grading Rubric</caption>
+<thead>
+<tr class="odd">
+<th rowspan="2" scope="col">Criteria</th>
+<th colspan="3" scope="col">Performance Quality</th>
+<th rowspan="2" scope="col">Score</th>
+</tr>
+<tr class="even">
+<th scope="col">0 points</th>
+<th scope="col">1 point</th>
+<th scope="col">2 points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th scope="row">Functionality</th>
+<td>There are less than 5 sayings in the array or not more than 3 described string conversions have been performed. No character outside of US-ASCII is being used. No control of the editor&#8217;s encoding setting is demonstrated. No looping to display the links. Array is not sorted.</td>
+<td>There are at least 5 sayings in the array. At least 4 string conversions are performed. UTF-8 is used. The length of strings are checked using a multi-byte encoding aware approach. A loop runs to output the links, which are usable. The array is sorted and the result is showed.</td>
+<td>There are at least 5 sayings in the array. At least 8 string conversions are performed. UTF-8 is used. The length of strings are checked using a multi-byte encoding aware approach. A loop runs to output the links, which are usable and nicely formatted as a HTML-list. The array is sorted and the result is showed.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="even">
+<th scope="row">Code quality</th>
+<td>No indentation, no inline comments or only insignificant comments. Variable names do not tell their intended usage. Resulting markup does not validate and is not semantic. File names are undescriptive and do not follow any system. No PhpDoc blocks at all.</td>
+<td>Code is mostly indented and have some usable comments. Most variable names are descriptive. There are only a few validation errors in the resulting HTML. The HTML has all basic semantics correct. File names are fairly descriptive. PhpDoc blocks are present on most files and on most functions, but do not include more than 2 types of tags. The code does not follow a named coding convention. The GET-variable is checked for type, but not range.</td>
+<td>All code is properly indented and well commented. Variable names show their intended usage immediately. Resulting markup is valid and semantic. ALl files have been put in different directories according to their intended usage and all file names are descriptive. PhpDoc comments are present on all files and all functions and include at least @author, @param and @return tags. A coding convention is followed within reasonable limits. The GET-variable is checked for type and range. A usable error message is displayed if it is unaccepable.
+</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table><p>
+<!-- /end/ Assignment 3 () ********************************************************************************** --></p>
+
+<h3>Assignment 4: Templates and Emulated Database Results.</h3>
+<p>Expand on assignment 1. Set data in a multi-dimensional array (emulating database results). Chose what &#8220;row&#8221; (inner array) to show with a GET-variable. All rows must have a title-field and a body-field containg at least 3 full paragraphs of text. Check for appropriate values (filter input) and html-escape the output, as if it came from an untrusted source, before putting it into the templates. If the GET-value is unacceptable, show an appropriate error page. Use a whitelist approach for indata filtering, using type and range checks. Loop through all &#8220;rows&#8221; in the outer array and ouput a menu with links to all, using the title field for link text.</p>
+
+<table class="zebra-stripe">
+<caption>Assignment 4 Grading Rubric</caption>
+<thead>
+<tr class="odd">
+<th rowspan="2" scope="col">Criteria</th>
+<th colspan="3" scope="col">Performance Quality</th>
+<th rowspan="2" scope="col">Score</th>
+</tr>
+<tr class="even">
+<th scope="col">0 points</th>
+<th scope="col">1 point</th>
+<th scope="col">2 points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th scope="row">Functionality</th>
+<td>The template is not populated with values from the array. No error page is showed if the GET-variable is missing or has an incorrect value. Pages do not emulate a real web site in design. No menu is showed.</td>
+<td>The template is populated with the correct data. An error page gets showed if it refers to a row that is not present in the array, but it does not use a correct HTTP-header. Pages have enough content to emulate a real web site. A workable list of links is showed as a menu.</td>
+<td>The template is populated with the correct data. An error page gets showed if it refers to a row that is not present in the array, but it sends a 404 HTTP-header. Pages have enough content to emulate a real web site. The menu is properly formatted as a list and styled with CSS to look like a menu.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="even">
+<th scope="row">Code quality</th>
+<td>No indentation, no inline comments or only insignificant comments. Variable names do not tell their intended usage. Resulting markup does not validate and is not semantic. File names are undescriptive and do not follow any system. No PhpDoc blocks at all.</td>
+<td>Code is mostly indented and have some usable comments. Most variable names are descriptive. There are only a few validation errors in the resulting HTML. The HTML has all basic semantics correct. File names are fairly descriptive. PhpDoc blocks are present on most files and on most functions, but do not include more than 2 types of tags. The code does not follow a named coding convention.</td>
+<td>All code is properly indented and well commented. Variable names show their intended usage immediately. Resulting markup is valid and semantic. All files have been put in different directories according to their intended usage and all file names are descriptive. PhpDoc comments are present on all files and all functions and include at least @author, @param and @return tags. A coding convention is followed within reasonable limits.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="odd">
+<th scope="row">Security</th>
+<td>No checks on the GET-variable, no escaping of output.</td>
+<td>The GET-variable is checked but the test is incomplete. HTML-output is escaped using htmlspecialchars, htmlentities or checked using a library like HTML purifier, but care is not taken to handle characters outside of the US-ASCII range.</td>
+<td>The GET-variable is checked and the test is complete. HTML-output is escaped using htmlspecialchars, htmlentities or checked using a library like HTML purifier, and care is taken to handle characters outside of the US-ASCII range.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table><p>
+<!-- /end/ Assignment 4 () ********************************************************************************** --></p>
+
+<h3>Assignment 5: Mailing Data From a Contact Form.</h3>
+<p>Make a contact form, contaning a subject field, a textarea for the message, a &#8220;from&#8221; name field, a &#8220;from&#8221; email field, and at least two checkboxes to chose between possible recipients (whom to contact).</p>
+<p>Upon form submission, the data should be sent to the URL of the contact page, but now handled by the script. Filter and validate the submitted data to see if the values are safe and accepable. If not, re-display the form, pre-filled with the submitted values, and appropriate error messages. Use a white list approach to check that the recipient is actually one of the persons listed in the form. If the data is good, deliver it to the recipient using PHP&#8217;s mail-function. Set appropriate headers. Display a results page.</p>
+<p>When displaying the results or when re-displaying the form, prevent HTML and script-injections. For the highest grade use a mechanism, e.g. session variables, to prevent multiple submissions.</p>
+
+<table class="zebra-stripe">
+<caption>Assignment 5 Grading Rubric</caption>
+<thead>
+<tr class="odd">
+<th rowspan="2" scope="col">Criteria</th>
+<th colspan="3" scope="col">Performance Quality</th>
+<th rowspan="2" scope="col">Score</th>
+</tr>
+<tr class="even">
+<th scope="col">0 points</th>
+<th scope="col">1 point</th>
+<th scope="col">2 points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th scope="row">Functionality</th>
+<td>No mail gets sent. No appropriate feedback is given to the user when submitting the form, i.e. if it contains bad data or is lacking any required field it is simply showed as if it was the first time. Fields are missing in the form and/or some form fields are not handled at all in the script.</td>
+<td>Missing or badly filled in data results in error messages, but correct form data is not re-displayed and has to be entered again. The mail function is invoked, but the user is not alerted about the success, i.e. the return value is not checked. The actual mail contains a few clues about its origin, a reply field and a useful subject line. All required form fields present and are handled by the script.</td>
+<td>All required form fields are present and are handled by the script. If the form contains complete and correct data the mail function is invoked. The form contains useful error messages if showed after failing tests. The user does not need to fill in valad data again. The results page is useful and informative. The actual mail is formatted so the recipient immediately sees all relevant information about its origin and purpose, and includes a useful subject line and an appropriate reply-to SMTP-header, that also includes the real name of the sender. Multiple submissions are not possible.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="even">
+<th scope="row">Code quality</th>
+<td>No indentation, no inline comments or only insignificant comments. Variable names do not tell their intended usage. Resulting markup does not validate and is not semantic. File names are undescriptive and do not follow any system. No PhpDoc blocks at all.</td>
+<td>Code is mostly indented and have some usable comments. Most variable names are descriptive. There are only a few validation errors in the resulting HTML. The HTML has all basic semantics correct. File names are fairly descriptive. PhpDoc blocks are present on most files and on most functions, but do not include more than 2 types of tags. The code does not follow a named coding convention.</td>
+<td>All code is properly indented and well commented. Variable names show their intended usage immediately. 
+&nbsp;  &nbsp;  &nbsp; Resulting markup is valid and semantic. All files have been put in different directories according to their 
+&nbsp;  &nbsp;  &nbsp; intended usage and all file names are descriptive. PhpDoc comments are present on all files and all functions 
+&nbsp;  &nbsp;  &nbsp; and include at least @author, @param and @return tags. A coding convention is followed within reasonable limits.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="odd">
+<th scope="row">Security</th>
+<td>No special measures are made to ensure that the application is secure.</td>
+<td>The POST data is checked for valid and useful values, but the tests are incomplete. 
+&nbsp;  &nbsp;  &nbsp; HTML-output, when showing the form again when it contains errors or on the results page is escaped using 
+&nbsp;  &nbsp;  &nbsp; htmlspecialchars, htmlentities or checked using a library like HTML purifier, 
+&nbsp;  &nbsp;  &nbsp; and care is taken to handle characters outside of the US-ASCII range.
+&nbsp;  &nbsp;  &nbsp; The subject and the reply-to fields are checked for possible attempts to include SMTP headers and appropriate 
+&nbsp;  &nbsp;  &nbsp; measures are taken to prevent them.
+&nbsp;  &nbsp;  &nbsp; Malicious characters, like null or vtab, are not allowed.</td>
+<td>The GET-variable is checked and the test is complete. HTML-output is escaped using htmlspecialchars, htmlentities or
+&nbsp;  &nbsp;  &nbsp; checked using a library like HTML purifier, and care is taken to handle characters outside of the US-ASCII range.
+&nbsp;  &nbsp;  &nbsp; All fields are checked for possible attempts to include SMTP headers and appropriate measures are taken to prevent them.
+&nbsp;  &nbsp;  &nbsp; Recipient email addresses are not showed in the HTML-code (the check boxes) to prevent spammers from picking them up.
+&nbsp;  &nbsp;  &nbsp; Malicious characters, like null or vtab, are not allowed.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table><p>
+<!-- /end/ Assignment 5 () ********************************************************************************** --></p>
+
+<h3>Final assignment</h3>
+
+<p>Develop a simple CMS or a web application of choice that includes the following features.</p>
+<ul>
+<li>Storing, retrieving, altering and deleting information in a database (CRUD).</li>
+<li>Form handling: Retrieving submitted data, validation, usable patterns for feedback on errors.</li>
+<li>User authentication and session management, secure handling of passwords.</li>
+<li>Separation of concerns: Information updates should not require coding skills. Design change should not require PHP coding skills.</li>
+<li>Some separation of logic, e.g. through templating. (On a beginners course like this it is not required to use full MVC architecture or have a similar separation of logic.)</li>
+<li>Demonstration of good programming practices.</li>
+<li>PhpDoc generated documentation.</li>
+<li>Input filtering and suitable escaping of output, depending on the situation.</li>
+<li>File uploads.</li>
+</ul>
+<p>The site shall be hosted on the web site provided by the instructor or a web hosting company. Publishing and securing the web site is part of the assignment.</p>
+
+<p><strong>Examples</strong> of applications that can be built for this assignment include:</p>
+<ul>
+<li>A blogging platform.</li>
+<li>A gaming or sports tournament site, where users can see game results, aggregate scores and comment on them.</li>
+<li>A site for a company where it displays its products. (On-line shopping probably will be part of Server Side Scripting 2.)</li>
+<li>A project management site with to-do lists, a simple calendar and messages.</li>
+<li>A very simple community where users can have personal profile pages, a status line and send each other messages.</li>
+<li>A site for a club, a church/mosque/synagogue/temple or an association, with information about activities.</li>
+</ul>
+
+<p>You are required to work in project form, plan your work and follow a process, including setting goals, writing down intended features, do sketches about site design (simple wireframes) and site structure, data processing flow and database design. If you deviate from the plan, describe the reasons and evaluate options and consequences.</p>
+
+<p>Optional features for higher grades:</p>
+<ul>
+<li>Automatic sending of email, e.g. alerting the owner of new comments or letting users subscribe to discussions.</li>
+<li>Creation of a feed, SVG-image or other XML-based data format.</li>
+<li>Authentication against operating system supplied user data, e.g. LDAP and Active Directory, or the use of a single sign-on service.</li>
+<li>Integration with a web service, e.g. pulling in an RSS-feed.</li>
+<li>A script that check the server for required functionality, e.g. PHP-version and modules, PEAR-modules, MySQL-version and a populated MySQL Timezone database.</li>
+<li>Installation SQL queries to build tables and populate them with initial data.</li>
+<li>Full installation scripts.</li>
+<li>Caching mechanisms.</li>
+<li>Image manipulation in PHP, e.g. making thumbnails or adding text to images.</li>
+<li><q>Pretty URLs</q> i.e. the URLs should reflect useful information to the user, not to the CMS.</li>
+</ul>
+
+<table class="zebra-stripe">
+<caption>Final Assignment Grading Rubric</caption>
+<thead>
+<tr class="odd">
+<th rowspan="2" scope="col">Criteria</th>
+<th colspan="4" scope="col">Performance Quality</th>
+<th rowspan="2" scope="col">Score</th>
+</tr>
+<tr class="even">
+<th scope="col">0 points</th>
+<th scope="col">1 point</th>
+<th scope="col">2 points</th>
+<th scope="col">3 points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th scope="row">End user/site maintainer functionality</th>
+<td>The solution is far from complete, features are missing.</td>
+<td>All application data is displayed, but data can not be added. The site has at least 3 different types of pages. The navigation between all pages works. A site redesign would require extensive rewrites to the PHP code.</td>
+<td>All application data is displayed and most of it can be added or altered by a user through forms. The navigation between all pages works and is robust. The web site contains at least 5 different types of pages as well as an administrative interface that covers a few tasks. Authentication is required for all administrative tasks. A site redesign would not require extensive rewrites to the PHP code.</td>
+<td>A complete web site can be run using the solution. Data can be inserted and altered by users having no coding skills. The web site contains at least 5 different types of pages as well as a complete administrative interface/possibilities for users to add content. Navigation is usable and consistent. Authentication is required for all administrative tasks. The site is fully skinnable, i.e. the php scripts do not lock site maintainers into a specific design or a rigid HTML order.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="even">
+<th scope="row">PHP functionality</th>
+<td>Only a very small subset of PHP&#8217;s features or built in functions are used. PHP reports lots of errors when the script runs.</td>
+<td>A basic subset of PHP&#8217;s features or built in functions are used. PHP reports only notices, strict or deprecated errors when it runs.</td>
+<td>The solution shows a reasonable wide range of language features and built in functions. PHP reports only strict or deprecated errors when it runs, and only a few of those.</td>
+<td>The solution takes advantage of a wide range of language features and built in functions. No built in features are duplicated in userland code. The best tool for the job is used throughout, e.g. 5 similar str_replace calls can be replaced by one preg_replace or multiple similar if-elseif&#8217;s are replaced by switch-case. PHP reports no errors at all when it runs.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="odd">
+<th scope="row">Database functionality</th>
+<td>No more than two tables, no indexes, only very basic SQL-queries. Database queries are not evaluated or errors are dumped on pages.</td>
+<td>At least 3 tables, normalization is not intentional, some fields used for sorting or selection are indexed.
+&nbsp;  &nbsp;  &nbsp; Some database queries are evaluated and possible errors are hidden from users.</td>
+<td>At least 4 tables, mostly normalized. Most fields used for sorting or selection are indexed.
+&nbsp;  &nbsp;  &nbsp; Appropriate data storage types are used for most fields. There are few redundant calls to the database.
+&nbsp;  &nbsp;  &nbsp; All database queries are evaluated, possible errors are hidden from users and unexpected replies result in usable
+&nbsp;  &nbsp;  &nbsp; messages to the user.</td>
+<td>The database contains at least 4 tables and has a good design, with tables normalized to the 3d degree, except where
+&nbsp;  &nbsp;  &nbsp; normalization is bad for web performance, in which case the student explains the reason for not having a normalized
+&nbsp;  &nbsp;  &nbsp; database. Fields that are used for selection and/or ordering of results have indexes. Appropriate data storage types 
+&nbsp;  &nbsp;  &nbsp; are used for every field. Where SQL is the better choice, it is used instead of PHP, e.g. for setting the time to <q>now</q>,
+&nbsp;  &nbsp;  &nbsp; subselects, ordering and counting the number of rows. There are no redundant calls to the database.
+&nbsp;  &nbsp;  &nbsp; All database queries are evaluated, possible errors are hidden from users and unexpected replies result in usable
+&nbsp;  &nbsp;  &nbsp; messages to the user.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="even">
+<th scope="row">Code quality</th>
+<td>No indentation, no inline comments or only insignificant comments. Variable names do not tell their intended usage. Resulting markup does not validate and is not semantic. No PhpDoc blocks at all. Placement of braces, parenthesis, etc is erratic.</td>
+<td>Code is indented, although somewhat erratically and it has a few usable comments. Some variable names are descriptive.
+&nbsp;  &nbsp;  &nbsp; The resulting HTML may have some validation errors. HTML elements are rarely misused in ways that differ from their
+&nbsp;  &nbsp;  &nbsp; semantic meaning. PhpDoc blocks are present on some files, functions or variables,
+&nbsp;  &nbsp;  &nbsp; but may lack tags. Placement of braces, parenthesis, etc is mostly consistent.</td>
+<td>Code is mostly indented and have some usable comments. Most variable names are descriptive. There are only a few validation errors in the resulting HTML. The HTML has all basic semantics correct. PhpDoc blocks are present on most files and on most functions, but do not include more than 2 types of tags. The code does not follow a named coding convention, but placement of braces, parenthesis, etc. is consistent.</td>
+<td>All code is properly indented and well commented. Variable names show their intended usage immediately and variable naming follows a clear pattern. Resulting markup is valid and semantic. PhpDoc comments are present on all files and all functions and include at least @author, @param and @return tags. A coding convention is followed within reasonable limits.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="odd">
+<th scope="row">Security</th>
+<td>Security measures are completely missing or very few.</td>
+<td>Most data submitted by users or external sources is filtered or escaped. Malicious characters, like null or vtab, are not allowed. Some restrictions have been made for folder permissions.</td>
+<td>All data submitted by users or external sources is filtered before being handled and escaped when being output. Application passwords, e.g. to access the database, are kept safely. User passwords are not stored in cleartext. Sessions are identified only through cookies and the session identifier is regenerated when there is any change in user permissions. Folder permissions are restrictive.</td>
+<td>All user submitted or external data is thoroughly filtered before being handled and appropriately escaped when being saved in database, output as (X)HTML or XML, sent as email, etc. Unsafe characters are removed and malformed UTF-8 is rejected. A whitelist approach is used whenever possible. Application passwords, e.g. to access the database, are kept safely. User passwords are not stored in cleartext. Sessions are identified only through cookies and the session identifier is regenerated when there is any change in user permissions. Folder permissions are restrictive and do not permit more access than absolutely necessary.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="odd">
+<th scope="row">Application structure</th>
+<td>Code is unstructured. Code duplication occurs frequently. All files are kept in the web root and files are not structured in folders according to purpose. File names are undescriptive and do not follow any system. Presentation logic is not separated from business logic in any meaningful way.</td>
+<td>Code is mostly structured but code duplication may occur a few times. Some file names are descriptive about their usage/contents. Files meant for inclusion are mostly kept out of the web root. Presentation logic is somewhat kept away from business logic.</td>
+<td>Code is cleanly structured. Functions are grouped according to purpose. Code duplication is very rare. File names are fairly descriptive about their usage/contents. All files meant for inclusion are kept outside of the web root. Files are mostly sorted according to usage in appropriately named folders. Presentation logic is mostly kept away from business logic.</td>
+<td>Code is cleanly structured. Functions are grouped according to purpose and most can be re-used outside of this project. No code duplication occurs. Only files that are supposed to be callable through HTTP are kept in the web root, all files intended for incusion are kept outside of th web root. All files have been put in different directories according to their intended usage and all file names are descriptive about their usage/contents and consistently named. Presentation logic is kept away from business logic.</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="odd">
+<th scope="row">Process</th>
+<td>There is no structured process and no documentation.</td>
+<td> The initial plan is vague and do not list the full feature set of the application. Only one or two pages have wireframes or wireframes are sloppy. Deviations from the plan are not discussed.</td>
+<td>The initial plan and sketches give a pretty clear picture about intended design, features and data flow. Deviations from the plan are explained to some degree. The work is documented, but lacks detail.</td>
+<td>The student has set clear goals, made detailed sketches about site structure, page design and data flow. Any deviations from the plan are discussed in a way that shows technical knowledge and personal responsibility. Work is documented in detail, as in <q>Today I worked on feature X&#8230; I experimented with the following solutions&#8230; and chose solution Y because&#8230; This is the final result&#8230; In doing this I learned that&#8230;</q></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+<p>Besides the points awared in the rubric above, an instructor may award points for the bonus features listed above. However, bonus points should not be used as a way to cover up mistakes made at the fundamental level. Soundness should be valued more than fanciness.</p>
+	</div>
+	<div id="course-exam-questions">
+        <h2>Examination Questions</h2>
+        <h3>PHP history and uses</h3>
+<ul>
+<li>Who invented PHP?</li>
+<li>What major versions of PHP have been released. List some major changes/additions in each version.</li>
+<li>What does the acronym LAMP mean?</li>
+<li>On what platforms does PHP run?</li>
+<li>List at least 5 other server side technologies comparable to PHP.</li>
+<li>What is Open Source? What does it mean that PHP is Open Source?</li>
+</ul>
+<h3>Installation and basic configuration</h3>
+<ul>
+<li>Where can you find information about PHP and/or help in solving problems?</li>
+<li>When installing PHP, describe some differences you should have between a developers&#8217; installation and a production server.</li>
+<li>Explain the concepts of development, staging and production servers.</li>
+</ul>
+<h3>Basic PHP syntax</h3>
+<ul>
+<li>Describe the various kind of errors in PHP and how they should be handled on a production server.</li>
+<li>What is a module in PHP? Name at least 5 modules.</li>
+<li>What tags are there to mark up blocks of PHP code? Which one is preferred and why?</li>
+<li>Explain what happens when you omit the closing php tag on a page, and why that often is preferable</li>
+</ul>
+<h3>PHP best practices overview</h3>
+<ul>
+<li>Describe the key characteristics of a well written PHP-application.</li>
+<li>What is a coding convention? List a few features of the PEAR coding standard.</li>
+<li>What is revision control? Name at least 3 well known version control systems.</li>
+<li>What does the following PhpDoc tags mean: @author, @package, @filesource, @param, @return?</li>
+<li>What is a bug tracker? Name at least 3 well known bug trackers.</li>
+</ul>
+<h3>Programming concepts</h3>
+<ul>
+<li>What characters are allowed in identifier names? What characters are they allowed to begin with?</li>
+<li>Explain how the operators =, == and === work.</li>
+<li>What is the value of: &#8220;5 needles&#8221; + &#8220;1 haystack&#8221;? Explain how type conversion occurs.</li>
+<li>What is the value of: 3 * 2 . &#8221; things&#8221; (note the space after 2)? Explain how type conversion occurs.</li>
+<li>What is the difference between assignment by value and assignment by reference? When does the latter occur by default? How do one specify it manually?</li>
+<li>Explain what an unary, binary and ternary operator is.</li>
+<li>PHP 5.3 introduced a short form for the ternary operator, explain how it works.</li>
+<li>Write at least 5 complex expressions involving different types of operators and values and explain how they are evaluated according to their precedence and associativity.</li>
+<li>What is the differeence between <code>$foo = null</code> and <code>unset($foo)</code>?</li>
+<li>Besides <code>false</code>, what values evaluates as false, when used in a boolean way (<q>falsy values</q>)?</li>
+<li>Define a constant called FOO that will have the value <q>I&#8217;m Foo, not Bar&#8217;</q>.</li>
+<li>Write a single statement that assigns a value to several variables, and explain how it demonstrates associativity.</li>
+<li>What is a parameter to a function?</li>
+<li>How do you set default values to function parameters?</li>
+<li>List a few common guidelines for good function design.</li>
+<li>Explain the difference between passing parameters by value or passing parameters by reference.</li>
+<li>What is call time pass by reference? Why should it be avoided?</li>
+<li>What is a static variable in a function?</li>
+<li>What scope do variables have in functions by default?</li>
+<li>How can one access global variables from a function? List 3 ways and compare their benefits and drawbacks.</li>
+</ul>
+<h3>HTTP</h3>
+<ul>
+<li>What are the 3 most common HTTP methods?</li>
+<li>What is MIME?</li>
+<li>Set a MIME header for a JPEG-image, using a PHP command.</li>
+</ul>
+<h3>Character encoding</h3>
+<ul>
+<li>What is internationalization and localization?</li>
+<li>What is a character encoding?</li>
+<li>What is the default character encoding in PHP 5?</li>
+<li>Briefly explain the terms glyph, character, encoding and font as they are used in Unicode.</li>
+<li>What is a single byte character encoding? Give a few examples.</li>
+<li>What is a multi byte character encoding? Give a few examples.</li>
+<li>How is character encoding specified in an HTTP header?</li>
+<li>Explain the benefits of UTF-8 compared to older encodings.</li>
+<li>What is an ASCII compatible encoding? Name two such encodings.</li>
+<li>How can one convert a string between UTF-8 and ISO-8859-1? ()There might be several ways.)</li>
+</ul>
+<h3>Locales, timezones and time functions</h3>
+<ul>
+<li>What is the purpose of <code>date_default_timezone_set()</code>?</li>
+<li>What are the types of locale settings that one must specify using a <code>LC_*</code> constant, when one is using the <code>setlocale()</code> function?</li>
+<li>What is the ICU library and the Olsen database?</li>
+</ul>
+<h3>Strings</h3>
+<ul>
+<li><code>$foo= &#8220;My name is&#8221;; $bar = &#8220;Stan&#8221;;</code><ol>
+<li>Write an expression using the above variables that evaluates to &#8220;My name is Stan&#8221; (including all spaces!)</li>
+<li>What is the value of <code>$foo[4]</code>?</li>
+<li>Write an expression using the the above two strings and string functions that evaluates to &#8220;Stan is my name&#8221;. Note that &#8220;my&#8221; is lowe case. You may not privide additional strings besides the two variables.</li></ol></li>
+<li>What pracice is encouraged in PHP 5.3+ to access individual characters in a string, brackets or braces?</li>
+<li>What function will count the characters of a string?</li>
+<li>What function will count the characters of a multi-byte encoded string in PHP 5 and lower?</li>
+<li>What is heredoc and nowdoc?</li>
+<li>How can you do a case insensitive comparison between two strings?</li>
+<li>Write an expression that shows how to remove excess whitespace at the ends of a string.</li>
+<li>What is a regular expression? Name a few regular expression related functions in PHP.</li>
+<li>Describe a use case for the ctype family of functions.</li>
+<li><code>$foo = array(&#8220;my&#8221;, &#8220;name&#8221;, &#8220;is&#8221;); $bar[] = &#8220;Stan&#8221;;</code> All<ol>
+<li>What will the ouput be from <code>print_r($foo); print_r($bar);</code>?</li>
+<li>Write a line of code that changes &#8220;Stan&#8221; to &#8220;Stanley&#8221;.</li>
+<li>Write an expression that evaluates to &#8220;My name is Stan&#8221;. If possible, avoid supplying an extra string for the space between &#8220;is&#8221; and &#8220;Stan&#8221; (Disregard the change you made to &#8220;Stan(-ley)&#8221; in the last question.)</li>
+<li>Write a line of code that sorts $foo starting with &#8220;is&#8221; and ending with &#8220;my&#8221;.</li>
+<li>Write code that iterates over $foo using both <code>foreach</code>, <code>for</code> and <code>while () { list() = each(); ... next(); }</code>. For each iteration output the key/value pair.</li>
+<li><code>$foo[] = $bar; print_r($foo);</code> will output what? What kind of array is $foo now?</li>
+</ol></li></ul>
+<h3>Array usage and array functions</h3>
+<ul>
+<li>What is an array in PHP? How do they compare to arrays in other languages?</li>
+<li>What is an associative array?</li>
+<li>Demonstrate at least 2 ways to create an array.</li>
+<li>Demonstrate at least 2 ways to append a value to an array.</li>
+<li>What are multi-dimensional arrays?</li>
+<li>Why is $foo[bar] wrong? What error reporting level should you use to catch this?</li>
+<li>How would you write a value from an array with string indexes in a string that has double quotes?</li>
+<li>Array_walk takes an array-argument by reference, array_map by value. Write some code to demonstrate the difference.</li>
+<li>How do you count the items in an array?</li>
+<li>List some common sorting functions for arrays and describe what they do with one sentence for each.</li>
+<li>Write a single line of code that swaps two variables using the list() language construct.</li>
+<li>Write a few lines of code that will remove magic quotes from all superglobal arrays that might contain user submitted data.</li>
+</ul>
+<h3>Objects and classes</h3>
+<ul>
+<li>Identify 3 reasons you might decide to use Object Oriented Programming to develop a web applications rather than a procedural approach.</li>
+<li>Explain the following terminology: Class, instance, property, method.</li>
+<li>If you write <code>(object) &#8220;foo&#8221;</code>, what class will the resulting object be an instance of?</li>
+<li>The teacher will provide code that defines a class for animals, a sub-class for birds and a sub-class for mammals (see resources).<ol>
+<li>Why is it not possible to instantiate the class Animal?</li>
+<li>What properties in the classes illustrate encapsulation?</li>
+<li>The method tweet() in the class Bird is static. What does that mean? How should it be invoked?</li>
+<li>How would one access the constant HAS_WINGS from the Has_wings Interface?</li>
+<li>Write a suitable PHPDoc comment block for the class Animal and for its constructor method.</li>
+<li>An object of the class Bird can be said to be an instance of what? (List all 3 possibilities.)</li></ol>
+<p> Write a continuous flow of code that does the following. Any questions about output shall be answered using comments in the code.</p>
+<ol>
+<li>Instantiate a variable called $gnu for a gnu Mammal, called &#8220;Richard Stallman&#8221;. What will this output?</li>
+<li>Instantiate a variable called $tux for a penguin Bird, that cannot fly and is called &#8220;Linus Torvalds&#8221;. What will this output?</li>
+<li>Instantiate a variable called $php for an elephant Mammal, called &#8220;Rasmus Leerdorf&#8221;. What will this output?</li>
+<li>Set the catch phrase for $tux to &#8220;My wife knows karate!&#8221;.</li>
+<li>Use the method <code>sayCatchPhrase()</code> to output $tux&#8217;s catch phrase.</li>
+<li>Make the elephant and the gnu friends of the penguin! What will this output?</li>
+<li>Write a line of code that outputs the elephant&#8217;s catch phrase. Start from $tux&#8217;s list of friends, not from $php, and use method chaining.</li>
+<li>What&#8217;s the output when the script stops executing?</li>
+</ol></li></ul>
+<h3>Error handling and exceptions</h3>
+<ul>
+<li>What problems might occur on a production server if you have display_errors turned on?</li>
+<li>What are parse errors, run time errors and logic errors?</li>
+<li>There are constants that describe error levels in PHP. List at least 4 in increasing order of severity.</li>
+</ul>
+<h3>Server side architecture</h3>
+<ul>
+<li>Once you have located a class that will perform a desired task in your web application, how would you go about discovering how to use it? What information is essential to know before you can use it?</li>
+<li>Describe a good architecture for PHP applications.</li>
+<li>What is the include path?</li>
+<li>What are relateive and absolute include paths?</li>
+<li>In what way can one use mod rewrite to get good URL&#8217;s?</li>
+<li>List and briefly explain at lest 3 aspects of good URL&#8217;s.</li>
+</ul>
+<h3>Handling posted data</h3>
+<ul>
+<li>How are the get and post methods different in the way they transmit information to/from the server? Provide examples when it is appropriate to use each.</li>
+<li>What is magic quotes in PHP? Explain at least one argument against relying on magic quotes for security.</li>
+<li>Why is the use of register globals a bad idea? Describe at least one way of mimicking the use of register globals that is equally bad.</li>
+</ul>
+<h3>Sending email</h3>
+<ul>
+<li>What is SMTP-injection?</li>
+</ul>
+<h3>Sessions and authentication</h3>
+<ul>
+<li>What is a session in PHP?</li>
+<li>Why should one not use URL-rewriting to propagate session ID&#8217;s?</li>
+<li>What PHP function should always be run when a user changes his or her authorization level?</li>
+</ul>
+<h3>Cookies</h3>
+<ul>
+<li>What is a cookie in HTTP?</li>
+<li>If not manually specified, when does a cookie expire?</li>
+<li>What is a server side only cookie? In what way are they more secure than regular cookies?</li>
+<li>How might cookies be an infringement of personal integrity? What laws regulate the usage of cookies in your country?</li>
+<li>List at least 3 ways how cookies can be used to improve the usability of a web site.</li>
+<li>What is the difference between opening a file socket in text mode and binary mode?</li>
+</ul>
+<h3>File handling</h3>
+<ul>
+<li>In what way can functions like fopen() and file_get_contents() be security risks?</li>
+<li>What special function should be used to move a file uploaded by the user?</li>
+</ul>
+<h3>Relational Database concepts and MySQL fundamentals</h3>
+<ul>
+<li>Explain the process of designing a database structure for a web application.</li>
+<li>List at least 5 common DBMS&#8217;s and describe their main features and/or normal usage in a sentence or two for each.</li>
+<li>What is the value NULL in database? What does it mean that a field is defined as NOT NULL?</li>
+<li>List the datatypes that vis available in MySQL and briefly explain each one.</li>
+<li>What is an index? How do they help selecting and sorting of data?</li>
+<li>What is a primary key?</li>
+<li>What is the purpose of auto incrementing fields?</li>
+</ul>
+<h3>SQL</h3>
+<ul>
+<li>What is SQL?</li>
+<li>Explain the acronym <abbr>CRUD</abbr> and show relates to four SQL keywords.</li>
+<li>Write a query to retrieve an entry with the id of 5 in a database table called <q>articles</q>. </li>
+<li>Write a query that fetches the 5 newest entries from the table <q>articles</q>, sorted with the newest one first, assuming that there is a field called <q>create_time</q> that holds time and a field called <q>create_date</q> that holds the date an article was added.</li>
+<li>Add a clause to the query above that uses the field <q>author</q> to<ul> 
+<li>Write a query that retrieves data from two tables (instructor should provide table structures).</li>
+<li>Write a query that alters the value of a field on a specific row (instructor should provide table structure).</li>
+<li>Write a query that deletes a specific row (instructor should provide table structure).</li>
+<li>Write a single query that creates two new rows in a table, where the primary key is auto incremented (instructor should provide table structure).</li></ul></li>
+</ul>
+<h3>PDO</h3>
+<ul>
+<li>List the key steps required to grab content from a database and display it on a page.</li>
+<li>In what version of PHP was PDO introduced? List at least 5 DBMS&#8217;s that are supported by PDO.</li>
+<li>What kind of data access abstraction will PDO provide? What database abstraction will it not provide?</li>
+<li>What are the benefits of prepared statements?</li>
+</ul>
+<h3>The mysql and mysqli functions</h3>
+<ul>
+<li>What capabilities are not provided by the mysql functions, but by mysqli and PDO?</li>
+<li>What function shall be used to escape all user submitted data for safe usage in an SQL query, using the mysql fiunctions?</li>
+<li>In 2-4 sentences each, describe the following: PEAR, PECL and SPL.</li>
+</ul>
+<h3>SPL, PEAR and Frameworks</h3>
+<ul>
+<li>List some common PHP applications or CMS&#8217;s built with PHP.</li>
+<li>What is a framework? Why or when would you use one?</li>
+<li>List some major websites that allow for users to have PHP-modules to extend its functionality.</li>
+</ul>
+<h3>Web Services, API&#8217;s, RSS, JSON and Ajax</h3>
+<ul>
+<li>Draw a diagram/flow chart that explains the difference between Ajax and normal page reloads, from a client/server interaction perspective.</li>
+<li>In what character encoding is XHR-submitted data (regardless of the web page&#8217;s encoding)?</li>
+<li>What is a web service? (Briefly describe the concept.)</li>
+<li>What is JSON? (Briefly describe the concept.)</li>
+<li>What is RSS? (Briefly describe the concept.)</li>
+<li>List a few web sites that offer a public API.</li>
+</ul>
+<h3>Shared hosting</h3>
+<ul>
+<li>A web hosting company seems to offer a valuable shared hosting plan. However, they are not very specific about the technical details. Write an email of inquiry addressed to their technical marketing staff asking everything you, as a potential customer would need to know, besides amount of data storage and the price.</li>
+</ul>
+	</div>
+	<div id="course-resources">
+		<h2>Resources</h2>
+		<h3>Downloads (will come up soon)</h3>
+<ul>
+<li>Script that checks if an installation is suitable to be used by students.</li>
+<li>A coding standard for PHP Code Sniffer suitable for teaching.</li>
+<li>Class definitions for the exam questions about Object Oriented PHP.</li>
+</ul>
+
+<h3>Good PHP web sites</h3>
+<ul>
+<li><a href="http://delicious.com/sebastian_bergmann/academic_paper+php">Core PHP contributor, Sebastian Bergman&#8217;s list of academic papers on PHP.</a></li>
+<li><a href="http://www.phpdeveloper.org/">PHP Developer: A leading community site, good source for news and tips</a>.</li>
+<li><a href="http://www.planet-php.net/">Planet PHP: Blog aggregation for PHP.</a></li>
+<li><a href="http://www.phppodcasts.com/">phppodcasts.com:&nbsp; Aggregation site for PHP related podcasts</a>.</li>
+<li><a href="http://www.php.net/mailing-lists.php">Mailing lists at php.net</a>.</li>
+<li><a href="http://talks.php.net/">The Talks page at php.net</a>.</li>
+<li><a href="http://www.phparch.com/">PHP Architect, a leading Magazine and conference organizer</a>.</li>
+<li><a href="http://www.zend.com/"> Zend, a leading PHP company, has articles, a framework and lots of other stuff</a>.</li> 
+<li><a href="http://www.phpbuilder.com/">PHP Builder: Articles and an active forum</a>.</li>
+<li><a href="http://onlamp.com/php/">PHP section of O&#8217;Reilly&#8217;s site for LAMP</a>.</li>
+</ul>
+	</div>
+      <div id="course-learning-modules">
+	<h2>Learning Modules</h2>
+	
+
+		Help us develop our living curriculum.  <a href="../../contribute/index.html">Contribute</a> a learning module. 
+	
+        </div>
+		<div id="course-contributors">
+		<h2>Contributors</h2>
+		<p><strong>Primary course developer:</strong> Lars Gunther.</p>
+<p><strong>Contributors:</strong> Jinny Potter, Tony Lan.</p>
+	</div>
+
+	
+</div>
+
+		</div> <!-- /main -->
+	</div>
+		
+	<div id="footer">
+		  <a href="#" id="back-to-top">Back to top</a>
+	  
+		  <div id="social-space">
+		    <a href="http://www.facebook.com/group.php?gid=18117748777" id="facebook">Join our facebook group</a>
+		    <a href="http://twitter.com/waspinteract" id="twitter">Follow us on Twitter</a>
+		 </div><!-- /social-space -->
+	 
+                  <p>
+			   This site uses valid XHTML 1.0 Strict &amp; CSS. | 
+			   <a href="http://creativecommons.org/licenses/by/3.0/us/" rel="license">Creative Commons License</a> | <a href="../../plugins/index.html">Plug-ins</a>
+		  </p>
+
+		  <ul id="design-credits" class="linear-list">
+		  	<li><a href="../../../interact.webstandards.org/about/index.html#edutf-members">The Curriculum Development Team</a></li>
+		  	<li class="last"><a href="../../../interact.webstandards.org/about/index.html#interact-contributors" class="last">Site Credits</a></li>
+		  </ul>
+		</div> <!-- /footer -->
+
+<script type="text/javascript">
+  // <![CDATA[
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  // ]]>
+</script>
+<script type="text/javascript">
+  // <![CDATA[
+  try {
+    var pageTracker = _gat._getTracker("UA-7854903-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
+  // ]]>
+</script>
+	</body>
+
+<!-- Mirrored from teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 18:57:29 GMT -->
+</html>

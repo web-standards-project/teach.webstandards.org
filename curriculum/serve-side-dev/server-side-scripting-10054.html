@@ -1,0 +1,703 @@
+  
+
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	
+<!-- Mirrored from teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1?comp by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 18:57:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en" />
+		
+		<title>Server-Side Scripting 1 | WaSP InterAct Curriculum</title>
+		
+		<meta name="DC.creator" content="Web Standards Project" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+		<meta name="ROBOTS" content="ALL" />
+		<meta name="Copyright" content="(cc) 2008-2009 Web Standards Project." />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="Rating" content="General" />
+		
+		<meta name="description" content="WaSP InterAct is a living, open curriculum based upon web standards and best practices, designed to teach students the skills of the web professional. Adapt and reuse our resources. Contribute your own content and ideas." />
+		<meta name="keywords" content="web standards, interact, web standards project, wasp, curriculum, teach, web, XHTML, HTML, CSS, JavaScript, cascading style sheets, information architecture" />
+
+
+  		<link rel="stylesheet" href="../../style/master.css" type="text/css" media="screen" charset="utf-8" />
+  		<!--[if lte IE 6]><link rel="stylesheet" href="/style/ie6.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+  		<!--[if IE 7]><link rel="stylesheet" href="/style/ie7.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+
+  		<script type="text/javascript" charset="utf-8" src="http://www.google.com/jsapi"></script>
+  		<script type="text/javascript" charset="utf-8">
+  			// Load jQuery
+  			google.load("jquery", "1.3.2");
+  		</script>
+  		<script type="text/javascript" charset="utf-8" src="../../javascript/general.js"></script>
+  	</head>
+
+  <body id="course">
+	<div id="utility-nav-group">
+	 <a href="#title-group" id="jump-content">jump to content</a>
+
+	 <ul id="utility-nav">
+		<li><a href="../../contact/index.html">contact</a></li>
+		<li><a href="../../terms/index.html">terms of use</a></li>
+		<li id="wasp"><a href="../../../www.webstandards.org/index.html">webstandards.org</a></li>
+	 </ul>
+</div>
+
+
+	<div id="container">
+		<div id="header">
+			<h1><a href="../../index.html" title="back to home page">WaSP InterACT </a></h1>
+
+			<form id="searchform" action="http://teach.webstandards.org/search">
+  <fieldset>
+		<label for="query">search</label>
+		<input name="q" id="query" type="text" />
+	</fieldset>          
+	<div id="search-button-container"><input type="image" src="http://teach.webstandards.org/img/search-button.png" id="search-button" value="Go" alt="Go" /></div>
+</form>
+
+
+			<ul id="main-menu">
+	<li><a href="../index.html" class="active">Curriculum</a></li>
+	<li><a href="../../integration_guide/index.html">Integration Guide</a></li>
+	<li><a href="../../testimonials/index.html">Testimonials</a></li>
+    <li><a href="../../where/index.html">Where</a></li> 
+<!--	<li><a href="/forums/">Discuss</a></li> -->
+	<li><a href="../../inspiration/index.html">Inspiration</a></li>
+	<li><a href="../../about/index.html">About</a></li>
+</ul>
+
+    
+	        <div id="title-group">
+				
+                               <ol id="breadcrumbs">
+                                      <li>&nbsp;/ Server-Side Scripting 1</li>
+                               </ol>
+				
+ 
+                                
+				
+				<div class="media-group">
+				                <img src="http://teach.webstandards.org/images/uploads/general/track-SSD.png" alt="" />				                                <h2>Server-Side Scripting 1</h2>                                
+                                <p id="course-number">SSD-100 | Web Standards Project</p> 				                				
+                                                               
+                </div> <!-- /media-group -->	        
+            </div> <!-- /title-group -->		
+        </div> <!-- /header -->
+
+		<div id="main">
+
+
+  <div id="sidebar">
+  <a id="back-to-courses" href="index.html">Back to courses</a>
+
+
+
+<ul id="local-nav">
+	<li><a href="server-side-scripting-1bce0.html?overview" >Overview</a></li>
+	<li><a href="server-side-scripting-10054.html?comp" class="active">Competencies</a></li>
+	<li><a href="server-side-scripting-14de8.html?assign">Assignments</a></li>
+	<li><a href="server-side-scripting-16548.html?exam">Exam Questions</a></li>
+	<li><a href="server-side-scripting-155b5.html?resources">Resources</a></li>
+       	<li><a href="server-side-scripting-10eb9.html?modules">Learning Modules</a></li>
+        <li><a href="server-side-scripting-1a8b2.html?contributors">Contributors</a></li>
+	<li><a href="server-side-scripting-1.html" title="view all content for this course">View All</a></li>
+</ul>
+
+<ul id="tertiary-nav">
+      <li><a href="../../contribute/index.html">Contribute</a></li>
+     <li><a href="../../forums/index.html">Discuss</a></li>
+     <li><a href="../../course-download/serve-side-dev/server-side-scripting-1.tar.gz%3b">Download</a></li>
+</ul>
+
+		<ul id="social-list">
+			<li><a href="../../../twitthis.com/twit688f?url=http://teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1/" class="twitter">TwitThis</a></li>
+			<li><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Fserve-side-dev%2Fserver-side-scripting-1%2F&amp;t=Server-Side+Scripting+1" class="facebook">Facebook</a></li>
+			<li><a href="../../../digg.com/submit9175.html?phase=2&amp;url=http://teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1/&amp;topic=Industry%20News&amp;title=Server-Side+Scripting+1&amp;bodytext=WaSP+InterAct+is+modular+curriculum+framework+that+helps+educators+teach+budding+web+professionals+best+practices%2C+web+standards%2C+and+accessibility." class="digg">Digg</a></li>
+			<li><a href="https://del.icio.us/login?log=out&amp;url=http%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Fserve-side-dev%2Fserver-side-scripting-1%2F&amp;title=Server-Side+Scripting+1&amp;notes=WaSP+InterAct+is+modular+curriculum+framework+that+helps+educators+teach+budding+web+professionals+best+practices%2C+web+standards%2C+and+accessibility." class="delicious">Delicious</a></li>
+			<li><a href="../../../technorati.com/faves2d6c.html?add=http://teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1/" class="technorati">Technorati</a></li>
+			<li><a href="https://www.linkedin.com/start/join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fsharing%2Fshare-offsite%3Fmini%3Dtrue%26url%3Dhttp%3A%2F%2Fteach.webstandards.org%2Fcurriculum%2Fserve-side-dev%2Fserver-side-scripting-1%2F%26title%3DServer-Side%2BScripting%2B1" class="linkedin">Linkedin</a></li>
+		</ul>
+
+
+</div>
+
+<div id="content" class="last">
+
+	<div id="course-competencies">
+        <h2>Competencies</h2>
+        <p>Please note that security is not a topic in this table to be handled separately. Security is <q>built in</q>, not <q>bolt on</q>. Security is also expected to be taught from day one, and not considered to be an <q>advanced</q> topic.</p>
+<table id="zebra-stripe">
+<thead>
+<tr>
+<th>Topic</th>
+<th>Competency</th>
+<th>Evaluation Methods</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="http://php.net/manual/en/history.php">PHP history</a> and <a href="http://www.php.net/manual/en/intro-whatcando.php">uses</a></th>
+<td>
+<ul>
+<li>Explain the difference between <a href="http://en.wikipedia.org/wiki/Server-side_scripting">server side</a> and client side scripts.</li>
+<li>Summarize the origin and development of PHP.</li>
+<li>List and briefly describe the most common alternatives to PHP.</li>
+<li>List some well known web sites and applications that has been built in PHP.</li>
+<li>Briefly explain the concept of <a href="http://en.wikipedia.org/wiki/Open_source">Open Source</a>.</li>
+<li>List some well-known public mailing lists, <abbr title="Internet Relay Chat">IRC</abbr> channels and discussion forums where you can find help with PHP.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://www.php.net/manual/en/install.php">Installation and basic configuration</a> of PHP and an IDE</th>
+<td>
+<ul>
+<li>Demonstrate installing an HTTP-server, PHP and MySQL on a computer.</li>
+<li>Demonstrate the usage of php.ini and .htaccess</li>
+<li>Explain why display_errors should be off on a production web server.</li>
+<li>List some commonly used PHP-modules and demonstrate how to activate them on a web server.</li>
+<li>Demonstrate how to get information about a PHP-installation using <code><a href="http://se2.php.net/manual/en/function.phpinfo.php">phpinfo()</a></code> and <tt>php -m</tt>.</li>
+<li>Demonstrate how to use PHP <abbr title="Command Line Interface">CLI</abbr>.</li>
+<li>Demonstrate how to install an IDE or editor for PHP development.</li>
+<li>Explain the purpose and usage of development and staging servers.</li>
+<li>Explain the purpose of a version control system.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Module 1: Installation</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://www.php.net/manual/en/language.basic-syntax.php">Basic PHP syntax</a></th>
+<td>
+<ul>
+<li>Demonstrate how to switch between HTML-mode and PHP mode.</li>
+<li>List what types of php tags that you can use, and explain the potential pitfalls of using short open tags. (Note to teachers: Turn open tags off on the server you provide.)</li>
+<li>Demonstrate how to use single line, multi line and PhpDoc-style comments.</li>
+<li>Demonstrate how to separate instructions.</li>
+<li>Demonstrate how to use the echo and print statements. Recognize the differences between the two.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Module 1: Installation</li>
+<li>Final exam</li>
+<li>Final assignment</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Using PHP as a simple template engine</th>
+<td>
+<ul>
+<li>Explain the concept of server side includes and why it is better than client side frames.</li>
+<li>Describe the differences between PHP&#8217;s <a href="http://se2.php.net/manual/en/function.include.php">include</a>, include_once, require and require_once commands.</li>
+<li>Explain performance benefits of using absolute paths when including files.</li>
+<li>Explain why included files should always reside outside of the server root directory.</li>
+<li>Demonstrate how PHP can make client side frames redundant.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Assignment 1: Use PHP as a Template System</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">PHP best practices overview</th>
+<td>
+<p>Note: This is meant as an overview. No in-depth knowledge yet.</p>
+<ul>
+<li>Briefly discuss key characteristics of a well written PHP_application.</li>
+<li>Demonstrate how to write readable and properly indented code.</li>
+<li>Demonstrate basic knowledge about <a href="http://en.wikipedia.org/wiki/Coding_conventions">coding conventions</a>, especially the <a href="http://pear.php.net/manual/en/standards.php">PEAR coding standard</a>.</li>
+<li>Explain what <a href="http://en.wikipedia.org/wiki/Revision_control">revision control</a> is.</li>
+<li>Show basic knowledge about <a href="http://www.phpdoc.org/">phpDocumentor</a>. Use the most basic tags in phpDocumentor and produce generated documentation for your code.</li>
+<li>Explain what <a href="http://en.wikipedia.org/wiki/Bug_tracking_system">bug tracking</a> is. List a few well known bug trackers.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>(Most assignments will touch upon these concepts in some way.)</li>
+<li>Final assignment.</li>
+<li>Final exam.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><a href="http://se2.php.net/manual/en/langref.php">Programming concepts</a></th>
+<td>
+<ul>
+<li>Explain the concept of identifiers and list some identifier names one is not allowed to use in PHP.</li>
+<li>Explain the concept of <a href="http://en.wikipedia.org/wiki/Sigil_(computer_programming)">sigils</a>.</li>
+<li>Explain the consept of data types and compare strong and weak typing. Demonstrate type checking and type juggling.</li>
+<li>Recognize that all user-submitted data, and all data-base results, are strings to PHP. Demonstrate how to check for numeric values in strings.</li>
+<li>Explain the null value, and describe the difference between variables that are null and variables that have not been set.</li>
+<li>Demonstrate how to use the <a href="http://se2.php.net/manual/en/function.isset.php">isset()</a> and <a href="http://se2.php.net/manual/en/function.empty.php">empty()</a> functions. Explain what values in PHP that convert to false, when used in a boolean check.</li>
+<li>Demonstrate usage of variables and constants, using best practice naming conventions.
+<ul>
+<li>Recognize the different kinds of constants in PHP (built in, magic, user defined; global, class).</li>
+<li>Demonstrate different syntaxes for setting constants (define and const - also for global constants since PHP 5.3)</li>
+</ul>
+</li>
+<li>Explain the concept of statements. Demonstrate correct usage of statements and block statements.</li>
+<li>Explain the concept of expressions. Demonstrate correct usage of expressions.</li>
+<li>Explain what operators are and demonstrate correct usage of all common operators.</li>
+<li>Explain the concept of functions and all associated terminology and demonstrate how to write and use functions.</li>
+<li>Explain and use assignment by value and assignment by reference.</li>
+<li>Explain what arrays are in PHP and contrast the implementation to a few other programming languages. Demonstrate how to create and manipulate arrays and how to access individual items in arrays.</li>
+<li>Recognize all error levels in PHP and explain the difference between an error and an exception. Demonstrate how to handle errors appropriately.</li>
+</ul>
+</td>
+<td>(Modules with exercises are appreciated.)<ul>
+<li>Final assignment.</li>
+<li>Final exam.</li>
+</ul></td>
+</tr>
+<tr>
+<th><a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a></th>
+<td>
+<ul>
+<li>Explain the most commonly used HTTP methods (get, post, head)</li>
+<li>Demonstrate how to fetch information from the client using $_SERVER.</li>
+<li>Explain MIME-types, and demonstrate how to set MIME-types using PHP&#8217;s header-function.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Module 2 (a): Emulate HTTP-connections with netcat or telnet</li>
+<li>Module 2 (b): Analyze HTTP-traffic using Firebug or a similar tool.</li>
+<li>Final assignment.</li>
+<li>Final exam.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><a href="http://en.wikipedia.org/wiki/Character_encoding">Character encoding</a></th>
+<td><p>Note: For any audience using non ascii-characters (almost everybody outside the USA and UK) this is essential!</p>
+<ul>
+<li>Describe the basics of character encodings and compare the terminology used by <a href="http://en.wikipedia.org/wiki/Unicode">Unicode</a> to the terminology used in HTTP-headers <q>encoding</q> vs. <q>charset</q>.</li>
+<li>Demonstrate how to specify the encoding used in a script (the setting on your editor or IDE).</li>
+<li>Explain the difference between multi-byte encodings and single-byte encodings.</li>
+<li>Demonstrate how to use <a href="http://se2.php.net/manual/en/book.mbstring.php">multi-byte string functions</a> in PHP 5.x.</li>
+<li>Recognize problems that might occur in PHP because of misinterpreted character encodings.</li>
+<li>Demonstrate how to set character encoding in HTTP-headers, using the http-server tools and PHP.</li>
+<li>List the characters that have a highest potential for abuse (e.g. &#8220;null&#8221; and &#8220;eof&#8221;) and demonstrate how to filter input to avoid them using <a href="http://se2.php.net/manual/en/book.ctype.php">ctype functions</a>.</li>
+<li>Demonstrate how to set the encoding (and collation) in a MySQL table or field, using PhpMyAdmin or a similar tool.</li>
+<li>Demonstrate how to convert text between different encodings.</li>
+</ul></td>
+<td>
+<ul>
+<li>Assignment 3.</li>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+<p>Extra questions for SS 2:</p>
+<ul>
+<li>Explain what a <abbr title="Byte Order Mark">BOM</abbr> is and how it can cause problems for PHP scripts.</li>
+<li>What is the difference between little endian and big endian UTF-16?</li>
+<li>What is Unicode normalization?</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><a href="http://se2.php.net/manual/en/function.setlocale.php">Locales</a>, <a href="http://se2.php.net/manual/en/refs.calendar.php">timezones and time functions</a>.</th>
+<td><ul>
+<li>Explain the concept of locales.</li>
+<li>Demonstrate how to set timezones for PHP scripts.</li>
+<li>Demonstrate how to set locale for PHP scripts.</li>
+<li>Explain the concept of collation and demonstrate how to use locale aware string and array comparison and sorting.</li>
+<li>Demonstrate how locale and timezone information affects date and time functionality in PHP. Use the basic date and time functions.</li>
+</ul>
+</td>
+<td><p>(Modules with exercises are appreciated.)
+</p><ul>
+<li>Final exam</li>
+<li>Final assignment</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://php.net/strings">Strings</a></th>
+<td>
+<ul>
+<li>Explain the concept of a string.</li>
+<li>Compare the two types of strings there is in PHP 6. Demonstrate how to set them and convert between them.</li>
+<li>Demonstrate how to get the length of a string and access its characters by index</li>
+<li>Demonstrate how to handle single and double quotes in strings with variables.</li>
+<li>Demonstrate how to concatenate strings.</li>
+<li>Demonstrate how to use heredoc and nowdoc. Recognize the two syntaxes that exist for heredoc as of PHP 5.3.</li>
+<li>Demonstrate how to escape characters in  strings.</li>
+<li>Demonstrate correct usage of basic string functions, e.g. strlen, substr, strstr, strpos, trim, strtolower, with variants.</li>
+<li>Demonstrate how to compare strings, using operators and comparison functions like strcmp or strcoll.</li>
+<li>Demonstrate how to check the integrity of string contents using <a href="php.net/ctype.html">the ctype-functions</a>.</li>
+<li>Explain the concept of regular expressions, exemplify when they can be used and demonstrate simple usage.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Assignment 3.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.array.php">Array usage and array functions</a></th>
+<td>
+<ul>
+<li>Demonstrate how to iterate over an array using the foreach function.</li>
+<li>Demonstrate how to sort arrays.</li>
+<li>Demonstrate how to perform a function call on each value in an array.<ul>
+<li>Specifically, demonstrate how to remove magic quotes from GPC-data.</li></ul></li>
+<li>Explain what the cursor is in an array and demonstrate how to walk through arrays.</li>
+<li>Demonstrate how to use assign multiple variables from array values using the list() language construct.</li>
+<li>Demonstrate how to check for the existence of specific keys or values within an array.</li>
+<li>Demonstrate how to attach and how to delete values at both the bottom and top of an array.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Assignment 3.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://php.net/manual/en/language.oop5.php">Objects and classes</a> (simple overview)</th>
+<td>
+<ul>
+<li>Explain some benefits of Object Oriented programming compared to procedural programming.</li>
+<li>Explain basic OO terminology.</li>
+<li>Demonstrate how to define and instantiate classes in PHP. Explain constructors and destructors, how to name constructors in PHP 4 and 5+ and how to use constructors.</li>
+<li>Demonstrate how to use the $this pseudovariable.</li>
+<li>Explain the concept of inheritance och demonstrate how to use the extends keyword.</li>
+<li>Explain the concept of polymorfism and demonstrate how to use interfaces and abstract classes in PHP.</li>
+<li>Briefly explain the differences in the object model between PHP 4 and PHP 5.</li>
+<li>Explain visibility of properties and methods.</li>
+<li>Explain class constants, static properties and methods and demonstrate how to use the scope resolution operator (<q>Paamayim Nekudotayim</q>).</li>
+</ul>
+</td>
+<td><p>(Modules with exercises are appreciated.)
+</p><ul>
+<li>Final exam</li>
+<li>Final assignment</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/ref.errorfunc.php">Error handling</a> and <a href="http://se2.php.net/manual/en/language.exceptions.php">exceptions</a></th>
+<td>
+<ul>
+<li>Recognize the types of errors in PHP.</li>
+<li>Handle interaction errors e.g. GET-data does not match DB-record might produce a 404.</li>
+<li>Use good error handling strategies. E.g:<ul>
+<li>Differentiate between development servers (show on page) vs. production servers (log errors).</li>
+<li>Make usable error pages and understandable error messages.</li>
+<li>Send the correct HTTP status code for error pages.</li></ul></li>
+<li>Recognize exceptions and handle them using try and catch.</li>
+</ul>
+</td>
+<td><p>(Modules with exercises are appreciated.)
+</p><ul>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Server side architecture</th>
+<td>
+<ul>
+<li>Recognize what <q>separation of concerns</q> mean for PHP development.</li>
+<li>Recognize the following concepts: Presentation logic and templates, business logic and data storage logic.</li>
+<li>Demonstrate a secure and logical directory structure for PHP applictions.</li>
+<li>Explain include paths. Demonstrate how to write an application that does not depend on being in a specific root directory.</li>
+<li>Demonstrate a good strategy for filtering all untrusted data.</li>
+<li>Demonstrate consistent and appropriate escaping of output data.</li>
+<li>Implement usable, SEO-friendly and hackable URL:s.</li>
+<li>Recognize rewrite rules.</li>
+<li>Recognize the abbreviation MVC and briefly explain the rationale behind it.</li>
+</ul>
+</td>
+<td><ul>
+<li>Exercise 4.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/language.variables.external.php">Handling posted data</a></th>
+<td>
+<ul>
+<li>Explain why client side checks only can be used to offload a server and provide better usability, never for security.</li>
+<li>Explain why <a href="http://se2.php.net/manual/en/security.magicquotes.php">GPC-data might be quoted</a> in PHP 4.x and 5.x. Explain what problems magic quotes were intended to solve, why they did not work properly and are being removed in PHP 6 and how they can be removed in a script.</li>
+<li>Explain how the superglobal array <a href="http://se2.php.net/manual/en/reserved.variables.post.php">$_POST</a> relates to name attributes in HTML forms. Demonstrate handling posted data.</li>
+<li>Recognize the usage of <a href="http://se2.php.net/manual/en/security.globals.php">register globals</a> and explain why it is a security hazard. Recognize the bad habit of manually making EGPCS-data into regular variables ($foo = $_POST[&#8216;foo&#8217;] or <a href="http://se2.php.net/manual/en/function.extract.php">extract($_POST)</a>).</li>
+<li>Recognize the usage of <a href="http://se2.php.net/manual/en/reserved.variables.request.php">$_REQUEST</a> and explain why it is considered bad practice to use it.</li>
+<li>Recognize how sensitive data can be transmitted securily, using encryption. Recognize the abbreviations <a href="http://en.wikipedia.org/wiki/Transport_Layer_Security">SSL and TLS</a>.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Exercise 5.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Sending email</th>
+<td>
+<ul>
+<li>Demonstrate simple usage of the <a href="http://se2.php.net/manual/en/book.mail.php">mail()</a> function in PHP.</li>
+<li>Recognize the concept SMTP injection and demonstrate how to avoid it.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Exercise 5.</li>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.session.php">Sessions</a> and authentication</th>
+<td>
+<ul>
+<li>Recognize the sessionless nature of HTTP.</li>
+<li>Recognize session fixation and session hijacking. Use session_regenerate_id and set session ID using cookies only.</li>
+<li>Recognize <a href="http://se2.php.net/manual/en/features.http-auth.php">HTTP-authentication</a> in PHP.</li>
+<li>Preventing multiple submits of a form.</li>
+<li>Demonstrate how to prevent cross-posting using a session variable.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/reserved.variables.cookies.php">Cookies</a></th>
+<td>
+<ul>
+<li>Explain the concept of cookies and how they are passed to the server from the browser.</li>
+<li>Demonstrate how to set and read cookies.</li>
+<li>Explain the security benefits of server side only cookies, and demonstrate how to set them.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.filesystem.php">File handling and storing data in text files</a></th>
+<td>
+<ul>
+<li>Demonstrate how to read from and write to files.</li>
+<li>Recognize the different flags used to control the opening of file sockets.</li>
+<li>Recognize the most common security problems when usiing file functions.</li>
+<li>Demonstrate how to safely handle files uploaded by the user.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam.</li>
+<li>Final assignment.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://en.wikipedia.org/wiki/Relational_database">Relational Database concepts</a> and <a href="http://dev.mysql.com/doc/index.html">MySQL fundamentals</a></th>
+<td>
+<ul>
+<li>List some common Database Management Systems (DBMS).</li>
+<li>List some common <a href="http://se2.php.net/manual/en/refs.database.vendors.php">alternatives</a> to storing data in a relational database and briefly explain the merits and disadvantages of each option.</li>
+<li>Explain how SQLite can be used from every modern PHP installation. (Note: SQLite is primarily included to provide a way to explain data access abstraction using PDO.)</li>
+<li>Give an overview of how a relational database works.</li>
+<li>Recognize the terminology used about databases (relation/table, tuple/row, attribute/field/column, default values, NULL, keys, etc).</li>
+<li>Briefly explain the concept of <a href="http://en.wikipedia.org/wiki/Database_normalization">normalization</a> and recognize the related glossary (keys, functional dependency)</li>
+<li>List the available data types in MySQL and demonstrate proper usage of the most common ones.</li>
+<li>Explain the concept of indexes. Demonstrate how to use indexes in MySQL.</li>
+<li>Recognize the concept of a <q>storage engines</q> in MySQL and briefly explain the main differences between MyISAM and InnoDB.</li>
+<li>Demonstrate how to use <a href="http://www.phpmyadmin.net/">PhpMyAdmin</a> or a graphical tool to set up a database. Make a user with privileges suitable for PHP scripts. Demonstrate how to run queries in the tool.</li>
+<li>Demonstrate how to backup/dump a MySQL database.</li>
+<li>Question to reviewers: Is it possible to wait with constraints and referential integrity (foreign keys) until Server Side Scripting 2?</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://en.wikipedia.org/wiki/SQL">SQL</a></th>
+<td>
+<ul>
+<li>Recognize the glossary of SQL (DDL, DML, CRUD)</li>
+<li>Demonstrate how to access a MySQL DBMS from a CLI tool.</li>
+<li>Demonstrate how to SELECT individual records and groups of records; SORT-ing and LIMIT-ing of the results.</li>
+<li>Demonstrate how to use JOIN.</li>
+<li>Demonstrate simple usage of SQL-functions (count!)</li>
+<li>Demonstrate how to INSERT data into a table.</li>
+<li>Demonstrate how to UPDATE a table and explain why one should always use the WHERE clause doing so.</li>
+<li>Demonstrate how to DELETE data and explain why one should always use the WHERE clause doing so.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.pdo.php">PDO</a></th>
+<td>
+<ul>
+<li>Recognize all 3 built in API&#8217;s to access a MySQL database from PHP (mysql, mysqli, PDO). Discuss their strengths and downsides.</li>
+<li>Demonstrate how to connect to a DBMS with PDO, prepare and execute statements, fetch single results and iterate over result sets.</li>
+<li>Recognize how to access reults from a prepared statement as normal arrays, associative arrays, objects and objects belonging to a specific class.</li>
+<li>Demonstrate safe usage of user submitted data in SQL.</li>
+<li>Recognize how to manually quote user submitted data.</li>
+<li>Discuss the benefits of prepared statements.</li>
+<li>Demonstrate how to handle errors and unexpected results using PDO.</li>
+<li>Demonstrate safe handling of database credentials.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.mysql.php">The mysql</a> and the <a href="http://se2.php.net/manual/en/book.mysqli.php">mysqli</a> functions</th>
+<td>
+<ul>
+<li>Recognize how to use the mysql and the mysqli functions.</li>
+<li>Discuss how to safely handle user submitted data using the mysql and the mysqli functions.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row"><a href="http://se2.php.net/manual/en/book.spl.php">SPL</a>, <a href="http://pear.php.net/">PEAR</a> and Frameworks</th>
+<td>
+<ul>
+<li>Recognize PEAR, PECL, SPL and the most well known PHP Component libraries?</li>
+<li>Recognize the most common PHP Frameworks.</li>
+<li>Recognize the most common PHP applications/Content Managament Systems.</li>
+<li>Recognize the usage of PHP for extended functionality for some big websites (e.g. Facebook)</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Web Services, API&#8217;s, RSS, JSON and Ajax</th>
+<td>
+<ul>
+<li>Recognize the most common formats for data interchange.</li>
+<li>Summarize the Ajax pattern for updating a web page.</li>
+<li>Briefly describe the concepts of API&#8217;s and Web Services.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">Shared hosting</th>
+<td>
+<ul>
+<li>Recognize the most important technical considerations one must know when chosing a web host.</li>
+<li>List the most important security considerations one must know about shared hosting.</li>
+<li>Demonstrate usage of a web host control panel.</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Final assignment</li>
+<li>Final exam</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+	</div>
+
+	
+</div>
+
+		</div> <!-- /main -->
+	</div>
+		
+	<div id="footer">
+		  <a href="#" id="back-to-top">Back to top</a>
+	  
+		  <div id="social-space">
+		    <a href="http://www.facebook.com/group.php?gid=18117748777" id="facebook">Join our facebook group</a>
+		    <a href="http://twitter.com/waspinteract" id="twitter">Follow us on Twitter</a>
+		 </div><!-- /social-space -->
+	 
+                  <p>
+			   This site uses valid XHTML 1.0 Strict &amp; CSS. | 
+			   <a href="http://creativecommons.org/licenses/by/3.0/us/" rel="license">Creative Commons License</a> | <a href="../../plugins/index.html">Plug-ins</a>
+		  </p>
+
+		  <ul id="design-credits" class="linear-list">
+		  	<li><a href="../../../interact.webstandards.org/about/index.html#edutf-members">The Curriculum Development Team</a></li>
+		  	<li class="last"><a href="../../../interact.webstandards.org/about/index.html#interact-contributors" class="last">Site Credits</a></li>
+		  </ul>
+		</div> <!-- /footer -->
+
+<script type="text/javascript">
+  // <![CDATA[
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  // ]]>
+</script>
+<script type="text/javascript">
+  // <![CDATA[
+  try {
+    var pageTracker = _gat._getTracker("UA-7854903-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
+  // ]]>
+</script>
+	</body>
+
+<!-- Mirrored from teach.webstandards.org/curriculum/serve-side-dev/server-side-scripting-1?comp by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 18:57:28 GMT -->
+</html>

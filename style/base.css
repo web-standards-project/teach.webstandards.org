@@ -1,0 +1,278 @@
+/* *********************************************************
+  WaSP InterAct (http://interact.webstandards.com)
+  Base Style Sheet
+  base.css
+********************************************************* */
+
+@media print {
+    #utility-nav-group, #sidebar, #back-to-top, #design-credits {
+        display: none;
+    }
+    #twitter:after, #facebook:after {
+        content: attr(href);
+        padding-left: 1em;
+    }
+}
+
+/* General Elements 
+----------------------------------------------------------------------------- */
+body {background:#fff url(http://teach.webstandards.org/img/course-page-bg.jpg) repeat-x 0 30px;}
+h1,h2,h3,h4,h5,h6,p, li, dt, dd, a, td, th, div, span {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; color:#333;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal; text-transform:capitalize;}
+h2 {font-size:180%; line-height:1.6em; margin-bottom:3px; color:#098692;}
+h3 {font-size:160%; line-height:1.6em; margin-bottom:5px; color:#c60;}
+h4 {font-size:130%; line-height:1.2em; margin-bottom:5px; color:#098692;}
+h5 {font-size:110%; line-height:1.1em; margin-bottom:5px; color:#333; font-weight:bold;}
+h6 {font-size:90%;  line-height:1.2em; margin-bottom:5px; color:#333; font-weight:bold;}
+h1 a, h2 a, h3 a, h4 a, h5 a {text-decoration:none;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {text-decoration:underline;}
+p {font-size:100%; line-height:1.35em; margin-bottom:1.3em; color:#333;}
+
+a {text-decoration:none; color:#098692;}
+a:link {text-decoration:none;}
+a:hover {text-decoration:underline; color:#c60}
+a:active {text-decoration:underline; color:#c60}
+
+dl {margin-bottom:2em; line-height:1.6em;}
+dd {margin-bottom:.5em;}
+ul,ol {margin:0 0 2em 0;}
+ol {list-style-type:decimal;}
+li {line-height:1.8em; margin-left:25px;}
+li ol, li ul {margin-bottom: 0;}
+
+table {width:100%; margin-bottom:1.4em; border:1px solid #999;}
+table caption {text-align:left; font-size:1.2em; font-weight:bold; color:#c60}
+thead th {vertical-align:bottom;}
+th {font-weight:bold; color:#333; text-align:center;}
+td {color:#333; font-size:85%;}
+th,td {padding:4px 8px; border-right:1px solid #CEE1F3; border-bottom:1px solid #CEE1F3;}
+tfoot {font-style:italic;}
+tbody th {font-size:90%;}
+td li {list-style-type:square; margin:0.6em 1em; line-height:1.2em;}
+
+acronym {border-bottom:1px dotted #999;}
+strong {font-weight:bold; color:#333;}
+em {font-style:italic; color:#333;}
+
+blockquote, blockquote p, blockquote li {margin:2em 1em; font-family:garamond, georgia, sans-serif; font-style:italic; line-height:1.6em; font-size:110%; color:#333;}
+blockquote p {margin:1em;}
+.open-quote {float:left; margin-right:.2em; margin-left:-.6em; font-size:350%; color:#ccc;}
+.close-quote {float:right; margin:-.5em 0 0 0; font-size:350%; color:#ccc;}
+
+hr {margin:1.5em 0; border:0; border-bottom:1px solid #999; background:transparent none;}
+
+/* Utility 
+----------------------------------------------------------------------------- */
+/* Zebra Striping for Tables - just add class="zebra-stripe" to table tag and JS will apply */
+.odd {background-color:#fff; color:#333;}
+.even {background-color:#ecf6fc; color:#333;}
+
+/* hCards + hCalendars */
+.vcard,.vevent {margin:1em 0;}
+span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !important;}
+.org {font-weight:bold; font-size:110%; text-decoration:none;}
+.hcard-download {display:block; margin:.5em 0 0 0; font-size:90%; background:url(http://teach.webstandards.org/img/hcard-download.png) no-repeat; padding-left:32px; padding-bottom:4px;}
+
+.external {background:url(http://teach.webstandards.org/img/icons/external.gif) no-repeat right center; padding-right:16px;}
+.runleft {float:left; margin:5px 20px 10px 0px;}
+.runright {float:left; margin:5px 0 10px 20px;}
+.linear-list {overflow:hidden;}
+.linear-list li {float:left; margin:0; padding:0 1em; border-right:1px solid #ccc}
+.linear-list li.last {border:0; padding-right:0;}
+.pdf {padding-left:24px; background:url(http://teach.webstandards.org/img/icons/pdf.gif) no-repeat;}
+.excel {padding-left:24px; background:url(http://teach.webstandards.org/img/icons/excel.png) no-repeat;}
+.zip {padding-left:24px; background:url(http://teach.webstandards.org/img/icons/zip.gif) no-repeat;}
+
+/* Universal Skin Elements
+----------------------------------------------------------------------------- */
+/* Header */
+#utility-nav-group {height:26px; padding:0 4px 4px 4px; background:#323232; text-align:right; overflow:hidden; border-bottom:1px solid #0ba2ae;}
+#jump-content {float:left; margin:6px 8px; color:#ccc; padding-left:24px; text-decoration:none; font-size:80%; background:url(http://teach.webstandards.org/img/jump-to-content.gif) no-repeat;}
+#jump-content:hover {color:#fff;}
+#utility-nav {float:right;}
+#utility-nav li {float:left; margin:0 10px;}
+#utility-nav #wasp {margin-right:10px; padding-left:20px; background:url(http://teach.webstandards.org/img/wasp-logo-sm.png) no-repeat 0 6px;}
+#utility-nav li a {text-decoration:none; color:#ccc; font-size:75%;}
+#utility-nav li a:hover {color:#fff;}
+
+#header h1 {float:left; width:218px; height:65px; margin-bottom:10px; text-indent:-9999px; background:transparent url(http://teach.webstandards.org/img/wasp-interact-logo.png) no-repeat;}
+#header h1 a {display:block; width:218px; height:65px;}
+#main-menu {float:right; overflow:hidden; margin:.6em 0 1em 0; font-family:"Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif;}
+#main-menu li {float:left; margin-left:18px;}
+#main-menu li a {padding:6px 0 0 9px; color:#737373; font-size:95%; font-family:"Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif; text-decoration:none;} 
+#main-menu li a:hover {color:#e3672a;}
+#main-menu li a.active {color:#e3672a; background:url(http://teach.webstandards.org/img/global-nav-bg-hover.png) no-repeat;}
+
+#searchform {float:right; margin-bottom:10px; padding-left:12px; background:transparent url(http://teach.webstandards.org/img/search/search-left.png) no-repeat left top;}
+#searchform fieldset {float:left; clear:none; margin:0; padding:0; line-height:15px; height:19px; background:transparent url(http://teach.webstandards.org/img/search/search-right.png) no-repeat right top;}
+#searchform label {display:none; float:left; width:auto; text-align:left; line-height:7px; font-weight:normal; font-size:12px; color:#333;}
+#searchform #query {height:17px; padding:1px 3px; color:#333; background:transparent none; border:0; font-size:11px;}
+#searchform #search-button-container {display:inline;}
+#searchform #search-button {width:20px; height:15px; margin-left:2px; border:0; padding:0; background:transparent;}
+
+#title-group {clear:both; overflow:hidden; margin:2em 0; padding:10px 20px; border-top:1px solid #B8E3EA;}
+#title-group h2 {margin:0; font-size:220%; color:#098692;}
+#title-group p {width:68%; margin:0; font-size:85%; color:#333; line-height:1.2em;}
+
+#breadcrumbs {width:100%; margin:0; overflow:hidden;}
+#breadcrumbs li {float:left; list-style:none; margin:0; font-size:75%; color:#666;}
+#breadcrumbs li a {color:#098692; text-decoration:none;}
+#breadcrumbs li a:hover {color:#c60; text-decoration:underline;}
+#breadcrumbs li .divider {padding:0 5px;}
+
+/* Footer */
+#footer {margin-top:1.4em; border-top:4px solid #b8e3ea; background:transparent url(http://teach.webstandards.org/img/content-bg.jpg) repeat-x; font-size:75%;}
+#footer a {text-decoration:none;}
+#footer a:hover {text-decoration:underline;}
+#footer #back-to-top {float:right; padding-right:12px; background:url(http://teach.webstandards.org/img/arrows/back-to-top.gif) no-repeat right center;}
+#footer #social-space {float:left;}
+#footer #social-space a {display:block; margin:4px 0; line-height:2em;}
+#footer p {margin-top:2.4em; text-align:right; color:#666;}
+#facebook {padding-left:30px; background:url(http://teach.webstandards.org/img/icons/facebook.png) no-repeat}
+#twitter {padding-left:30px; background:url(http://teach.webstandards.org/img/icons/twitter.png) no-repeat;}
+#design-credits {float:right;}
+
+/* General Skin Modules */
+.callout {min-height:70px; margin-bottom:1.2em; padding:0 20px; overflow:hidden; background-color:#eee; border:1px solid #ccc;}
+.callout h4 {margin-top:.5em; font-size:110%;}
+.callout h4 a {color:#333; font-weight:bold;}
+.callout p {margin-bottom:5px; font-size:85%; color:#666;}
+.callout a {display:block; text-align:right; font-size:90%;}
+
+.media-group {overflow:hidden; margin-top:10px;}
+.media-group img {float:left; margin:10px 20px 25px 0; padding:2px;}
+
+#local-nav, #nav-sub {margin:2em 0;}
+#local-nav li, #nav-sub li {margin:.1em 0; padding-left:10px;}
+#local-nav li a.active, #nav-sub li a.active {margin-left:-10px; padding-left:10px; color:#c60; background:url(http://teach.webstandards.org/img/arrows/local-nav-active.gif) no-repeat left center;}
+
+#tertiary-nav {margin:2em 0;}
+#tertiary-nav li {margin:.1em 0; padding-left:10px;}
+#tertiary-nav li a:link {color:#666;}
+#tertiary-nav li a:hover {color:#098692;}
+
+#social-list li {margin:.1em 0; padding-left:10px; font-size:90%;}
+#social-list li a {padding-left:18px;}
+#social-list li a:link {color:#999;}
+#social-list li a:hover {color:#098692;}
+.facebook {background:url(http://teach.webstandards.org/img/greyscale-icons/facebook.gif) no-repeat left center;}
+.delicious {background:url(http://teach.webstandards.org/img/greyscale-icons/delicious.gif) no-repeat left center;}
+.digg {background:url(http://teach.webstandards.org/img/greyscale-icons/digg.gif) no-repeat left center;}
+.linkedin {background:url(http://teach.webstandards.org/img/greyscale-icons/linkedin.gif) no-repeat left center;}
+.technorati {background:url(http://teach.webstandards.org/img/greyscale-icons/technorati.gif) no-repeat left center;}
+#social-list li .twitter {background:url(http://teach.webstandards.org/img/greyscale-icons/twitter.gif) no-repeat left center;}
+
+.prominent-list li {list-style-image:url(http://teach.webstandards.org/img/list-icons/tech-list-nav.gif); color:#c60;}
+
+/* Course List Page Skin
+----------------------------------------------------------------------------- */
+#course-list {background:#fff url(http://teach.webstandards.org/img/course-page-bg.jpg) repeat-x 0 30px;}
+#course-list #title-group {min-height:130px;}
+#course-list .course {margin-left:0;}
+#course-list strong.course-title {display:block; margin:0; padding-bottom:3px; font-size:150%; font-weight:normal; color:#098692;}
+#course-list strong.course-title img {float:left; margin:5px 20px 15px 0;}
+#course-list dl {margin-bottom:1.3em;}
+#course-list dl .course-meta-data {font-size:80%; color:#999;}
+#course-list dl dt { clear: both; }
+#course-list dd {margin:.2em 0 1.5em 0; padding:5px 0; overflow:hidden; border-top:1px solid #ccc; font-size:90%; color:#666; line-height:1.4em;}
+#course-list #framework-structure {background:#eee url(http://teach.webstandards.org/img/framework-structure-bg.gif) no-repeat top right;}
+#course-list #roadmap {background:#eee url(http://teach.webstandards.org/img/roadmap-bg.gif) no-repeat top right;}
+#courses-in-progress h3 {font-size:140%}
+#courses-in-progress {margin-bottom:1.5em;}
+#courses-in-progress li {list-style-image:url(http://teach.webstandards.org/img/list-icons/tech-list-nav.gif); color:#666;}
+#contribution-note {padding-top:6px; color:#333; font-style:italic; font-size:90%; border-top:1px solid #ccc;}
+
+/* Course Page Skin
+----------------------------------------------------------------------------- */
+#course {background:#fff url(http://teach.webstandards.org/img/course-page-bg.jpg) repeat-x 0 30px;}
+#course #title-group {margin:2em 0 0;}
+#course #sidebar {width:220px;}
+#course #content {width:660px; margin-top:28px;}
+#course #breadcrumbs {margin-left:-20px;}
+#course #title-group .media-group {margin-left:-20px;}
+#course #title-group h2 {margin:0; padding:0; font-weight:normal; color:#098692;}
+#course h2, #course h3, #course h4, #course h5 {color:#c60}
+
+/* Sidebar */
+#back-to-courses {display:block; margin:3em 0 1.5em 0; padding-left:10px; font-size:85%; background:url(http://teach.webstandards.org/img/arrows/back-arrow.gif) no-repeat left center; color:#666;}
+#back-to-courses:hover {color:#c60}
+
+#course-prerequisites li {margin-left:0;}
+#course-textbooks li {margin:0 0 1.2em 0; line-height:1.2em; color:#666;}
+#course-textbooks strong {color:#333;}
+#course-readings li {margin:0 0 1.2em 0; line-height:1.2em; color:#666;}
+#course-technologies li {list-style-image:url(http://teach.webstandards.org/img/list-icons/tech-list-nav.gif); color:#666;}
+#course-assignments h2 {margin-bottom:1em;}
+#course-assignments li {list-style:square;}
+#course-resources h4 {margin:1em 0 0 0; color:#333;}
+#course-exam-questions li {list-style:square; line-height:1.2em; margin-bottom:.7em;}
+#course-contributors li {list-style:square;}
+
+/* Competency Tables */
+#curriculum-table {margin-top:1.5em;}
+#curriculum-table td, #curriculum-table li {font-size:90%;}
+#curriculum-table #top, #curriculum-table #comp, #curriculum-table #eval {text-align:left; vertical-align:bottom; color:#098692;}
+#curriculum-table #eval {width:26%;}
+#curriculum-table tbody th {text-align:right; font-size:85%;}
+
+#rubric-table {margin-top:1.5em}
+#rubric-table th[rowspan="2"] {vertical-align:bottom;}
+
+/* General Content Page Skin
+----------------------------------------------------------------------------- */
+#general-content {background:#fff url(http://teach.webstandards.org/img/course-page-bg.jpg) repeat-x 0 30px;}
+#general-content #content {padding-top:1.5em;}
+#general-content #title-group {min-height:100px;}
+#general-content #sidebar {margin-top:25px;}
+#general-content #local-nav, #general-content #nav-sub {margin:0 0 2em 0;}
+
+/* Contribute & Contact Page Skin
+----------------------------------------------------------------------------- */
+#contribute #content, #contact #content {margin-top:1.5em;}
+#contribute #sidebar, #contact #sidebar {margin-top:1.5em;}
+#contribute .required, #contribute .optional, #contact .required, #contact .optional {width:97%; bordeR:2px solid #ccc;}
+#contribute select.required, #contribute select.optional {width:100%;}
+#contribute-list li {list-style-image:url(http://teach.webstandards.org/img/list-icons/tech-list-nav.gif); font-size:120%;}
+#contribute input.error, #contribute textarea.error, #contact input.error, #contact textarea.error { border-color: #c60; }
+#contribute label.error, #contact label.error { color: #c60; }
+
+/* About Page Skin 
+----------------------------------------------------------------------------- */
+#edutf-members li, #interact-contributors li {list-style-image:url(http://teach.webstandards.org/img/list-icons/list-item-icon.gif);}
+
+/* Contact Page Skin 
+----------------------------------------------------------------------------- */
+#contact #title-group {min-height:100px;}
+
+/* Home Page Skin
+----------------------------------------------------------------------------- */    
+#home {background:#fff url(http://teach.webstandards.org/images/uploads/general/home-tile.png) repeat-x 0 26px;}
+#home #title-group {position:relative; margin:94px 0 0 0; border:0;}
+#direct-traffic {position:absolute; top:2em; right:7em;}
+#direct-traffic #explore-curriculum {display:block; margin:.8em 0 0 1.5em; text-indent:-9999px; width:183px; height:15px; background:url(http://teach.webstandards.org/images/uploads/general/explore-curriculum.gif) no-repeat;}
+#direct-traffic #why-standards {display:block; text-indent:-9999px; width:171px; height:15px; background:url(http://teach.webstandards.org/images/uploads/general/why-standards-matter.gif) no-repeat;}
+#home #content {width:950px;}
+#news {float:left; overflow:hidden; width:30%; margin-right:25px;}
+#news h2 {text-indent:-9999px; width:247px; height:15px; background:url(http://teach.webstandards.org/images/uploads/general/news.png) no-repeat;}
+#get-involved {float:left; overflow:hidden; width:64%; padding-left:25px; border-left:1px solid #ccc;}
+#get-involved h2 {text-indent:-9999px; width:168px; height:15px; margin-bottom:.5em; background:url(http://teach.webstandards.org/images/uploads/general/get-involved.png) no-repeat;}
+#get-involved-callouts li {float:left; width:44%; min-height:180px; margin:0 30px 0 0;}
+#get-involved-callouts li a {display:block;}
+#get-involved h3 {margin-top:0; font-size:100%; font-weight:bold; color:#00a9ae;}
+#get-involved p {line-height:1.2em;}
+#twitter-feed {list-style-image:url(http://teach.webstandards.org/img/list-icons/list-item-icon.gif);}
+#twitter-feed li {line-height:1.2em; margin:1em 0 1em 1.2em; font-size:85%;}
+
+/* Roadmap Skin
+----------------------------------------------------------------------------- */
+.roadmap-list {margin-left:1em; border-bottom:1px solid #ccc; margin-bottom:2em; padding-bottom:2em;}
+.roadmap-list.last {border:0;}
+.roadmap-list dt {font-size:110%; color:#c60}
+.roadmap-list dd {font-size:90%; color:#666;}
+.pub-date {color:#666;}
+
+/* Testimonials Skin
+----------------------------------------------------------------------------- */
+#testimonials li {padding:0; border-bottom:1px solid #ccc}
+#testimonials blockquote {margin:1em 0;}
+.author-citation {margin:0 1em 2em 0; clear:both; font-weight:bold;}

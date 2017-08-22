@@ -1,0 +1,21 @@
+/**********************************************************
+WaSP InterACT (http://interact.webstandards.com)
+Grid Layout Style Sheet
+grid.css
+**********************************************************/
+
+/* Grid Structure
+----------------------------------------------------------------------------- */
+#container {width:960px; margin:auto; padding:0;}
+#utility-nav {height:26px;}
+#header {width:940px; margin:0; padding:10px;}
+#main {width:960px; overflow:hidden; padding:10px;}
+#content {float:left; width:600px; margin:0;}
+#sidebar {float:left; width:290px; margin:0 10px 0 0;}
+#footer {clear:both; overflow:hidden; padding:10px;}
+
+.last {clear:right;}
+
+/* Course List Template Modifier */
+#course-list #content {margin-left:20px;}
+#course-list #sidebar {margin:0 20px;}
