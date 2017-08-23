@@ -16,7 +16,7 @@
 
 /* General Elements 
 ----------------------------------------------------------------------------- */
-body {background:#fff url(http://teach.webstandards.org/img/course-page-bg.jpg) repeat-x 0 30px;}
+body {background:#fff url(/img/course-page-bg.jpg) repeat-x 0 30px;}
 h1,h2,h3,h4,h5,h6,p, li, dt, dd, a, td, th, div, span {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; color:#333;}
 h1,h2,h3,h4,h5,h6 {font-weight:normal; text-transform:capitalize;}
 h2 {font-size:180%; line-height:1.6em; margin-bottom:3px; color:#098692;}
@@ -71,40 +71,40 @@ hr {margin:1.5em 0; border:0; border-bottom:1px solid #999; background:transpare
 .vcard,.vevent {margin:1em 0;}
 span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !important;}
 .org {font-weight:bold; font-size:110%; text-decoration:none;}
-.hcard-download {display:block; margin:.5em 0 0 0; font-size:90%; background:url(http://teach.webstandards.org/img/hcard-download.png) no-repeat; padding-left:32px; padding-bottom:4px;}
+.hcard-download {display:block; margin:.5em 0 0 0; font-size:90%; background:url(/img/hcard-download.png) no-repeat; padding-left:32px; padding-bottom:4px;}
 
-.external {background:url(http://teach.webstandards.org/img/icons/external.gif) no-repeat right center; padding-right:16px;}
+.external {background:url(/img/icons/external.gif) no-repeat right center; padding-right:16px;}
 .runleft {float:left; margin:5px 20px 10px 0px;}
 .runright {float:left; margin:5px 0 10px 20px;}
 .linear-list {overflow:hidden;}
 .linear-list li {float:left; margin:0; padding:0 1em; border-right:1px solid #ccc}
 .linear-list li.last {border:0; padding-right:0;}
-.pdf {padding-left:24px; background:url(http://teach.webstandards.org/img/icons/pdf.gif) no-repeat;}
-.excel {padding-left:24px; background:url(http://teach.webstandards.org/img/icons/excel.png) no-repeat;}
-.zip {padding-left:24px; background:url(http://teach.webstandards.org/img/icons/zip.gif) no-repeat;}
+.pdf {padding-left:24px; background:url(/img/icons/pdf.gif) no-repeat;}
+.excel {padding-left:24px; background:url(/img/icons/excel.png) no-repeat;}
+.zip {padding-left:24px; background:url(/img/icons/zip.gif) no-repeat;}
 
 /* Universal Skin Elements
 ----------------------------------------------------------------------------- */
 /* Header */
 #utility-nav-group {height:26px; padding:0 4px 4px 4px; background:#323232; text-align:right; overflow:hidden; border-bottom:1px solid #0ba2ae;}
-#jump-content {float:left; margin:6px 8px; color:#ccc; padding-left:24px; text-decoration:none; font-size:80%; background:url(http://teach.webstandards.org/img/jump-to-content.gif) no-repeat;}
+#jump-content {float:left; margin:6px 8px; color:#ccc; padding-left:24px; text-decoration:none; font-size:80%; background:url(/img/jump-to-content.gif) no-repeat;}
 #jump-content:hover {color:#fff;}
 #utility-nav {float:right;}
 #utility-nav li {float:left; margin:0 10px;}
-#utility-nav #wasp {margin-right:10px; padding-left:20px; background:url(http://teach.webstandards.org/img/wasp-logo-sm.png) no-repeat 0 6px;}
+#utility-nav #wasp {margin-right:10px; padding-left:20px; background:url(/img/wasp-logo-sm.png) no-repeat 0 6px;}
 #utility-nav li a {text-decoration:none; color:#ccc; font-size:75%;}
 #utility-nav li a:hover {color:#fff;}
 
-#header h1 {float:left; width:218px; height:65px; margin-bottom:10px; text-indent:-9999px; background:transparent url(http://teach.webstandards.org/img/wasp-interact-logo.png) no-repeat;}
+#header h1 {float:left; width:218px; height:65px; margin-bottom:10px; text-indent:-9999px; background:transparent url(/img/wasp-interact-logo.png) no-repeat;}
 #header h1 a {display:block; width:218px; height:65px;}
 #main-menu {float:right; overflow:hidden; margin:.6em 0 1em 0; font-family:"Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif;}
 #main-menu li {float:left; margin-left:18px;}
 #main-menu li a {padding:6px 0 0 9px; color:#737373; font-size:95%; font-family:"Trebuchet MS", "Helvetica Neue", Helvetica, sans-serif; text-decoration:none;} 
 #main-menu li a:hover {color:#e3672a;}
-#main-menu li a.active {color:#e3672a; background:url(http://teach.webstandards.org/img/global-nav-bg-hover.png) no-repeat;}
+#main-menu li a.active {color:#e3672a; background:url(/img/global-nav-bg-hover.png) no-repeat;}
 
-#searchform {float:right; margin-bottom:10px; padding-left:12px; background:transparent url(http://teach.webstandards.org/img/search/search-left.png) no-repeat left top;}
-#searchform fieldset {float:left; clear:none; margin:0; padding:0; line-height:15px; height:19px; background:transparent url(http://teach.webstandards.org/img/search/search-right.png) no-repeat right top;}
+#searchform {float:right; margin-bottom:10px; padding-left:12px; background:transparent url(/img/search/search-left.png) no-repeat left top;}
+#searchform fieldset {float:left; clear:none; margin:0; padding:0; line-height:15px; height:19px; background:transparent url(/img/search/search-right.png) no-repeat right top;}
 #searchform label {display:none; float:left; width:auto; text-align:left; line-height:7px; font-weight:normal; font-size:12px; color:#333;}
 #searchform #query {height:17px; padding:1px 3px; color:#333; background:transparent none; border:0; font-size:11px;}
 #searchform #search-button-container {display:inline;}
@@ -121,15 +121,15 @@ span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !imp
 #breadcrumbs li .divider {padding:0 5px;}
 
 /* Footer */
-#footer {margin-top:1.4em; border-top:4px solid #b8e3ea; background:transparent url(http://teach.webstandards.org/img/content-bg.jpg) repeat-x; font-size:75%;}
+#footer {margin-top:1.4em; border-top:4px solid #b8e3ea; background:transparent url(/img/content-bg.jpg) repeat-x; font-size:75%;}
 #footer a {text-decoration:none;}
 #footer a:hover {text-decoration:underline;}
-#footer #back-to-top {float:right; padding-right:12px; background:url(http://teach.webstandards.org/img/arrows/back-to-top.gif) no-repeat right center;}
+#footer #back-to-top {float:right; padding-right:12px; background:url(/img/arrows/back-to-top.gif) no-repeat right center;}
 #footer #social-space {float:left;}
 #footer #social-space a {display:block; margin:4px 0; line-height:2em;}
 #footer p {margin-top:2.4em; text-align:right; color:#666;}
-#facebook {padding-left:30px; background:url(http://teach.webstandards.org/img/icons/facebook.png) no-repeat}
-#twitter {padding-left:30px; background:url(http://teach.webstandards.org/img/icons/twitter.png) no-repeat;}
+#facebook {padding-left:30px; background:url(/img/icons/facebook.png) no-repeat}
+#twitter {padding-left:30px; background:url(/img/icons/twitter.png) no-repeat;}
 #design-credits {float:right;}
 
 /* General Skin Modules */
@@ -144,7 +144,7 @@ span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !imp
 
 #local-nav, #nav-sub {margin:2em 0;}
 #local-nav li, #nav-sub li {margin:.1em 0; padding-left:10px;}
-#local-nav li a.active, #nav-sub li a.active {margin-left:-10px; padding-left:10px; color:#c60; background:url(http://teach.webstandards.org/img/arrows/local-nav-active.gif) no-repeat left center;}
+#local-nav li a.active, #nav-sub li a.active {margin-left:-10px; padding-left:10px; color:#c60; background:url(/img/arrows/local-nav-active.gif) no-repeat left center;}
 
 #tertiary-nav {margin:2em 0;}
 #tertiary-nav li {margin:.1em 0; padding-left:10px;}
@@ -155,18 +155,18 @@ span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !imp
 #social-list li a {padding-left:18px;}
 #social-list li a:link {color:#999;}
 #social-list li a:hover {color:#098692;}
-.facebook {background:url(http://teach.webstandards.org/img/greyscale-icons/facebook.gif) no-repeat left center;}
-.delicious {background:url(http://teach.webstandards.org/img/greyscale-icons/delicious.gif) no-repeat left center;}
-.digg {background:url(http://teach.webstandards.org/img/greyscale-icons/digg.gif) no-repeat left center;}
-.linkedin {background:url(http://teach.webstandards.org/img/greyscale-icons/linkedin.gif) no-repeat left center;}
-.technorati {background:url(http://teach.webstandards.org/img/greyscale-icons/technorati.gif) no-repeat left center;}
-#social-list li .twitter {background:url(http://teach.webstandards.org/img/greyscale-icons/twitter.gif) no-repeat left center;}
+.facebook {background:url(/img/greyscale-icons/facebook.gif) no-repeat left center;}
+.delicious {background:url(/img/greyscale-icons/delicious.gif) no-repeat left center;}
+.digg {background:url(/img/greyscale-icons/digg.gif) no-repeat left center;}
+.linkedin {background:url(/img/greyscale-icons/linkedin.gif) no-repeat left center;}
+.technorati {background:url(/img/greyscale-icons/technorati.gif) no-repeat left center;}
+#social-list li .twitter {background:url(/img/greyscale-icons/twitter.gif) no-repeat left center;}
 
-.prominent-list li {list-style-image:url(http://teach.webstandards.org/img/list-icons/tech-list-nav.gif); color:#c60;}
+.prominent-list li {list-style-image:url(/img/list-icons/tech-list-nav.gif); color:#c60;}
 
 /* Course List Page Skin
 ----------------------------------------------------------------------------- */
-#course-list {background:#fff url(http://teach.webstandards.org/img/course-page-bg.jpg) repeat-x 0 30px;}
+#course-list {background:#fff url(/img/course-page-bg.jpg) repeat-x 0 30px;}
 #course-list #title-group {min-height:130px;}
 #course-list .course {margin-left:0;}
 #course-list strong.course-title {display:block; margin:0; padding-bottom:3px; font-size:150%; font-weight:normal; color:#098692;}
@@ -175,16 +175,16 @@ span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !imp
 #course-list dl .course-meta-data {font-size:80%; color:#999;}
 #course-list dl dt { clear: both; }
 #course-list dd {margin:.2em 0 1.5em 0; padding:5px 0; overflow:hidden; border-top:1px solid #ccc; font-size:90%; color:#666; line-height:1.4em;}
-#course-list #framework-structure {background:#eee url(http://teach.webstandards.org/img/framework-structure-bg.gif) no-repeat top right;}
-#course-list #roadmap {background:#eee url(http://teach.webstandards.org/img/roadmap-bg.gif) no-repeat top right;}
+#course-list #framework-structure {background:#eee url(/img/framework-structure-bg.gif) no-repeat top right;}
+#course-list #roadmap {background:#eee url(/img/roadmap-bg.gif) no-repeat top right;}
 #courses-in-progress h3 {font-size:140%}
 #courses-in-progress {margin-bottom:1.5em;}
-#courses-in-progress li {list-style-image:url(http://teach.webstandards.org/img/list-icons/tech-list-nav.gif); color:#666;}
+#courses-in-progress li {list-style-image:url(/img/list-icons/tech-list-nav.gif); color:#666;}
 #contribution-note {padding-top:6px; color:#333; font-style:italic; font-size:90%; border-top:1px solid #ccc;}
 
 /* Course Page Skin
 ----------------------------------------------------------------------------- */
-#course {background:#fff url(http://teach.webstandards.org/img/course-page-bg.jpg) repeat-x 0 30px;}
+#course {background:#fff url(/img/course-page-bg.jpg) repeat-x 0 30px;}
 #course #title-group {margin:2em 0 0;}
 #course #sidebar {width:220px;}
 #course #content {width:660px; margin-top:28px;}
@@ -194,14 +194,14 @@ span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !imp
 #course h2, #course h3, #course h4, #course h5 {color:#c60}
 
 /* Sidebar */
-#back-to-courses {display:block; margin:3em 0 1.5em 0; padding-left:10px; font-size:85%; background:url(http://teach.webstandards.org/img/arrows/back-arrow.gif) no-repeat left center; color:#666;}
+#back-to-courses {display:block; margin:3em 0 1.5em 0; padding-left:10px; font-size:85%; background:url(/img/arrows/back-arrow.gif) no-repeat left center; color:#666;}
 #back-to-courses:hover {color:#c60}
 
 #course-prerequisites li {margin-left:0;}
 #course-textbooks li {margin:0 0 1.2em 0; line-height:1.2em; color:#666;}
 #course-textbooks strong {color:#333;}
 #course-readings li {margin:0 0 1.2em 0; line-height:1.2em; color:#666;}
-#course-technologies li {list-style-image:url(http://teach.webstandards.org/img/list-icons/tech-list-nav.gif); color:#666;}
+#course-technologies li {list-style-image:url(/img/list-icons/tech-list-nav.gif); color:#666;}
 #course-assignments h2 {margin-bottom:1em;}
 #course-assignments li {list-style:square;}
 #course-resources h4 {margin:1em 0 0 0; color:#333;}
@@ -220,7 +220,7 @@ span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !imp
 
 /* General Content Page Skin
 ----------------------------------------------------------------------------- */
-#general-content {background:#fff url(http://teach.webstandards.org/img/course-page-bg.jpg) repeat-x 0 30px;}
+#general-content {background:#fff url(/img/course-page-bg.jpg) repeat-x 0 30px;}
 #general-content #content {padding-top:1.5em;}
 #general-content #title-group {min-height:100px;}
 #general-content #sidebar {margin-top:25px;}
@@ -232,13 +232,13 @@ span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !imp
 #contribute #sidebar, #contact #sidebar {margin-top:1.5em;}
 #contribute .required, #contribute .optional, #contact .required, #contact .optional {width:97%; bordeR:2px solid #ccc;}
 #contribute select.required, #contribute select.optional {width:100%;}
-#contribute-list li {list-style-image:url(http://teach.webstandards.org/img/list-icons/tech-list-nav.gif); font-size:120%;}
+#contribute-list li {list-style-image:url(/img/list-icons/tech-list-nav.gif); font-size:120%;}
 #contribute input.error, #contribute textarea.error, #contact input.error, #contact textarea.error { border-color: #c60; }
 #contribute label.error, #contact label.error { color: #c60; }
 
 /* About Page Skin 
 ----------------------------------------------------------------------------- */
-#edutf-members li, #interact-contributors li {list-style-image:url(http://teach.webstandards.org/img/list-icons/list-item-icon.gif);}
+#edutf-members li, #interact-contributors li {list-style-image:url(/img/list-icons/list-item-icon.gif);}
 
 /* Contact Page Skin 
 ----------------------------------------------------------------------------- */
@@ -246,21 +246,21 @@ span.vcard,span.vevent {padding:2px 1px 2px 70px !important; margin:0 2px 0 !imp
 
 /* Home Page Skin
 ----------------------------------------------------------------------------- */    
-#home {background:#fff url(http://teach.webstandards.org/images/uploads/general/home-tile.png) repeat-x 0 26px;}
+#home {background:#fff url(/images/uploads/general/home-tile.png) repeat-x 0 26px;}
 #home #title-group {position:relative; margin:94px 0 0 0; border:0;}
 #direct-traffic {position:absolute; top:2em; right:7em;}
-#direct-traffic #explore-curriculum {display:block; margin:.8em 0 0 1.5em; text-indent:-9999px; width:183px; height:15px; background:url(http://teach.webstandards.org/images/uploads/general/explore-curriculum.gif) no-repeat;}
-#direct-traffic #why-standards {display:block; text-indent:-9999px; width:171px; height:15px; background:url(http://teach.webstandards.org/images/uploads/general/why-standards-matter.gif) no-repeat;}
+#direct-traffic #explore-curriculum {display:block; margin:.8em 0 0 1.5em; text-indent:-9999px; width:183px; height:15px; background:url(/images/uploads/general/explore-curriculum.gif) no-repeat;}
+#direct-traffic #why-standards {display:block; text-indent:-9999px; width:171px; height:15px; background:url(/images/uploads/general/why-standards-matter.gif) no-repeat;}
 #home #content {width:950px;}
 #news {float:left; overflow:hidden; width:30%; margin-right:25px;}
-#news h2 {text-indent:-9999px; width:247px; height:15px; background:url(http://teach.webstandards.org/images/uploads/general/news.png) no-repeat;}
+#news h2 {text-indent:-9999px; width:247px; height:15px; background:url(/images/uploads/general/news.png) no-repeat;}
 #get-involved {float:left; overflow:hidden; width:64%; padding-left:25px; border-left:1px solid #ccc;}
-#get-involved h2 {text-indent:-9999px; width:168px; height:15px; margin-bottom:.5em; background:url(http://teach.webstandards.org/images/uploads/general/get-involved.png) no-repeat;}
+#get-involved h2 {text-indent:-9999px; width:168px; height:15px; margin-bottom:.5em; background:url(/images/uploads/general/get-involved.png) no-repeat;}
 #get-involved-callouts li {float:left; width:44%; min-height:180px; margin:0 30px 0 0;}
 #get-involved-callouts li a {display:block;}
 #get-involved h3 {margin-top:0; font-size:100%; font-weight:bold; color:#00a9ae;}
 #get-involved p {line-height:1.2em;}
-#twitter-feed {list-style-image:url(http://teach.webstandards.org/img/list-icons/list-item-icon.gif);}
+#twitter-feed {list-style-image:url(/img/list-icons/list-item-icon.gif);}
 #twitter-feed li {line-height:1.2em; margin:1em 0 1em 1.2em; font-size:85%;}
 
 /* Roadmap Skin
